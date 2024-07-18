@@ -4,6 +4,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import SearchRainfallData from '../search/SearchRainfallData';
 import SeachClimateChangePrediction from '../search/SeachClimateChangePrediction';
 import { addPolygonLayer } from './MapUtil';
+import rivClass from './rivClass1.geojson';
 
 import {
   LogoImg,
@@ -64,17 +65,17 @@ const MapRasterComponent: React.FC = () => {
 
       map.current.on('load', async () => {
         try {
-          const response = await fetch('https://main.d23gu8extzcjhh.amplifyapp.com/rivClass1.geojson');
+          // const response = await fetch('https://main.d23gu8extzcjhh.amplifyapp.com/rivClass1.geojson');
           
-          if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-          }
-          const geojson: GeoJSON.FeatureCollection = await response.json();
-          console.log(geojson)
+          // if (!response.ok) {
+          //   throw new Error(`HTTP error! status: ${response.status}`);
+          // }
+          // const geojson: GeoJSON.FeatureCollection = await response.json();
+          // console.log(geojson)
 
           map.current!.addSource('rivClass1', {
             type: 'geojson',
-            data: geojson,
+            data: rivClass,
           });
     
           map.current!.addLayer({
