@@ -5,6 +5,8 @@ import SearchRainfallData from '../search/SearchRainfallData';
 import SeachClimateChangePrediction from '../search/SeachClimateChangePrediction';
 import { addPolygonLayer } from './MapUtil';
 import rivClass from './rivClass1.geojson';
+import hanran_067 from './hanran_067.geojson';
+import watershed from './watershed.geojson';
 
 import {
   LogoImg,
@@ -64,7 +66,6 @@ const MapRasterComponent: React.FC = () => {
       map.current.addControl(new maplibregl.NavigationControl(), 'top-right');
 
       map.current.on('load', async () => {
-        try {
           // const response = await fetch('https://main.d23gu8extzcjhh.amplifyapp.com/rivClass1.geojson');
           
           // if (!response.ok) {
@@ -88,19 +89,16 @@ const MapRasterComponent: React.FC = () => {
               'line-width': 3,
             },
           });
-        } catch (error) {
-          console.error('エラーです:', error);
-        }
 
         try {
-          const response = await fetch('/watershed.geojson');
+          // const response = await fetch('/watershed.geojson');
           
-          if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-          }
-          const geojson: GeoJSON.FeatureCollection = await response.json();
+          // if (!response.ok) {
+          //   throw new Error(`HTTP error! status: ${response.status}`);
+          // }
+          // const geojson: GeoJSON.FeatureCollection = await response.json();
           
-          const features = Array.isArray(geojson) ? geojson : geojson.features;
+          const features = Array.isArray(watershed) ? watershed : watershed.features;
 
           features.forEach((feature: any) => {
             const id = feature.properties.id
@@ -146,16 +144,16 @@ const MapRasterComponent: React.FC = () => {
           
           addPolygonLayer(map.current!, '067', rainCoordinates, '#22ff00', '#f08', 0.1);
           try {
-            const response = await fetch('/hanran_067.geojson');
+            // const response = await fetch('/hanran_067.geojson');
             
-            if (!response.ok) {
-              throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            const geojson: GeoJSON.FeatureCollection = await response.json();
+            // if (!response.ok) {
+            //   throw new Error(`HTTP error! status: ${response.status}`);
+            // }
+            // const geojson: GeoJSON.FeatureCollection = await response.json();
   
             map.current!.addSource('hanran_067', {
               type: 'geojson',
-              data: geojson,
+              data: hanran_067,
             });
       
             map.current!.addLayer({
