@@ -63,9 +63,8 @@ const MapRasterComponent: React.FC = () => {
       map.current.addControl(new maplibregl.NavigationControl(), 'top-right');
 
       map.current.on('load', async () => {
-        addPolygonLayer(map.current!, 'test1', testCoordinates, '#ddd', '#000', 0.4);
         try {
-          const response = await fetch('/rivClass1.geojson');
+          const response = await fetch('https://main.d23gu8extzcjhh.amplifyapp.com/rivClass1.geojson');
           
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
