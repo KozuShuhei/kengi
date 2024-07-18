@@ -63,6 +63,7 @@ const MapRasterComponent: React.FC = () => {
       map.current.addControl(new maplibregl.NavigationControl(), 'top-right');
 
       map.current.on('load', async () => {
+        addPolygonLayer(map.current!, 'test1', testCoordinates, '#ddd', '#000', 0.4);
         try {
           const response = await fetch('/rivClass1.geojson');
           
