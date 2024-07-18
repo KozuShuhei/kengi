@@ -6,7 +6,6 @@ import SeachClimateChangePrediction from '../search/SeachClimateChangePrediction
 import { addPolygonLayer } from './MapUtil';
 import rivClass from './rivClass1.geojson';
 import hanran_067 from './hanran_067.geojson';
-import watershed from './watershed.geojson';
 
 import {
   LogoImg,
@@ -74,8 +73,6 @@ const MapRasterComponent: React.FC = () => {
           // const geojson: GeoJSON.FeatureCollection = await response.json();
           // console.log(geojson)
 
-          console.log(rivClass)
-
           map.current!.addSource('rivClass1', {
             type: 'geojson',
             data: rivClass,
@@ -92,99 +89,99 @@ const MapRasterComponent: React.FC = () => {
             },
           });
 
-        // try {
-        //   // const response = await fetch('/watershed.geojson');
+        try {
+          const response = await fetch('/watershed.geojson');
           
-        //   // if (!response.ok) {
-        //   //   throw new Error(`HTTP error! status: ${response.status}`);
-        //   // }
-        //   // const geojson: GeoJSON.FeatureCollection = await response.json();
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const geojson: GeoJSON.FeatureCollection = await response.json();
           
-        //   const features = Array.isArray(watershed) ? watershed : watershed.features;
+          const features = Array.isArray(geojson) ? geojson : geojson.features;
 
-        //   features.forEach((feature: any) => {
-        //     const id = feature.properties.id
-        //     const sourceId = `geojson-source-${id}`;
-        //     const layerId = `geojson-layer-${id}`;
+          features.forEach((feature: any) => {
+            const id = feature.properties.id
+            const sourceId = `geojson-source-${id}`;
+            const layerId = `geojson-layer-${id}`;
     
-        //     map.current!.addSource(sourceId, {
-        //       type: 'geojson',
-        //       data: feature,
-        //     });
+            map.current!.addSource(sourceId, {
+              type: 'geojson',
+              data: feature,
+            });
     
-        //     map.current!.addLayer({
-        //       id: layerId,
-        //       type: 'line',
-        //       source: sourceId,
-        //       layout: {},
-        //       paint: {
-        //         'line-color': '#ff5500',
-        //         'line-width': 2,
-        //       },
-        //     });
+            map.current!.addLayer({
+              id: layerId,
+              type: 'line',
+              source: sourceId,
+              layout: {},
+              paint: {
+                'line-color': '#ff5500',
+                'line-width': 2,
+              },
+            });
 
-        //     map.current!.addLayer({
-        //       id: `${layerId}-fill`,
-        //       type: 'fill',
-        //       source: sourceId,
-        //       layout: {},
-        //       paint: {
-        //         'fill-color': '#f08',
-        //         'fill-opacity': 0.4,
-        //       },
-        //     });
-        //   });
-        // } catch (error) {
-        //   console.error('エラーです:', error);
-        // }
+            map.current!.addLayer({
+              id: `${layerId}-fill`,
+              type: 'fill',
+              source: sourceId,
+              layout: {},
+              paint: {
+                'fill-color': '#f08',
+                'fill-opacity': 0.4,
+              },
+            });
+          });
+        } catch (error) {
+          console.error('エラーです:', error);
+        }
 
-        // map.current!.on('click', 'geojson-layer-067-fill',  async function (e) {
+        map.current!.on('click', 'geojson-layer-067-fill',  async function (e) {
 
-        //   addSelectedPlaces('九頭竜川')
-        //   map.current!.removeLayer('geojson-layer-067-fill');
-        //   map.current!.removeLayer('geojson-layer-067');
+          addSelectedPlaces('九頭竜川')
+          map.current!.removeLayer('geojson-layer-067-fill');
+          map.current!.removeLayer('geojson-layer-067');
           
-        //   addPolygonLayer(map.current!, '067', rainCoordinates, '#22ff00', '#f08', 0.1);
-        //   try {
-        //     // const response = await fetch('/hanran_067.geojson');
+          addPolygonLayer(map.current!, '067', rainCoordinates, '#22ff00', '#f08', 0.1);
+          try {
+            // const response = await fetch('/hanran_067.geojson');
             
-        //     // if (!response.ok) {
-        //     //   throw new Error(`HTTP error! status: ${response.status}`);
-        //     // }
-        //     // const geojson: GeoJSON.FeatureCollection = await response.json();
+            // if (!response.ok) {
+            //   throw new Error(`HTTP error! status: ${response.status}`);
+            // }
+            // const geojson: GeoJSON.FeatureCollection = await response.json();
   
-        //     map.current!.addSource('hanran_067', {
-        //       type: 'geojson',
-        //       data: hanran_067,
-        //     });
+            map.current!.addSource('hanran_067', {
+              type: 'geojson',
+              data: hanran_067,
+            });
       
-        //     map.current!.addLayer({
-        //       id: 'hanran_067-layer',
-        //       type: 'line',
-        //       source: 'hanran_067',
-        //       layout: {},
-        //       paint: {
-        //         'line-color': '#22ff',
-        //         'line-width': 3,
-        //       },
-        //     });
-        //   } catch (error) {
-        //     console.error('エラーです:', error);
-        //   }
-        // });
+            map.current!.addLayer({
+              id: 'hanran_067-layer',
+              type: 'line',
+              source: 'hanran_067',
+              layout: {},
+              paint: {
+                'line-color': '#22ff',
+                'line-width': 3,
+              },
+            });
+          } catch (error) {
+            console.error('エラーです:', error);
+          }
+        });
         
-        // map.current!.on('click', 'hanran_067',  function (e) {
-        //   addSelectedPlaces('氾濫域')
-        // });
+        map.current!.on('click', 'hanran_067',  function (e) {
+          addSelectedPlaces('氾濫域')
+        });
 
-        // map.current!.on('click', '067-fill',  function (e) {
-        //   setSelectedPlaces(['九頭竜川', '集水域'])
-        //   map.current!.removeLayer('hanran_067-layer');
-        //   map.current!.removeLayer('067-fill');
-        //   addPolygonLayer(map.current!, 'test1', testCoordinates, '#ddd', '#000', 0.4);
-        //   addPolygonLayer(map.current!, 'test2', testCoordinates2, '#ddd', '#000', 0.4);
-        //   addPolygonLayer(map.current!, 'test3', testCoordinates3, '#ddd', '#000', 0.4);
-        // });
+        map.current!.on('click', '067-fill',  function (e) {
+          setSelectedPlaces(['九頭竜川', '集水域'])
+          map.current!.removeLayer('hanran_067-layer');
+          map.current!.removeLayer('067-fill');
+          addPolygonLayer(map.current!, 'test1', testCoordinates, '#ddd', '#000', 0.4);
+          addPolygonLayer(map.current!, 'test2', testCoordinates2, '#ddd', '#000', 0.4);
+          addPolygonLayer(map.current!, 'test3', testCoordinates3, '#ddd', '#000', 0.4);
+        });
 
         
       });
