@@ -71,6 +71,7 @@ const MapRasterComponent: React.FC = () => {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
           const geojson: GeoJSON.FeatureCollection = await response.json();
+          console.log(geojson)
 
           map.current!.addSource('rivClass1', {
             type: 'geojson',
