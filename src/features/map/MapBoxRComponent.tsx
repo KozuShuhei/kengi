@@ -310,7 +310,7 @@ const MapRasterComponent: React.FC = () => {
         });
 
         map.current!.on('click', 'test1-fill',  function (e) {
-          setSelectedPlaces(['九頭竜川', '集水域', '小流域ダム上流域（中角）'])
+          setSelectedPlaces(['九頭竜川', '集水域', '中角地点上流'])
           map.current!.removeLayer('test1-line');
           map.current!.removeLayer('test1-fill');
           map.current!.removeLayer('test2-line');
@@ -349,7 +349,7 @@ const MapRasterComponent: React.FC = () => {
         });
 
         map.current!.on('click', 'test2-fill',  function (e) {
-          setSelectedPlaces(['九頭竜川', '集水域', '小流域ダム上流域（深谷）'])
+          setSelectedPlaces(['九頭竜川', '集水域', '深谷地点上流'])
           map.current!.removeLayer('test1-line');
           map.current!.removeLayer('test1-fill');
           map.current!.removeLayer('test2-line');
@@ -387,7 +387,7 @@ const MapRasterComponent: React.FC = () => {
         });
 
         map.current!.on('click', 'test3-fill',  function (e) {
-          setSelectedPlaces(['九頭竜川', '集水域', '小流域ダム上流域（天神橋）'])
+          setSelectedPlaces(['九頭竜川', '集水域', '天神橋地点上流'])
           map.current!.removeLayer('test1-line');
           map.current!.removeLayer('test1-fill');
           map.current!.removeLayer('test2-line');
