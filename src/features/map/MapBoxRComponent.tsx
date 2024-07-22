@@ -6,6 +6,12 @@ import SeachClimateChangePrediction from '../search/SeachClimateChangePrediction
 import { addPolygonLayer } from './MapUtil';
 import rivClass from './rivClass1.geojson';
 import hanran_067 from './hanran_067.geojson';
+import damUpstreamArea from './九頭竜川_ダム上流域界_sample.json';
+import damSmallBasin from './九頭竜川小流域＋ダム上流域.json';
+import catchmentArea from './九頭竜川集水域_edit.json';
+import Chukaku from './小流域ダム上流域（中角）.geojson';
+import tengin from './小流域ダム上流域（天神橋）.geojson';
+import hukaya from './小流域ダム上流域（深谷）.geojson';
 
 import {
   LogoImg,
@@ -72,6 +78,40 @@ const MapRasterComponent: React.FC = () => {
           // }
           // const geojson: GeoJSON.FeatureCollection = await response.json();
           // console.log(geojson)
+          // const features = Array.isArray(damUpstreamArea) ? damUpstreamArea : damUpstreamArea.geometries;
+
+          // features.forEach((feature: any, index: number) => {
+          //   const id = index
+          //   const sourceId = `geojson-source-${id}`;
+          //   const layerId = `geojson-layer-${id}`;
+    
+          //   map.current!.addSource(sourceId, {
+          //     type: 'geojson',
+          //     data: feature,
+          //   });
+    
+          //   map.current!.addLayer({
+          //     id: layerId,
+          //     type: 'line',
+          //     source: sourceId,
+          //     layout: {},
+          //     paint: {
+          //       'line-color': '#ff69b4',
+          //       'line-width': 2,
+          //     },
+          //   });
+
+          //   map.current!.addLayer({
+          //     id: `${layerId}-fill`,
+          //     type: 'fill',
+          //     source: sourceId,
+          //     layout: {},
+          //     paint: {
+          //       'fill-color': '#ff69b4',
+          //       'fill-opacity': 0.4,
+          //     },
+          //   });
+          // });
 
           map.current!.addSource('rivClass1', {
             type: 'geojson',
@@ -115,7 +155,7 @@ const MapRasterComponent: React.FC = () => {
               source: sourceId,
               layout: {},
               paint: {
-                'line-color': '#ff5500',
+                'line-color': '#3cb371',
                 'line-width': 2,
               },
             });
@@ -126,7 +166,7 @@ const MapRasterComponent: React.FC = () => {
               source: sourceId,
               layout: {},
               paint: {
-                'fill-color': '#f08',
+                'fill-color': '#008000',
                 'fill-opacity': 0.4,
               },
             });
@@ -140,47 +180,190 @@ const MapRasterComponent: React.FC = () => {
           addSelectedPlaces('九頭竜川')
           map.current!.removeLayer('geojson-layer-067-fill');
           map.current!.removeLayer('geojson-layer-067');
-          
-          addPolygonLayer(map.current!, '067', rainCoordinates, '#22ff00', '#f08', 0.1);
-          try {
-            // const response = await fetch('/hanran_067.geojson');
-            
-            // if (!response.ok) {
-            //   throw new Error(`HTTP error! status: ${response.status}`);
-            // }
-            // const geojson: GeoJSON.FeatureCollection = await response.json();
-  
-            map.current!.addSource('hanran_067', {
+
+          const features = Array.isArray(catchmentArea) ? catchmentArea : catchmentArea.features;
+
+          features.forEach((feature: any) => {
+            const sourceId = `geojson-catchmentArea-source`;
+            const layerId = `geojson-catchmentArea-layer`;
+    
+            map.current!.addSource(sourceId, {
               type: 'geojson',
-              data: hanran_067,
+              data: feature,
             });
-      
+    
             map.current!.addLayer({
-              id: 'hanran_067-layer',
+              id: layerId,
               type: 'line',
-              source: 'hanran_067',
+              source: sourceId,
               layout: {},
               paint: {
-                'line-color': '#22ff',
-                'line-width': 3,
+                'line-color': '#3cb371',
+                'line-width': 2,
               },
             });
-          } catch (error) {
-            console.error('エラーです:', error);
-          }
+
+            map.current!.addLayer({
+              id: `${layerId}-fill`,
+              type: 'fill',
+              source: sourceId,
+              layout: {},
+              paint: {
+                'fill-color': '#008000',
+                'fill-opacity': 0.4,
+              },
+            });
+          });
+
+          map.current!.addSource('hanran_067', {
+            type: 'geojson',
+            data: hanran_067,
+          });
+    
+          map.current!.addLayer({
+            id: 'hanran_067-layer',
+            type: 'line',
+            source: 'hanran_067',
+            layout: {},
+            paint: {
+              'line-color': '#4682b4',
+              'line-width': 3,
+            },
+          });
+
+          map.current!.addLayer({
+            id: 'hanran_067-fill',
+            type: 'fill',
+            source: 'hanran_067',
+            layout: {},
+            paint: {
+              'fill-color': '#4682b4',
+              'fill-opacity': 0.4,
+            },
+          });
         });
         
         map.current!.on('click', 'hanran_067',  function (e) {
           addSelectedPlaces('氾濫域')
         });
 
-        map.current!.on('click', '067-fill',  function (e) {
+        map.current!.on('click', 'geojson-catchmentArea-layer-fill',  function (e) {
           setSelectedPlaces(['九頭竜川', '集水域'])
           map.current!.removeLayer('hanran_067-layer');
-          map.current!.removeLayer('067-fill');
+          map.current!.removeLayer('hanran_067-fill');
+          map.current!.removeLayer('geojson-catchmentArea-layer');
+          map.current!.removeLayer('geojson-catchmentArea-layer-fill');
           addPolygonLayer(map.current!, 'test1', testCoordinates, '#ddd', '#000', 0.4);
           addPolygonLayer(map.current!, 'test2', testCoordinates2, '#ddd', '#000', 0.4);
           addPolygonLayer(map.current!, 'test3', testCoordinates3, '#ddd', '#000', 0.4);
+        });
+
+        map.current!.on('click', 'test1-fill',  function (e) {
+          setSelectedPlaces(['九頭竜川', '集水域', '小流域ダム上流域（中角）'])
+          map.current!.removeLayer('test1-line');
+          map.current!.removeLayer('test1-fill');
+          map.current!.removeLayer('test2-line');
+          map.current!.removeLayer('test2-fill');
+          map.current!.removeLayer('test3-line');
+          map.current!.removeLayer('test3-fill');
+          map.current!.addSource('chukaku', {
+            type: 'geojson',
+            data: Chukaku,
+          });
+  
+          map.current!.addLayer({
+            id: 'chukaku',
+            type: 'line',
+            source: 'chukaku',
+            layout: {},
+            paint: {
+              'line-color': '#f0e68c',
+              'line-width': 2,
+            },
+          });
+
+          map.current!.addLayer({
+            id: `chukaku-fill`,
+            type: 'fill',
+            source: 'chukaku',
+            layout: {},
+            paint: {
+              'fill-color': '#f0e68c',
+              'fill-opacity': 0.4,
+            },
+          });
+        });
+
+        map.current!.on('click', 'test2-fill',  function (e) {
+          setSelectedPlaces(['九頭竜川', '集水域', '小流域ダム上流域（深谷）'])
+          map.current!.removeLayer('test1-line');
+          map.current!.removeLayer('test1-fill');
+          map.current!.removeLayer('test2-line');
+          map.current!.removeLayer('test2-fill');
+          map.current!.removeLayer('test3-line');
+          map.current!.removeLayer('test3-fill');
+          map.current!.addSource('hukaya', {
+            type: 'geojson',
+            data: hukaya,
+          });
+  
+          map.current!.addLayer({
+            id: 'hukaya',
+            type: 'line',
+            source: 'hukaya',
+            layout: {},
+            paint: {
+              'line-color': '#f0e68c',
+              'line-width': 2,
+            },
+          });
+
+          map.current!.addLayer({
+            id: `hukaya-fill`,
+            type: 'fill',
+            source: 'hukaya',
+            layout: {},
+            paint: {
+              'fill-color': '#f0e68c',
+              'fill-opacity': 0.4,
+            },
+          });
+        });
+
+        map.current!.on('click', 'test3-fill',  function (e) {
+          setSelectedPlaces(['九頭竜川', '集水域', '小流域ダム上流域（天神橋）'])
+          map.current!.removeLayer('test1-line');
+          map.current!.removeLayer('test1-fill');
+          map.current!.removeLayer('test2-line');
+          map.current!.removeLayer('test2-fill');
+          map.current!.removeLayer('test3-line');
+          map.current!.removeLayer('test3-fill');
+          map.current!.addSource('tengin', {
+            type: 'geojson',
+            data: tengin,
+          });
+  
+          map.current!.addLayer({
+            id: 'tengin',
+            type: 'line',
+            source: 'tengin',
+            layout: {},
+            paint: {
+              'line-color': '#f0e68c',
+              'line-width': 2,
+            },
+          });
+
+          map.current!.addLayer({
+            id: `tengin-fill`,
+            type: 'fill',
+            source: 'tengin',
+            layout: {},
+            paint: {
+              'fill-color': '#f0e68c',
+              'fill-opacity': 0.4,
+            },
+          });
         });
 
         
