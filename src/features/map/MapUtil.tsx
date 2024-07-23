@@ -1,7 +1,7 @@
-import maplibregl, { Map } from 'maplibre-gl';
+import mapboxgl, { Map } from 'mapbox-gl';
 
 export const initializeMap = (container: HTMLDivElement, styleUrl: string, center: [number, number], zoom: number) => {
-  const map = new maplibregl.Map({
+  const map = new mapboxgl.Map({
     container,
     style: styleUrl,
     center,
@@ -10,7 +10,7 @@ export const initializeMap = (container: HTMLDivElement, styleUrl: string, cente
     bearing: -17.6,
   });
 
-  map.addControl(new maplibregl.NavigationControl(), 'top-right');
+  map.addControl(new mapboxgl.NavigationControl(), 'top-right');
   return map;
 };
 
