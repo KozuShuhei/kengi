@@ -5,7 +5,7 @@ import Logout from '@mui/icons-material/Logout';
 import CloseIcon from '@mui/icons-material/Close';
 import { Button } from '@mui/material';
 
-const LogoImg = styled('div')({
+const LogoImg = styled('img')({
   position: 'absolute',
   top: '10px',
   left: '10px',

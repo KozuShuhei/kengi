@@ -11,7 +11,8 @@ import damSmallBasin from './九頭竜川小流域＋ダム上流域.json';
 import catchmentArea from './九頭竜川集水域_edit.json';
 import karyu from './小流域ダム下流域.geojson';
 import jouryu from './九頭竜川治水基準点上流域_sample.json';
-
+import { Unstable_Popup as Popup } from '@mui/base/Unstable_Popup';
+import logo from './logo.png'
 import {
   LogoImg,
   SelectPlaceName,
@@ -34,6 +35,7 @@ const MapRasterComponent: React.FC = () => {
   const [changeWidth, setChangeWidth] = useState<string>('100%');
   const [openRainfall, setopenRainfall] = useState<boolean>(false);
   const [openClimateChangePrediction, setopenClimateChangePrediction] = useState<boolean>(false);
+  const [popupInfo, setPopupInfo] = useState({ longitude: null, latitude: null, feature: null });
 
   const testCoordinates: number[][] = [
     [136.41818171895721,35.78496504569683],[136.4214788087381,35.78428119140886],[136.42555647607657,35.78121260824359],[136.43550395284473,35.77642240493477],[136.44281529129708,35.77702851300843],[136.4468778629872,35.77606448684007],[136.45902056701274,35.780495095153036],[136.46306379839845,35.780842068543095],[136.4683966489608,35.77573890890475],[136.47629613670827,35.77520696916702],[136.48361095341593,35.776239935276095],[136.48827110680693,35.77895911734947],[136.4885336551342,35.77420607643618],[136.49507061933437,35.77061564518248],[136.49752590591422,35.766922928730175],[136.50039383313268,35.75918936194888],[136.50429791798888,35.75406519145447],[136.50597518954478,35.75241471309773],[136.50822484207342,35.752978189215796],[136.50896562848547,35.75487584649928],[136.50928345303439,35.759270330517815],[136.51425965221563,35.76221888062423],[136.51471451614398,35.76494931359359],[136.51478113311768,35.775284536737864],[136.51597782166283,35.777578214372475],[136.52109755709725,35.783100364923975],[136.52518366590124,35.79064008452782],[136.53573274982074,35.78386931536872],[136.54213790026495,35.78241413670086],[136.54922798749536,35.78145624662182],[136.55846552611644,35.78210108854518],[136.5628342781327,35.78148691648423],[136.568085513,35.78181840641693],[136.57200716479034,35.77990010189709],[136.57464107709717,35.78119399819354],[136.57844833965385,35.783432540416314],[136.58677869177373,35.78612414311525],[136.58666782934748,35.79087661083084],[136.5875649241679,35.79443892515267],[136.59109046536045,35.79774727357599],[136.5970724691152,35.79777037215289],[136.59956515472254,35.799842395152176],[136.60247905212222,35.799471134365994],[136.60674772012615,35.794935681930426],[136.60929661446153,35.79468444022686],[136.61233533544396,35.791580195699055],[136.6171377397515,35.79024891633367],[136.62436087430893,35.78965718944335],[136.6277935127489,35.79185682868192],[136.62764058387393,35.797800887212034],[136.63516903297116,35.797760273259314],[136.6399368928031,35.80067463497488],[136.64224262340738,35.80519832461206],[136.6460197334348,35.80831224572169],[136.64746387677266,35.80805423945266],[136.6523977802921,35.80229348423315],[136.6531732968502,35.800294147016736],[136.65544118642077,35.78784989280454],[136.66042264195605,35.78591314552033],[136.66469383342104,35.78648245095416],[136.6700064639688,35.791044171182],[136.67684570853643,35.79503843196359],[136.68288406375734,35.791900615222225],[136.68928358767943,35.792042932617946],[136.6942050041955,35.79241566772188],[136.69901718960102,35.79541479580886],[136.70324199054863,35.795054224466966],[136.70694238307735,35.793688678604646],[136.7111697058516,35.793831454935216],[136.71408236775738,35.796923635912606],[136.72020080702634,35.80058183146092],[136.72352063924666,35.804463236110266],[136.72466089324482,35.80944848285608],[136.73311487256953,35.80897998741962],[136.7421490066814,35.8024305227636],[136.75720212190316,35.81150276918289],[136.7601961796736,35.81195891412893],[136.76551837596443,35.811865668740346],[136.77221679991865,35.8092569636197],[136.7759397523002,35.808733028768756],[136.778175843361,35.80151019930583],[136.78232153205903,35.800413532869015],[136.78930860262028,35.80117598280211],[136.79428937136728,35.808531051469636],[136.796810641229,35.81118108479582],[136.79794166415508,35.814607276037385],[136.7997380738908,35.82102785062343],[136.79902959911473,35.824751110273084],[136.79969653011383,35.831422746511954],[136.8009714493305,35.83502115832396],[136.80260469453307,35.83946545485161],[136.80450009813447,35.84481459967954],[136.81573267107157,35.84462012287263],[136.8264805603458,35.846922566994806],[136.82990252325703,35.850155500826496],[136.8323960507131,35.85529101568984],[136.83307215802915,35.861356482812305],[136.8318153381383,35.86677033965228],[136.82853200256287,35.87127428895953],[136.82478893520295,35.87881700045456],[136.8233674037025,35.87997966755453],[136.82332730333377,35.880012465549534],[136.8229038541895,35.88035880359334],[136.82197961158423,35.88240007936388],[136.8237008047099,35.88609371052934],[136.82422169777092,35.894501705028084],[136.82186944294028,35.899982339955976],[136.81718138695263,35.90553823963516],[136.81606764171568,35.91083213154486],[136.81397354024043,35.9131034236481],[136.80683302406675,35.9145771422509],[136.7994890295472,35.921730719229664],[136.78947971708592,35.922575609857645],[136.78526656918766,35.92567322066391],[136.78589074842915,35.930693819036286],[136.78722748854966,35.93263796328297],[136.7939701067592,35.94257938149433],[136.79402658787362,35.948221686136755],[136.80012627996672,35.95186374974019],[136.80477097016347,35.95604983459312],[136.80854495990445,35.96077617004516],[136.81141403185111,35.969844432726724],[136.8207533691523,35.98266985237158],[136.82075414959013,35.989797376673366],[136.82532289729144,35.99338917189238],[136.825379938611,35.993464715958254],[136.82779543682258,35.99666373739125],[136.8322589365266,35.999637192580536],[136.8386063595216,36.00349521229195],[136.8344730650225,36.008590626068475],[136.82982915277438,36.01183059561413],[136.82491808399433,36.010616896570156],[136.82177512153697,36.01069781383989],[136.81376544738984,36.013841255057976],[136.80885590578686,36.02700082306731],[136.8057911465146,36.03027905419149],[136.80436030258022,36.03071364575728],[136.7974884308524,36.03081920773804],[136.79693014401494,36.03343638761008],[136.79904397416615,36.039102570822],[136.80213973852372,36.04248892079289],[136.7982662904798,36.04982088973515],[136.79579769513,36.05179709110572],[136.78782437400574,36.05173088002298],[136.78206829440794,36.053966258050785],[136.77804649758642,36.054111359484054],[136.7712073540521,36.05783794128792],
@@ -112,90 +114,21 @@ const MapRasterComponent: React.FC = () => {
       map.current.addControl(new maplibregl.NavigationControl(), 'top-right');
 
       map.current.on('load', async () => {
-          // const response = await fetch('https://main.d23gu8extzcjhh.amplifyapp.com/rivClass1.geojson');
-          
-          // if (!response.ok) {
-          //   throw new Error(`HTTP error! status: ${response.status}`);
-          // }
-          // const geojson: GeoJSON.FeatureCollection = await response.json();
-          // console.log(geojson)
-          // const features = Array.isArray(damUpstreamArea) ? damUpstreamArea : damUpstreamArea.geometries;
-
-          // features.forEach((feature: any, index: number) => {
-          //   const id = index
-          //   const sourceId = `geojson-source-${id}`;
-          //   const layerId = `geojson-layer-${id}`;
-    
-          //   map.current!.addSource(sourceId, {
-          //     type: 'geojson',
-          //     data: feature,
-          //   });
-    
-          //   map.current!.addLayer({
-          //     id: layerId,
-          //     type: 'line',
-          //     source: sourceId,
-          //     layout: {},
-          //     paint: {
-          //       'line-color': '#ff69b4',
-          //       'line-width': 2,
-          //     },
-          //   });
-
-          //   map.current!.addLayer({
-          //     id: `${layerId}-fill`,
-          //     type: 'fill',
-          //     source: sourceId,
-          //     layout: {},
-          //     paint: {
-          //       'fill-color': '#ff69b4',
-          //       'fill-opacity': 0.4,
-          //     },
-          //   });
-          // });
-
-          // map.current!.addSource('karyu', {
-          //   type: 'geojson',
-          //   data: karyu,
-          // });
+        map.current!.addSource('rivClass1', {
+          type: 'geojson',
+          data: rivClass,
+        });
   
-          // map.current!.addLayer({
-          //   id: 'karyu',
-          //   type: 'line',
-          //   source: 'karyu',
-          //   layout: {},
-          //   paint: {
-          //     'line-color': '#f0e68c',
-          //     'line-width': 2,
-          //   },
-          // });
-
-          // map.current!.addLayer({
-          //   id: `karyu-fill`,
-          //   type: 'fill',
-          //   source: 'karyu',
-          //   layout: {},
-          //   paint: {
-          //     'fill-color': '#f0e68c',
-          //     'fill-opacity': 0.4,
-          //   },
-          // });
-
-          map.current!.addSource('rivClass1', {
-            type: 'geojson',
-            data: rivClass,
-          });
-    
-          map.current!.addLayer({
-            id: 'rivClass1-layer',
-            type: 'line',
-            source: 'rivClass1',
-            layout: {},
-            paint: {
-              'line-color': '#0077ff',
-              'line-width': 3,
-            },
-          });
+        map.current!.addLayer({
+          id: 'rivClass1-layer',
+          type: 'line',
+          source: 'rivClass1',
+          layout: {},
+          paint: {
+            'line-color': '#0077ff',
+            'line-width': 3,
+          },
+        });
 
         try {
           const response = await fetch('/watershed.geojson');
@@ -395,10 +328,30 @@ const MapRasterComponent: React.FC = () => {
             });
 
             map.current!.on('click', `${layerId}-fill`,  function (e) {
+              const lat = e.lngLat.lat
+              const lng = e.lngLat.lng
+
               if (feature.properties.ダム名) {
-                setSelectedPlaces(['九頭竜川', '集水域', '中角地点上流', feature.properties.ダム名])
+                const popup = new maplibregl.Popup()
+                  .setLngLat([lng,lat])
+                  .setHTML(`
+                    <h3 style="text-align: center">どちらか選択してください</h3>
+                    <button id="dam" style="background-color: lightblue; color: black; padding: 10px; border: none; cursor: pointer; width: 100px;">${feature.properties.ダム名}ダム</button>
+                    <button id="shoryu" style="background-color: lightgreen; color: black; padding: 10px; border: none; cursor: pointer; width: 100px;">小流域</button>
+                  `)
+                  .addTo(map.current!);
+                setTimeout(() => {
+                  document.getElementById('dam')?.addEventListener('click', () => {
+                    setSelectedPlaces(['九頭竜川', '集水域', '中角地点上流', feature.properties.ダム名]);
+                    popup.remove();
+                  });
+                  document.getElementById('shoryu')?.addEventListener('click', () => {
+                    setSelectedPlaces(['九頭竜川', '集水域', '中角地点上流', '小流域']);
+                    popup.remove();
+                  });
+                }, 100);
               } else {
-                setSelectedPlaces(['九頭竜川', '集水域', '中角地点上流', feature.properties.治水基準地])
+                setSelectedPlaces(['九頭竜川', '集水域', '中角地点上流', '小流域'])
               }
             })
           })
@@ -445,10 +398,30 @@ const MapRasterComponent: React.FC = () => {
             });
 
             map.current!.on('click', `${layerId}-fill`,  function (e) {
+              const lat = e.lngLat.lat
+              const lng = e.lngLat.lng
+
               if (feature.properties.ダム名) {
-                setSelectedPlaces(['九頭竜川', '集水域', '深谷地点上流', feature.properties.ダム名])
+                const popup = new maplibregl.Popup()
+                  .setLngLat([lng,lat])
+                  .setHTML(`
+                    <h3 style="text-align: center">どちらか選択してください</h3>
+                    <button id="dam" style="background-color: lightblue; color: black; padding: 10px; border: none; cursor: pointer; width: 100px;">${feature.properties.ダム名}ダム</button>
+                    <button id="shoryu" style="background-color: lightgreen; color: black; padding: 10px; border: none; cursor: pointer; width: 100px;">小流域</button>
+                  `)
+                  .addTo(map.current!);
+                setTimeout(() => {
+                  document.getElementById('dam')?.addEventListener('click', () => {
+                    setSelectedPlaces(['九頭竜川', '集水域', '中角地点上流', feature.properties.ダム名]);
+                    popup.remove();
+                  });
+                  document.getElementById('shoryu')?.addEventListener('click', () => {
+                    setSelectedPlaces(['九頭竜川', '集水域', '中角地点上流', '小流域']);
+                    popup.remove();
+                  });
+                }, 100);
               } else {
-                setSelectedPlaces(['九頭竜川', '集水域', '深谷地点上流', feature.properties.治水基準地])
+                setSelectedPlaces(['九頭竜川', '集水域', '中角地点上流', '小流域']);
               }
             })
           })
@@ -496,10 +469,31 @@ const MapRasterComponent: React.FC = () => {
             });
 
             map.current!.on('click', `${layerId}-fill`,  function (e) {
+
+              const lat = e.lngLat.lat
+              const lng = e.lngLat.lng
+
               if (feature.properties.ダム名) {
-                setSelectedPlaces(['九頭竜川', '集水域', '天神橋地点上流', feature.properties.ダム名])
+                const popup = new maplibregl.Popup()
+                  .setLngLat([lng,lat])
+                  .setHTML(`
+                    <h3 style="text-align: center">どちらか選択してください</h3>
+                    <button id="dam" style="background-color: lightblue; color: black; padding: 10px; border: none; cursor: pointer; width: 100px;">${feature.properties.ダム名}ダム</button>
+                    <button id="shoryu" style="background-color: lightgreen; color: black; padding: 10px; border: none; cursor: pointer; width: 100px;">小流域</button>
+                  `)
+                  .addTo(map.current!);
+                setTimeout(() => {
+                  document.getElementById('dam')?.addEventListener('click', () => {
+                    setSelectedPlaces(['九頭竜川', '集水域', '天神橋地点上流', feature.properties.ダム名]);
+                    popup.remove();
+                  });
+                  document.getElementById('shoryu')?.addEventListener('click', () => {
+                    setSelectedPlaces(['九頭竜川', '集水域', '天神橋地点上流', '小流域']);
+                    popup.remove();
+                  });
+                }, 100);
               } else {
-                setSelectedPlaces(['九頭竜川', '集水域', '天神橋地点上流', feature.properties.治水基準地])
+                setSelectedPlaces(['九頭竜川', '集水域', '天神橋地点上流', '小流域']);
               }
             })
           })
@@ -518,6 +512,10 @@ const MapRasterComponent: React.FC = () => {
   const removeSelectedPlaces = (index: number) => {
     setSelectedPlaces(selectedPlaces.filter((_, i) => i !== index));
   };
+
+  const closePopup = () => {
+
+  }
 
   const closeRainfall = () => {
     setopenRainfall(false);
@@ -546,7 +544,7 @@ const MapRasterComponent: React.FC = () => {
   return (
     <div style={{ display: 'flex'}}>
       <div ref={mapContainer} style={{ width: changeWidth, height: '100vh', position: 'relative' }}>
-        <LogoImg>ロゴ</LogoImg>
+        <LogoImg src={logo} alt="Logo" />
         {!(openRainfall || openClimateChangePrediction) && selectedPlaces.length > 0 && (
           <SelectPlaceName>
             <CloseButton onClick={clearSelection}>×</CloseButton>

@@ -7,8 +7,10 @@ import OrderList from '../Ecommerce/Orders/OrderList/index.js'
 import Pulldown from '../map/Pulldown'
 import {
   Container,
+  TextContainer,
   Row,
   CustomText,
+  CustomTitle,
   StyledCancel,
   StyledButton,
   StyledSelect,
@@ -42,19 +44,19 @@ const SearchRainfallData: React.FC<SearchRainfallDataProps> = ({ selectedPlaces,
         <h4>実績降雨データ検索</h4>
       </Row>
       <StyledCancel onClick={closeRainfall} />
-      <Row>
-      {selectedPlaces.map((selectedPlace, index) => (
-              <CustomText key={index}>{selectedPlace}</CustomText>
-            ))}
-      </Row>
+      <TextContainer>
+        {selectedPlaces.map((selectedPlace, index) => (
+          <CustomText key={index}>{selectedPlace}</CustomText>
+        ))}
+      </TextContainer>
 
       <Row>
-        <CustomText>水系詳細選択</CustomText>
+        <CustomTitle>水系詳細選択</CustomTitle>
         <Pulldown />
       </Row>
       <Row>
         <StyledTextField type="date" />
-        <CustomText>〜</CustomText>
+        <CustomTitle>〜</CustomTitle>
         <StyledTextField type="date" />
       </Row>
       <Row>

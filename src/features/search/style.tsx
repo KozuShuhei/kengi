@@ -14,6 +14,18 @@ const Container = styled('div')({
   backgroundColor: '#ddd',
 });
 
+const TextContainer = styled('div')({
+  display: 'flex',
+  alignItems: 'center',
+  width: '100%',
+  margin: '10px 0 5px',
+  padding: '0 20px',
+
+  '& > *:not(:last-child)': {
+    marginRight: '40px',
+  },
+});
+
 const Row = styled('div')({
   display: 'flex',
   alignItems: 'center',
@@ -27,6 +39,12 @@ const Row = styled('div')({
 });
 
 const CustomText = styled(Typography)({
+  fontSize: '16px',
+  left: '10px',
+  textDecoration: 'underline',
+});
+
+const CustomTitle = styled(Typography)({
   fontSize: '14px',
   left: '10px',
 });
@@ -85,8 +103,10 @@ const RightContents = styled('div')({
 
 export {
   Container,
+  TextContainer,
   Row,
   CustomText,
+  CustomTitle,
   Column,
   StyledCancel,
   StyledButton,
