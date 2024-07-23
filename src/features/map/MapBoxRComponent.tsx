@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
-// import mapboxgl, { Map, MapGeoJSONFeature } from 'maplibre-gl';
-import mapboxgl, { Map } from 'mapbox-gl';
+import maplibregl, { Map, MapGeoJSONFeature } from 'maplibre-gl';
+//import maplibregl, { Map } from 'mapbox-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import SearchRainfallData from '../search/SearchRainfallData';
 import SeachClimateChangePrediction from '../search/SeachClimateChangePrediction';
@@ -97,24 +97,21 @@ const MapRasterComponent: React.FC = () => {
     { "type": "Feature", "properties": { "Area": 0.0, "Zone": 0, "ryuuiki_No": "H-1-1", "ダムコード": 0.0, "ダム名": "二ツ屋導水施設", "事前放流容": 0.0, "全流域面積": 0.0, "基準降雨量": 0.0, "所在都道府": null, "有効貯水容": 0.0, "水系域": null, "河川名": null, "洪水調節_2": null, "洪水調節_3": null, "直接流域": 0.0, "管理者名": null, "経度": 0.0, "緯度": 0.0, "間接流域": 0.0, "降雨継続時": 0, "治水基準地": "上流（深谷）" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 136.27653, 35.73707 ], [ 136.27851, 35.74419 ], [ 136.28338, 35.74923 ], [ 136.28999, 35.75421 ], [ 136.29669, 35.75382 ], [ 136.30597, 35.75573 ], [ 136.32009, 35.75561 ], [ 136.32082, 35.75255 ], [ 136.32532, 35.74779 ], [ 136.32661, 35.74208 ], [ 136.32659, 35.73709 ], [ 136.32818, 35.73483 ], [ 136.32686, 35.73091 ], [ 136.32407, 35.72795 ], [ 136.32232, 35.72534 ], [ 136.32202, 35.7232 ], [ 136.32492, 35.7207 ], [ 136.32345, 35.71821 ], [ 136.31894, 35.71763 ], [ 136.31341, 35.71326 ], [ 136.31285, 35.71018 ], [ 136.3116, 35.70707 ], [ 136.31137, 35.70688 ], [ 136.30863, 35.70454 ], [ 136.30672, 35.70376 ], [ 136.30467, 35.70138 ], [ 136.30265, 35.69801 ], [ 136.29949, 35.69585 ], [ 136.29357, 35.69286 ], [ 136.28944, 35.69845 ], [ 136.28644, 35.70483 ], [ 136.2839, 35.70617 ], [ 136.28243, 35.70938 ], [ 136.28068, 35.71362 ], [ 136.27807, 35.71757 ], [ 136.27713, 35.71979 ], [ 136.27841, 35.72578 ], [ 136.27967, 35.72779 ], [ 136.28087, 35.73045 ], [ 136.28085, 35.7334 ], [ 136.27653, 35.73707 ] ] ] ] } },
     { "type": "Feature", "properties": { "Area": 6.0, "Zone": 6, "ryuuiki_No": "D-1", "ダムコード": 8686060712.0, "ダム名": "滝波", "事前放流容": 0.0, "全流域面積": 0.0, "基準降雨量": 183.0, "所在都道府": "福井県", "有効貯水容": 0.0, "水系域": "九頭竜川", "河川名": "滝波川", "洪水調節_2": null, "洪水調節_3": null, "直接流域": 0.0, "管理者名": "福井市", "経度": 136.0922222, "緯度": 36.02277778, "間接流域": 0.0, "降雨継続時": 24, "治水基準地": "上流（深谷）" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 136.09167, 36.02222 ], [ 136.09252, 36.02085 ], [ 136.09323, 36.01851 ], [ 136.09525, 36.01868 ], [ 136.0953, 36.01805 ], [ 136.0947, 36.01529 ], [ 136.09478, 36.01422 ], [ 136.09415, 36.01308 ], [ 136.09334, 36.01041 ], [ 136.09096, 36.00954 ], [ 136.0903, 36.0103 ], [ 136.0897, 36.01081 ], [ 136.08841, 36.01232 ], [ 136.08556, 36.01254 ], [ 136.0837, 36.0124 ], [ 136.08008, 36.01523 ], [ 136.07915, 36.0153 ], [ 136.0775, 36.01469 ], [ 136.07575, 36.01534 ], [ 136.07358, 36.01516 ], [ 136.07367, 36.0163 ], [ 136.07297, 36.0182 ], [ 136.07476, 36.0214 ], [ 136.07251, 36.0224 ], [ 136.07197, 36.02363 ], [ 136.06994, 36.02621 ], [ 136.06919, 36.03363 ], [ 136.06719, 36.03618 ], [ 136.06808, 36.03859 ], [ 136.06859, 36.04085 ], [ 136.06926, 36.04143 ], [ 136.07202, 36.04476 ], [ 136.07059, 36.04733 ], [ 136.07415, 36.04863 ], [ 136.07863, 36.04915 ], [ 136.08062, 36.05026 ], [ 136.0822, 36.04965 ], [ 136.08308, 36.04808 ], [ 136.08359, 36.04637 ], [ 136.08526, 36.04402 ], [ 136.0846, 36.04205 ], [ 136.08192, 36.03974 ], [ 136.08141, 36.03859 ], [ 136.08034, 36.03667 ], [ 136.08213, 36.03381 ], [ 136.08573, 36.03071 ], [ 136.08641, 36.02846 ], [ 136.09016, 36.02876 ], [ 136.09101, 36.02724 ], [ 136.09069, 36.02326 ], [ 136.09137, 36.02248 ], [ 136.09167, 36.02222 ] ] ] ] } }
   ]
-  const mapboxToken = 'pk.eyJ1Ijoic2h1aGVpa296dSIsImEiOiJjbHd5ZWFsNTgxYXFsMmpzYWdyZDlzbnp3In0.IOnweJMuRgEiaqfO47TeWw';
-  
 
   useEffect(() => {
     if (map.current) return;
 
     const initialize = async () => {
-      mapboxgl.accessToken = mapboxToken;
-      map.current = new mapboxgl.Map({
+      map.current = new maplibregl.Map({
         container: mapContainer.current!,
-        style: 'mapbox://styles/shuheikozu/clyy70dzo00a201r5d0bl14bx',
+        style: 'https://api.maptiler.com/maps/hybrid/style.json?key=78Xkqpun692Y6h0xFFBK',
         center: [136.3629244,35.8659201],
         zoom: 9,
         pitch: 45,
         bearing: -17.6,
       });
 
-      map.current.addControl(new mapboxgl.NavigationControl(), 'top-right');
+      map.current.addControl(new maplibregl.NavigationControl(), 'top-right');
 
       map.current.on('load', async () => {
         map.current!.addSource('rivClass1', {
@@ -345,7 +342,7 @@ const MapRasterComponent: React.FC = () => {
               const lng = e.lngLat.lng
 
               if (feature.properties.ダム名) {
-                const popup = new mapboxgl.Popup()
+                const popup = new maplibregl.Popup()
                   .setLngLat([lng,lat])
                   .setHTML(`
                     <h3 style="text-align: center">どちらか選択してください</h3>
@@ -415,7 +412,7 @@ const MapRasterComponent: React.FC = () => {
               const lng = e.lngLat.lng
 
               if (feature.properties.ダム名) {
-                const popup = new mapboxgl.Popup()
+                const popup = new maplibregl.Popup()
                   .setLngLat([lng,lat])
                   .setHTML(`
                     <h3 style="text-align: center">どちらか選択してください</h3>
@@ -487,7 +484,7 @@ const MapRasterComponent: React.FC = () => {
               const lng = e.lngLat.lng
 
               if (feature.properties.ダム名) {
-                const popup = new mapboxgl.Popup()
+                const popup = new maplibregl.Popup()
                   .setLngLat([lng,lat])
                   .setHTML(`
                     <h3 style="text-align: center">どちらか選択してください</h3>
