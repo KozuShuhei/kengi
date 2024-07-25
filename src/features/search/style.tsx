@@ -17,7 +17,6 @@ const Container = styled('div')({
 const TextContainer = styled('div')({
   display: 'flex',
   alignItems: 'center',
-  width: '100%',
   margin: '10px 0 5px',
   padding: '0 20px',
 
@@ -30,7 +29,6 @@ const Row = styled('div')({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  width: '100%',
   margin: '10px 0 5px',
 
   '& > *:not(:last-child)': {
@@ -89,7 +87,6 @@ const ButtonContents = styled('div')({
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
-  width: '100%',
 });
 
 const LeftContents = styled('div')({
