@@ -4,7 +4,7 @@ import mapboxgl, { Map } from 'mapbox-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import SearchRainfallData from '../search/SearchRainfallData';
 import SeachClimateChangePrediction from '../search/SeachClimateChangePrediction';
-import { addPolygonLayer } from './MapUtil';
+import { addPolygonLayer, addPopup } from './MapUtil';
 import rivClass from './rivClass1.geojson';
 import hanran_067 from './hanran_067.geojson';
 import damUpstreamArea from './九頭竜川_ダム上流域界_sample.json';
@@ -191,6 +191,7 @@ const MapRasterComponent: React.FC = () => {
                 'fill-opacity': 0.4,
               },
             });
+            addPopup(map.current!, `${layerId}-fill`, feature.properties.name);
           });
         } catch (error) {
           console.error('エラーです:', error);
@@ -234,6 +235,7 @@ const MapRasterComponent: React.FC = () => {
                 'fill-opacity': 0.4,
               },
             });
+            addPopup(map.current!, `${layerId}-fill`, '集水域');
           });
 
           map.current!.addSource('hanran_067', {
@@ -275,8 +277,13 @@ const MapRasterComponent: React.FC = () => {
           map.current!.removeLayer('geojson-catchmentArea-layer');
           map.current!.removeLayer('geojson-catchmentArea-layer-fill');
           addPolygonLayer(map.current!, 'test1', testCoordinates, '#ddd', '#000', 0.4);
+          addPopup(map.current!, 'test1-fill', '中角地点上流');
+
           addPolygonLayer(map.current!, 'test2', testCoordinates2, '#ddd', '#000', 0.4);
+          addPopup(map.current!, 'test2-fill', '深谷地点上流');
+
           addPolygonLayer(map.current!, 'test3', testCoordinates3, '#ddd', '#000', 0.4);
+          addPopup(map.current!, 'test3-fill', '天神橋地点上流');
 
           map.current!.addSource('karyu', {
             type: 'geojson',
@@ -304,6 +311,7 @@ const MapRasterComponent: React.FC = () => {
               'fill-opacity': 0.4,
             },
           });
+          addPopup(map.current!, 'karyu-fill', '下流域');
 
           damjoryu.forEach((feature: any) => {
             const sourceId = `geojson-source-${feature.properties.ダムコード}`;
@@ -334,6 +342,8 @@ const MapRasterComponent: React.FC = () => {
                 'fill-opacity': 0.4,
               },
             });
+
+            addPopup(map.current!, `${layerId}-fill`, feature.properties.ダム名);
           })
         });
 

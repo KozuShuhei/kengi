@@ -1,5 +1,5 @@
 //import maplibregl, { Map } from 'maplibre-gl';
-import mapboxgl, { Map } from 'mapbox-gl';
+import mapboxgl, { Map, Popup } from 'mapbox-gl';
 export const initializeMap = (container: HTMLDivElement, styleUrl: string, center: [number, number], zoom: number) => {
   const map = new mapboxgl.Map({
     container,
@@ -51,3 +51,34 @@ export const addPolygonLayer = (map: Map, layerId: string, coordinates: number[]
     },
   });
 };
+
+let popup: Popup | null = null;
+
+export const addPopup = (map: Map, layerId: string, name: string) => {
+  map.on('mouseenter', layerId, function (e) {
+    // マウスポインタの形を変える
+    map.getCanvas().style.cursor = 'pointer';
+    
+    // 既存のポップアップがあれば削除
+    if (popup) {
+      popup.remove();
+    }
+
+    // ポップアップの作成と設定
+    popup = new mapboxgl.Popup({
+      closeButton: false,
+      closeOnClick: false,
+    })
+    .setLngLat((e as mapboxgl.MapMouseEvent).lngLat)
+    .setHTML(`<strong>${name}</strong>`)
+    .addTo(map);
+  });
+
+  map.on('mouseleave', `${layerId}-fill`, function () {
+    map.getCanvas().style.cursor = '';
+    if (popup) {
+      popup.remove();
+      popup = null;
+    }
+  });
+}
