@@ -82,3 +82,20 @@ export const addPopup = (map: Map, layerId: string, name: string) => {
     }
   });
 }
+
+export const removeAllLayersAndSources = (map: mapboxgl.Map) => {
+  if (!map || !map.getStyle()) {
+    return;
+  }
+
+  // レイヤーを逆順に削除（依存関係のため）
+  const layers = map.getStyle()!.layers;
+  if (layers) {
+    for (let i = layers.length - 1; i >= 0; i--) {
+      const layer = layers[i];
+      if (layer.id) {
+        map.removeLayer(layer.id);
+      }
+    }
+  }
+};
