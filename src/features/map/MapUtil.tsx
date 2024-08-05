@@ -52,12 +52,40 @@ export const addPolygonLayer = (map: Map, layerId: string, coordinates: number[]
   });
 };
 
+export const addPolygonDataLayer = (map: Map, layerId: string, feature: any, lineColor: string, fillColor: string, fillOpacity: number) => {
+  
+  map.addSource(layerId, {
+    type: 'geojson',
+    data: feature,
+  });
+
+  map.addLayer({
+    id: `${layerId}-line`,
+    type: 'line',
+    source: layerId,
+    layout: {},
+    paint: {
+      'line-color': lineColor,
+      'line-width': 3,
+    },
+  });
+
+  map.addLayer({
+    id: `${layerId}-fill`,
+    type: 'fill',
+    source: layerId,
+    layout: {},
+    paint: {
+      'fill-color': fillColor,
+      'fill-opacity': fillOpacity,
+    },
+  });
+};
+
 let popup: Popup | null = null;
 
 export const addPopup = (map: Map, layerId: string, name: string) => {
   map.on('mouseenter', layerId, function (e) {
-    // マウスポインタの形を変える
-    map.getCanvas().style.cursor = 'pointer';
     
     // 既存のポップアップがあれば削除
     if (popup) {
@@ -90,7 +118,6 @@ export const removeAllLayersAndSources = (map: mapboxgl.Map, startIndex: number 
   
   // レイヤーを逆順に削除（依存関係のため）
   const layers = map.getStyle()!.layers;
-  console.log(layers)
   if (layers) {
     for (let i = layers.length - 1; i >= startIndex; i--) {
       const layer = layers[i];
@@ -102,7 +129,6 @@ export const removeAllLayersAndSources = (map: mapboxgl.Map, startIndex: number 
 
   // レイヤー削除後にソースを削除
   const sources = map.getStyle()!.sources;
-  console.log(sources)
   for (const sourceId in sources) {
     if (sourceId.startsWith('geojson')) {
       map.removeSource(sourceId);

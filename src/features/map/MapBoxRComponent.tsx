@@ -4,20 +4,13 @@ import mapboxgl, { Map } from 'mapbox-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import SearchRainfallData from '../search/SearchRainfallData';
 import SeachClimateChangePrediction from '../search/SeachClimateChangePrediction';
-import { addPolygonLayer, addPopup, removeAllLayersAndSources } from './MapUtil';
+import { addPolygonLayer, addPolygonDataLayer, addPopup, removeAllLayersAndSources } from './MapUtil';
 import rivClass from './rivClass1.geojson';
 import hanran_067 from './hanran_067.geojson';
-import damUpstreamArea from './九頭竜川_ダム上流域界_sample.json';
-import damSmallBasin from './九頭竜川小流域＋ダム上流域.json';
 import catchmentArea from './九頭竜川集水域_edit.json';
 import karyu from './小流域ダム下流域.geojson';
-import jouryu from './九頭竜川治水基準点上流域_sample.json';
-import chukaku from './小流域（中角）.geojson';
-import tenjin from './小流域（天神橋）.geojson';
-import hukaya from './小流域（深谷）.geojson';
-import { Unstable_Popup as Popup } from '@mui/base/Unstable_Popup';
 import logo from './logo.png'
-import { Button, Checkbox, Dialog, DialogActions, DialogContent, FormControlLabel, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Paper, Stack, Typography } from '@mui/material'
+import { Button, Dialog, DialogActions, DialogContent, FormControlLabel, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Paper, Stack, Typography } from '@mui/material'
 
 import {
   LogoImg,
@@ -163,33 +156,10 @@ const MapRasterComponent: React.FC = () => {
           setSelectedPlaces(['九頭竜川', '集水域', '下流域'])
           removeSelectedPlaces()
           removeAllLayersAndSources(map.current!)
-          map.current!.addSource('geojson-karyu', {
-            type: 'geojson',
-            data: karyu,
-          });
-      
-          map.current!.addLayer({
-            id: 'geojson-karyu',
-            type: 'line',
-            source: 'geojson-karyu',
-            layout: {},
-            paint: {
-              'line-color': '#f0e68c',
-              'line-width': 2,
-            },
-          });
-      
-          map.current!.addLayer({
-            id: `geojson-karyu-fill`,
-            type: 'fill',
-            source: 'geojson-karyu',
-            layout: {},
-            paint: {
-              'fill-color': '#f0e68c',
-              'fill-opacity': 0.4,
-            },
-          });
+
+          addPolygonDataLayer(map.current!, 'geojson-karyu', karyu, '#f0e68c', '#f0e68c', 0.4)
           addPopup(map.current!, 'geojson-karyu-fill', '下流域');
+
           addPolygonLayer(map.current!, 'geojson-backLayer', backLayer, '#ddd', '#000', 0.4);
           map.current!.on('click', 'geojson-backLayer-fill',  function (e) {
             removeAllLayersAndSources(map.current!)
@@ -257,35 +227,9 @@ const MapRasterComponent: React.FC = () => {
 
       features.forEach((feature: any) => {
         const id = feature.properties.id
-        const sourceId = `geojson-source-${id}`;
         const layerId = `geojson-layer-${id}`;
 
-        map.current!.addSource(sourceId, {
-          type: 'geojson',
-          data: feature,
-        });
-
-        map.current!.addLayer({
-          id: layerId,
-          type: 'line',
-          source: sourceId,
-          layout: {},
-          paint: {
-            'line-color': '#3cb371',
-            'line-width': 2,
-          },
-        });
-
-        map.current!.addLayer({
-          id: `${layerId}-fill`,
-          type: 'fill',
-          source: sourceId,
-          layout: {},
-          paint: {
-            'fill-color': '#008000',
-            'fill-opacity': 0.4,
-          },
-        });
+        addPolygonDataLayer(map.current!, layerId, feature, '#3cb371', '#008000', 0.4)
         addPopup(map.current!, `${layerId}-fill`, feature.properties.name);
       });
     } catch (error) {
@@ -298,69 +242,17 @@ const MapRasterComponent: React.FC = () => {
 
       map.current!.removeLayer('geojson-layer-067-fill');
       map.current!.removeLayer('geojson-layer-067');
-      map.current!.removeSource('geojson-source-067');
+      map.current!.removeSource('geojson-layer-067');
 
       const features = Array.isArray(catchmentArea) ? catchmentArea : catchmentArea.features;
 
       features.forEach((feature: any) => {
-        const sourceId = `geojson-catchmentArea-source`;
         const layerId = `geojson-catchmentArea-layer`;
-
-        map.current!.addSource(sourceId, {
-          type: 'geojson',
-          data: feature,
-        });
-
-        map.current!.addLayer({
-          id: layerId,
-          type: 'line',
-          source: sourceId,
-          layout: {},
-          paint: {
-            'line-color': '#3cb371',
-            'line-width': 2,
-          },
-        });
-
-        map.current!.addLayer({
-          id: `${layerId}-fill`,
-          type: 'fill',
-          source: sourceId,
-          layout: {},
-          paint: {
-            'fill-color': '#008000',
-            'fill-opacity': 0.4,
-          },
-        });
+        addPolygonDataLayer(map.current!, layerId, feature, '#3cb371', '#008000', 0.4)
         addPopup(map.current!, `${layerId}-fill`, '集水域');
       });
 
-      map.current!.addSource('geojson-hanran_067', {
-        type: 'geojson',
-        data: hanran_067,
-      });
-
-      map.current!.addLayer({
-        id: 'hanran_067-layer',
-        type: 'line',
-        source: 'geojson-hanran_067',
-        layout: {},
-        paint: {
-          'line-color': '#4682b4',
-          'line-width': 3,
-        },
-      });
-
-      map.current!.addLayer({
-        id: 'hanran_067-fill',
-        type: 'fill',
-        source: 'geojson-hanran_067',
-        layout: {},
-        paint: {
-          'fill-color': '#4682b4',
-          'fill-opacity': 0.4,
-        },
-      });
+      addPolygonDataLayer(map.current!, 'geojson-hanran_067', hanran_067, '#4682b4', '#4682b4', 0.4)
     });
   }
 
@@ -376,64 +268,12 @@ const MapRasterComponent: React.FC = () => {
     addPolygonLayer(map.current!, 'geojson-test3', testCoordinates3, '#ddd', '#000', 0.4);
     addPopup(map.current!, 'geojson-test3-fill', '天神橋地点上流');
 
-    map.current!.addSource('geojson-karyu', {
-      type: 'geojson',
-      data: karyu,
-    });
-
-    map.current!.addLayer({
-      id: 'geojson-karyu',
-      type: 'line',
-      source: 'geojson-karyu',
-      layout: {},
-      paint: {
-        'line-color': '#ddd',
-        'line-width': 2,
-      },
-    });
-
-    map.current!.addLayer({
-      id: `geojson-karyu-fill`,
-      type: 'fill',
-      source: 'geojson-karyu',
-      layout: {},
-      paint: {
-        'fill-color': '#000',
-        'fill-opacity': 0.4,
-      },
-    });
+    addPolygonDataLayer(map.current!, 'geojson-karyu', karyu, '#ddd', '#000', 0.4)
     addPopup(map.current!, 'geojson-karyu-fill', '下流域');
 
     damjoryu.forEach((feature: any) => {
-      const sourceId = `geojson-source-${feature.properties.ダムコード}`;
       const layerId = `geojson-layer-${feature.properties.ダムコード}`;
-      map.current!.addSource(sourceId, {
-        type: 'geojson',
-        data: feature,
-      });
-
-      map.current!.addLayer({
-        id: layerId,
-        type: 'line',
-        source: sourceId,
-        layout: {},
-        paint: {
-          'line-color': '#f0e68c',
-          'line-width': 2,
-        },
-      });
-
-      map.current!.addLayer({
-        id: `${layerId}-fill`,
-        type: 'fill',
-        source: sourceId,
-        layout: {},
-        paint: {
-          'fill-color': '#f0e68c',
-          'fill-opacity': 0.4,
-        },
-      });
-
+      addPolygonDataLayer(map.current!, layerId, feature, '#f0e68c', '#f0e68c', 0.4)
       addPopup(map.current!, `${layerId}-fill`, feature.properties.ダム名);
     })
   }
@@ -449,33 +289,9 @@ const MapRasterComponent: React.FC = () => {
     });
     if(item == '中角地点上流') {
       chukakuiki.forEach((feature: any) => {
-        const sourceId = `geojson-source-${feature.properties.ryuuiki_No}`;
         const layerId = `geojson-layer-${feature.properties.ryuuiki_No}`;
-        map.current!.addSource(sourceId, {
-          type: 'geojson',
-          data: feature,
-        });
-        map.current!.addLayer({
-          id: layerId,
-          type: 'line',
-          source: sourceId,
-          layout: {},
-          paint: {
-            'line-color': '#f0e68c',
-            'line-width': 2,
-          },
-        });
-
-        map.current!.addLayer({
-          id: `${layerId}-fill`,
-          type: 'fill',
-          source: sourceId,
-          layout: {},
-          paint: {
-            'fill-color': '#f0e68c',
-            'fill-opacity': 0.4,
-          },
-        });
+        addPolygonDataLayer(map.current!, layerId, feature, '#f0e68c', '#f0e68c', 0.4)
+        addPopup(map.current!, `${layerId}-fill`, feature.properties.ダム名);
         setSelectedPlaces(['九頭竜川', '集水域', '中角地点上流'])
 
         map.current!.on('click', `${layerId}-fill`,  function (e) {
@@ -484,98 +300,18 @@ const MapRasterComponent: React.FC = () => {
       })
     } else if(item == '深谷地点上流') {
       hukaya.forEach((feature: any) => {
-        const sourceId = `geojson-source-${feature.properties.ryuuiki_No}`;
         const layerId = `geojson-layer-${feature.properties.ryuuiki_No}`;
-        map.current!.addSource(sourceId, {
-          type: 'geojson',
-          data: feature,
-        });
+        addPolygonDataLayer(map.current!, layerId, feature, '#f0e68c', '#f0e68c', 0.4)
+        addPopup(map.current!, `${layerId}-fill`, feature.properties.ダム名);
 
-        map.current!.addLayer({
-          id: layerId,
-          type: 'line',
-          source: sourceId,
-          layout: {},
-          paint: {
-            'line-color': '#f0e68c',
-            'line-width': 2,
-          },
-        });
-
-        map.current!.addLayer({
-          id: `${layerId}-fill`,
-          type: 'fill',
-          source: sourceId,
-          layout: {},
-          paint: {
-            'fill-color': '#f0e68c',
-            'fill-opacity': 0.4,
-          },
-        });
         setSelectedPlaces(['九頭竜川', '集水域', '深谷地点上流'])
-
-        damjoryu.forEach((feature: any) => {
-          const name = feature.properties.ダム名 as string
-          const layerId = `geojson-layer-${feature.properties.ダムコード}`;
-
-          map.current!.on('click', `${layerId}-fill`,  function (e) {
-            setDraftItems(prevItems => [...prevItems, name]);
-            setDraftDialog(true)
-          })
-        })
-
-        map.current!.on('click', 'geojson-karyu-fill',  function (e) {
-          setSelectedPlaces(['九頭竜川', '集水域', '下流域'])
-          removeSelectedPlaces()
-          removeAllLayersAndSources(map.current!)
-          createCatchmentArea()
-        })
-
-        map.current!.on('click', 'geojson-test1-fill',  function (e) {
-          setDraftItems(prevItems => [...prevItems, '中角地点上流']);
-          setDraftDialog(true)
-        });
-
-        map.current!.on('click', 'geojson-test2-fill',  function (e) {
-          setDraftItems(prevItems => [...prevItems, '深谷地点上流']);
-          setDraftDialog(true)
-        });
-
-        map.current!.on('click', 'geojson-test3-fill',  function (e) {
-          setDraftItems(prevItems => [...prevItems, '天神橋地点上流']);
-          setDraftDialog(true)
-        });
       })
     } else if(item == '天神橋地点上流') {
       tenjinbasi.forEach((feature: any) => {
-        const sourceId = `geojson-source-${feature.properties.ryuuiki_No}`;
         const layerId = `geojson-layer-${feature.properties.ryuuiki_No}`;
-        map.current!.addSource(sourceId, {
-          type: 'geojson',
-          data: feature,
-        });
+        addPolygonDataLayer(map.current!, layerId, feature, '#f0e68c', '#f0e68c', 0.4)
+        addPopup(map.current!, `${layerId}-fill`, feature.properties.ダム名);
 
-        map.current!.addLayer({
-          id: layerId,
-          type: 'line',
-          source: sourceId,
-          layout: {},
-          paint: {
-            'line-color': '#f0e68c',
-            'line-width': 2,
-          },
-        });
-
-        map.current!.addLayer({
-          id: `${layerId}-fill`,
-          type: 'fill',
-          source: sourceId,
-          layout: {},
-          paint: {
-            'fill-color': '#f0e68c',
-            'fill-opacity': 0.4,
-          },
-        });
         setSelectedPlaces(['九頭竜川', '集水域', '天神橋地点上流'])
 
         map.current!.on('click', `${layerId}-fill`,  function (e) {
@@ -586,34 +322,9 @@ const MapRasterComponent: React.FC = () => {
       setSelectedPlaces(['九頭竜川', '集水域', item + 'ダム'])
       damjoryu.forEach((feature: any) => {
         if(item == feature.properties.ダム名) {
-          const sourceId = `geojson-source-${feature.properties.ダムコード}`;
-          const layerId = `geojson-layer-${feature.properties.ダムコード}`;
-          map.current!.addSource(sourceId, {
-            type: 'geojson',
-            data: feature,
-          });
-    
-          map.current!.addLayer({
-            id: layerId,
-            type: 'line',
-            source: sourceId,
-            layout: {},
-            paint: {
-              'line-color': '#f0e68c',
-              'line-width': 2,
-            },
-          });
-    
-          map.current!.addLayer({
-            id: `${layerId}-fill`,
-            type: 'fill',
-            source: sourceId,
-            layout: {},
-            paint: {
-              'fill-color': '#f0e68c',
-              'fill-opacity': 0.4,
-            },
-          });
+          const layerId = `geojson-layer-${feature.properties.ryuuiki_No}`;
+          addPolygonDataLayer(map.current!, layerId, feature, '#f0e68c', '#f0e68c', 0.4)
+          addPopup(map.current!, `${layerId}-fill`, feature.properties.ダム名);
         }
       })
     }
@@ -641,20 +352,6 @@ const MapRasterComponent: React.FC = () => {
   };
 
   const clearSelection = async () => {
-    try {
-      const response = await fetch('/watershed.geojson');
-      const geojson: GeoJSON.FeatureCollection = await response.json();
-      
-      const features = Array.isArray(geojson) ? geojson : geojson.features;
-
-      features.forEach((feature: any) => {
-        const id = feature.properties.id
-        const sourceId = `geojson-source-${id}`;
-        const layerId = `geojson-layer-${id}`;
-      });
-    } catch (error) {
-      console.error('エラーです:', error);
-    }
     removeAllLayersAndSources(map.current!);
     setSelectedPlaces([]);
     firstLayer()
@@ -682,7 +379,7 @@ const MapRasterComponent: React.FC = () => {
 
         <Dialog
           open={draftDialog}
-          onClose={() => {setDraftDialog(false)}}
+          onClose={() => {removeSelectedPlaces()}}
         >
           <DialogContent dividers  sx={{ pl: 0, pr: 0, py: 1, width: '300px' }}>
             <List dense disablePadding>
