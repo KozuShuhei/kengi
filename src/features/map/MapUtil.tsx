@@ -83,19 +83,29 @@ export const addPopup = (map: Map, layerId: string, name: string) => {
   });
 }
 
-export const removeAllLayersAndSources = (map: mapboxgl.Map) => {
+export const removeAllLayersAndSources = (map: mapboxgl.Map, startIndex: number = 85) => {
   if (!map || !map.getStyle()) {
     return;
   }
-
+  
   // レイヤーを逆順に削除（依存関係のため）
   const layers = map.getStyle()!.layers;
+  console.log(layers)
   if (layers) {
-    for (let i = layers.length - 1; i >= 0; i--) {
+    for (let i = layers.length - 1; i >= startIndex; i--) {
       const layer = layers[i];
       if (layer.id) {
         map.removeLayer(layer.id);
       }
+    }
+  }
+
+  // レイヤー削除後にソースを削除
+  const sources = map.getStyle()!.sources;
+  console.log(sources)
+  for (const sourceId in sources) {
+    if (sourceId.startsWith('geojson')) {
+      map.removeSource(sourceId);
     }
   }
 };
