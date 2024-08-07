@@ -45,11 +45,11 @@ const SelectedText = styled('p')({
   margin: '5px',
 });
 
-const SelectButton = styled('p')({
-  backgroundColor: '#1188bb',
-  fontSize: '16px',
+const SelectButton = styled(Button)({
+  padding: '3px 0',
+  border: '1px solid #1188bb',
+  fontSize: '14px',
   borderRadius: '5px',
-  padding: '5px 10px',
   marginLeft: 'auto',
 });
 
