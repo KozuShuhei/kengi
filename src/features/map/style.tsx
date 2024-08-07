@@ -48,9 +48,14 @@ const SelectedText = styled('p')({
 const SelectButton = styled(Button)({
   padding: '3px 0',
   border: '1px solid #1188bb',
+  backgroundColor: '#1188bb',
+  color: 'white',
   fontSize: '14px',
   borderRadius: '5px',
   marginLeft: 'auto',
+  '&:hover': {
+    backgroundColor: '#1188dd',
+  },
 });
 
 const SearchContents = styled('div')({
@@ -105,16 +110,52 @@ const IconContents = styled('div')({
   alignItems: 'center',
 });
 
-const SplitscreenIcon = styled(Splitscreen)({
+const IconWrapper = styled('div')({
+  position: 'relative',
+  display: 'flex',
+  alignItems: 'center',
+});
 
+const Popup = styled('div')({
+  display: 'none',
+  position: 'absolute',
+  bottom: '100%',
+  left: '50%',
+  transform: 'translateX(-50%)',
+  padding: '5px 10px',
+  backgroundColor: 'gray',
+  color: 'white',
+  borderRadius: '3px',
+  whiteSpace: 'nowrap',
+  fontSize: '12px',
+  '&::after': {
+    content: '""',
+    position: 'absolute',
+    top: '100%',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    borderWidth: '5px',
+    borderStyle: 'solid',
+    borderColor: 'gray transparent transparent transparent',
+  },
+});
+
+const SplitscreenIcon = styled(Splitscreen)({
+  '&:hover + .popup': {
+    display: 'block',
+  }
 });
 
 const StorageIcon = styled(Storage)({
-
+  '&:hover + .popup': {
+    display: 'block',
+  }
 });
 
 const LogoutIcon = styled(Logout)({
-
+  '&:hover + .popup': {
+    display: 'block',
+  }
 });
 
 export {
@@ -127,6 +168,8 @@ export {
   SearchButton,
   FutureSearchButton,
   IconContents,
+  IconWrapper,
+  Popup,
   SplitscreenIcon,
   StorageIcon,
   LogoutIcon,

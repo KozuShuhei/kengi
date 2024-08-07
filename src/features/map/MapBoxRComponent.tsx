@@ -21,6 +21,8 @@ import {
   SearchButton,
   FutureSearchButton,
   IconContents,
+  IconWrapper,
+  Popup,
   SplitscreenIcon,
   StorageIcon,
   LogoutIcon,
@@ -269,16 +271,16 @@ const MapRasterComponent: React.FC = () => {
   const createCatchmentArea = () => {
     setSelectedPlaces(['九頭竜川', '集水域'])
     removeSelectedPlaces()
-    addPolygonLayer(map.current!, 'geojson-test1', testCoordinates, '#ddd', '#000', 0.4);
+    addPolygonLayer(map.current!, 'geojson-test1', testCoordinates, '#3cb371', '#008000', 0.4);
     addPopup(map.current!, 'geojson-test1-fill', '中角地点上流');
 
-    addPolygonLayer(map.current!, 'geojson-test2', testCoordinates2, '#ddd', '#000', 0.4);
+    addPolygonLayer(map.current!, 'geojson-test2', testCoordinates2, '#3cb371', '#008000', 0.4);
     addPopup(map.current!, 'geojson-test2-fill', '深谷地点上流');
 
-    addPolygonLayer(map.current!, 'geojson-test3', testCoordinates3, '#ddd', '#000', 0.4);
+    addPolygonLayer(map.current!, 'geojson-test3', testCoordinates3, '#3cb371', '#008000', 0.4);
     addPopup(map.current!, 'geojson-test3-fill', '天神橋地点上流');
 
-    addPolygonDataLayer(map.current!, 'geojson-karyu', karyu, '#ddd', '#000', 0.4)
+    addPolygonDataLayer(map.current!, 'geojson-karyu', karyu, '#3cb371', '#008000', 0.4)
     addPopup(map.current!, 'geojson-karyu-fill', '下流域');
 
     damjoryu.forEach((feature: any) => {
@@ -445,9 +447,18 @@ const MapRasterComponent: React.FC = () => {
         )}
 
         <IconContents>
-          <StorageIcon />
-          <SplitscreenIcon />
-          <LogoutIcon />
+          <IconWrapper>
+            <StorageIcon />
+            <Popup className="popup">保存済みデータ</Popup>
+          </IconWrapper>
+          <IconWrapper>
+            <SplitscreenIcon />
+            <Popup className="popup">2画面切り替え</Popup>
+          </IconWrapper>
+          <IconWrapper>
+            <LogoutIcon />
+            <Popup className="popup">ログアウト</Popup>
+          </IconWrapper>
         </IconContents>
 
         <Dialog
@@ -501,7 +512,7 @@ const MapRasterComponent: React.FC = () => {
         </SearchContents>
       </div>
       {openRainfall &&
-        <div style={{width: '40%', height: '100vh'}}>
+        <div style={{width: '40%', maxHeight: '100vh'}}>
           <SearchRainfallData selectedPlaces={selectedPlaces} closeRainfall={closeRainfall} />
         </div>
       }
