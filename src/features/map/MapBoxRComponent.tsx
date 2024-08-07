@@ -377,6 +377,14 @@ const MapRasterComponent: React.FC = () => {
     setDraftItems([]);
   };
 
+  const closeDialog = () => {
+    setDraftDialog(false);
+    setDraftItems([]);
+    map.current!.flyTo({
+      zoom: 9,
+    });
+  }
+
   const closeConfirmDialog = () => {
     setConfirmDialog(false);
   };
@@ -410,6 +418,10 @@ const MapRasterComponent: React.FC = () => {
     removeAllLayersAndSources(map.current!);
     setSelectedPlaces([]);
     firstLayer()
+    map.current!.flyTo({
+      center: [136.3629244,35.8659201],
+      zoom: 6,
+    });
   };
 
   useEffect(() => {
@@ -440,7 +452,7 @@ const MapRasterComponent: React.FC = () => {
 
         <Dialog
           open={draftDialog}
-          onClose={() => {removeSelectedPlaces()}}
+          onClose={() => {closeDialog()}}
         >
           <DialogContent dividers  sx={{ pl: 0, pr: 0, py: 1, width: '300px' }}>
             <List dense disablePadding>
@@ -458,7 +470,7 @@ const MapRasterComponent: React.FC = () => {
             </List>
           </DialogContent>
           <DialogActions>
-            <Button onClick={() => removeSelectedPlaces()} size='small'>
+            <Button onClick={() => closeDialog()} size='small'>
               キャンセル
             </Button>
           </DialogActions>
@@ -469,8 +481,12 @@ const MapRasterComponent: React.FC = () => {
           onClose={() => {closeConfirmDialog()}}
         >
           <DialogContent dividers  sx={{ pl: 0, pr: 0, py: 1, width: '300px' }}>
-            <p onClick={handleRainfall}>実績降雨データ検索</p>
-            <p onClick={handleClimateChangePrediction}>気候変動予測データ検索</p>
+            <ListItemButton onClick={handleRainfall} sx={{pr: 4}}>
+              <ListItemText primary={'実績降雨データ検索'} />
+            </ListItemButton>
+            <ListItemButton onClick={handleClimateChangePrediction} sx={{pr: 4}}>
+              <ListItemText primary={'気候変動予測データ検索'} />
+            </ListItemButton>
           </DialogContent>
           <DialogActions>
             <Button onClick={() => closeConfirmDialog()} size='small'>
