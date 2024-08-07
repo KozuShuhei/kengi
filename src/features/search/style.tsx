@@ -9,8 +9,8 @@ import Select from '@mui/material/Select';
 const Container = styled('div')({
   display: 'flex',
   flexDirection: 'column',
-  height: '100vh',
-  border: '1px solid #ccc',
+  height: '100%',
+  width: '100%',
   backgroundColor: '#ddd',
 });
 
