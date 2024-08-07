@@ -125,7 +125,7 @@ const MapRasterComponent: React.FC = () => {
         container: mapContainer.current!,
         style: 'mapbox://styles/shuheikozu/clyy70dzo00a201r5d0bl14bx',
         center: [136.3629244,35.8659201],
-        zoom: 9,
+        zoom: 6,
         pitch: 45,
         bearing: -17.6,
       });
@@ -411,6 +411,12 @@ const MapRasterComponent: React.FC = () => {
     setSelectedPlaces([]);
     firstLayer()
   };
+
+  useEffect(() => {
+    if (changeWidth) {
+      map.current!.resize();
+    }
+  }, [changeWidth]);
 
   return (
     <div style={{ display: 'flex'}}>
