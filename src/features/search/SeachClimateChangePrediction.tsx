@@ -5,6 +5,7 @@ import Typography from '@mui/material/Typography';
 import { MenuItem, Checkbox, FormControlLabel, SelectChangeEvent } from '@mui/material';
 import OrderList from '../Ecommerce/Orders/OrderList/index.js'
 import Pulldown from '../map/Pulldown'
+import SelectTable from './../table/SelectTable'
 import {
   Container,
   Row,
@@ -13,7 +14,7 @@ import {
   StyledButton,
   StyledSelect,
   StyledTextField,
-  ScrollableContainer,
+  TableContainer,
   ButtonContents,
   LeftContents,
   RightContents,
@@ -44,8 +45,7 @@ const SearchRainfallData: React.FC<SearchRainfallDataProps> = ({ selectedPlaces,
       <StyledCancel onClick={closeClimateChangePrediction} />
       <Row>
         <CustomText>
-          {/* {selectedPlaces} */}
-          九頭竜川
+          {selectedPlaces}
         </CustomText>
       </Row>
 
@@ -61,9 +61,7 @@ const SearchRainfallData: React.FC<SearchRainfallDataProps> = ({ selectedPlaces,
       <Row>
         <StyledButton variant="contained" color="primary">検索</StyledButton>
       </Row>
-      <ScrollableContainer>
-        <OrderList />
-      </ScrollableContainer>
+      <SelectTable />
       <ButtonContents>
         <LeftContents>
           <StyledButton style={{ fontSize: '10px' }} variant="contained" onClick={handleMapButtonClick}>地図で表示</StyledButton>

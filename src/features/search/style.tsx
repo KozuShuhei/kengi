@@ -75,9 +75,7 @@ const StyledTextField = styled(TextField)({
   },
 });
 
-const ScrollableContainer = styled('div')({
-  flex: '1',
-  overflowY: 'auto',
+const TableContainer = styled('div')({
   border: '1px solid #ccc',
   padding: '10px',
   margin: '20px',
@@ -87,6 +85,7 @@ const ButtonContents = styled('div')({
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
+  margin: '10px',
 });
 
 const LeftContents = styled('div')({
@@ -109,7 +108,7 @@ export {
   StyledButton,
   StyledSelect,
   StyledTextField,
-  ScrollableContainer,
+  TableContainer,
   ButtonContents,
   LeftContents,
   RightContents,
