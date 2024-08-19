@@ -82,6 +82,47 @@ export const addPolygonDataLayer = (map: Map, layerId: string, feature: any, lin
   });
 };
 
+export const addFillExtusionLayer = (map: Map, layerId: string, feature: any, height: number,  fillColor: string) => {
+
+  const polygon: GeoJSON.Feature<GeoJSON.Polygon> = {
+    type: 'Feature',
+    geometry: {
+      'type': 'Polygon',
+      'coordinates': feature.geometry.coordinates[0],
+    },
+    properties: {
+      'height': height * 200,
+    }
+  };
+  
+  map.addSource(layerId, {
+    type: 'geojson',
+    data: polygon,
+  });
+  
+  map.addLayer({
+    id: `${layerId}-line`,
+    type: 'line',
+    source: layerId,
+    layout: {},
+    paint: {
+      'line-color': '#000',
+      'line-width': 2,
+    },
+  });
+  map.addLayer({
+    id: `${layerId}-fill`,
+    type: 'fill-extrusion',
+    source: layerId,
+    paint: {
+      'fill-extrusion-color': fillColor,
+      'fill-extrusion-height': ['get', 'height'],
+      'fill-extrusion-base': 0,
+      'fill-extrusion-opacity': 0.6,
+    },
+  });
+};
+
 let popup: Popup | null = null;
 
 export const addPopup = (map: Map, layerId: string, name: string) => {

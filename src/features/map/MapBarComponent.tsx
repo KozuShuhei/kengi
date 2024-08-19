@@ -4,13 +4,14 @@ import React, { useRef, useState, useEffect } from 'react';
 import { styled } from '@mui/material/styles';
 import mapboxgl, { Map } from 'mapbox-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { removeAllLayersAndSources } from './MapUtil';
+import { addFillExtusionLayer, removeAllLayersAndSources } from './MapUtil';
 import { Slider } from '@mui/material';
 
 const MapBarComponent: React.FC = () => {
   const mapContainer = useRef<HTMLDivElement | null>(null);
   const map = useRef<Map | null>(null);
   const [selectedTime, setSelectedTime] = useState<string>("0:00");
+  const [heightColor, setHeightColor] = useState<string>('');
   const mapboxToken = 'pk.eyJ1Ijoic2h1aGVpa296dSIsImEiOiJjbHd5ZWFsNTgxYXFsMmpzYWdyZDlzbnp3In0.IOnweJMuRgEiaqfO47TeWw';
 
   const hukaya = [
@@ -68,7 +69,6 @@ const MapBarComponent: React.FC = () => {
         bearing: -17.6,
       });
 
-
       map.current.on('load', () => {
         updateMapLayers(selectedTime);
       });
@@ -102,48 +102,37 @@ const MapBarComponent: React.FC = () => {
         const ryuuikiNoKey = feature.properties.ryuuiki_No as keyof PrecipitationData;
 
         const height = timeData[ryuuikiNoKey] as number;
-        console.log(height)
 
-        const polygon: GeoJSON.Feature<GeoJSON.Polygon> = {
-          type: 'Feature',
-          geometry: {
-            'type': 'Polygon',
-            'coordinates': feature.geometry.coordinates[0],
-          },
-          properties: {
-            'height': height * 200,
-          }
-        };
+        if(height > 80){
+          const fillColor = '#c7408e'
+          addFillExtusionLayer(map.current!, layerId, feature, height, fillColor)
 
-        if(height !== 0){
-          
-          map.current!.addSource(layerId, {
-            type: 'geojson',
-            data: polygon,
-          });
-          
-          map.current!.addLayer({
-            id: `${layerId}-line`,
-            type: 'line',
-            source: layerId,
-            layout: {},
-            paint: {
-              'line-color': '#000',
-              'line-width': 3,
-            },
-          });
-          map.current!.addLayer({
-            id: `${layerId}-fill`,
-            type: 'fill-extrusion',
-            source: layerId,
-            paint: {
-              'fill-extrusion-color': '#0000ff',
-              'fill-extrusion-height': ['get', 'height'],
-              'fill-extrusion-base': 0,
-              'fill-extrusion-opacity': 0.6,
-            },
-          });
+        } else if(height > 50){
+          const fillColor = '#ff5e40'
+          addFillExtusionLayer(map.current!, layerId, feature, height, fillColor)
+
+        } else if(height > 30){
+          const fillColor = '#ffb340'
+          addFillExtusionLayer(map.current!, layerId, feature, height, fillColor)
+
+        } else if(height > 20){
+          const fillColor = '#fff840'
+          addFillExtusionLayer(map.current!, layerId, feature, height, fillColor)
+
+        } else if(height > 10){
+          const fillColor = '#4071ff'
+          addFillExtusionLayer(map.current!, layerId, feature, height, fillColor)
+
+        } else if(height > 5){
+          const fillColor = '#59a9ff'
+          addFillExtusionLayer(map.current!, layerId, feature, height, fillColor)
+
+        } else if(height !== 0){
+          const fillColor = '#b8deff'
+          addFillExtusionLayer(map.current!, layerId, feature, height, fillColor)
+
         }
+
       }
     });
   };
