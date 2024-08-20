@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import Typography from '@mui/material/Typography';
 import { MenuItem, Checkbox, FormControlLabel, SelectChangeEvent } from '@mui/material';
 import OrderList from '../Ecommerce/Orders/OrderList/index.js'
-import Pulldown from '../map/Pulldown'
+import Pulldown from '../pulldown/Pulldown'
 import SelectTable from './../table/SelectTable'
 import {
   Container,
@@ -45,11 +45,11 @@ const SearchRainfallData: React.FC<SearchRainfallDataProps> = ({ selectedPlaces,
         <h4>実績降雨データ検索</h4>
       </Row>
       <StyledCancel onClick={closeRainfall} />
-      <TextContainer>
+      <Row>
         {selectedPlaces.map((selectedPlace, index) => (
           <CustomText key={index}>{selectedPlace}</CustomText>
         ))}
-      </TextContainer>
+      </Row>
 
       <Row>
         <CustomTitle>水系詳細選択</CustomTitle>

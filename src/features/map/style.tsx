@@ -98,7 +98,7 @@ const FutureSearchButton = styled(Button)({
 const IconContents = styled('div')({
   position: 'absolute',
   bottom: '50px',
-  right: '10px',
+  right: '50px',
   width: '90px',
   backgroundColor: 'white',
   borderRadius: '10px',

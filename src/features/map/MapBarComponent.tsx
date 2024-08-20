@@ -11,7 +11,6 @@ const MapBarComponent: React.FC = () => {
   const mapContainer = useRef<HTMLDivElement | null>(null);
   const map = useRef<Map | null>(null);
   const [selectedTime, setSelectedTime] = useState<string>("0:00");
-  const [heightColor, setHeightColor] = useState<string>('');
   const mapboxToken = 'pk.eyJ1Ijoic2h1aGVpa296dSIsImEiOiJjbHd5ZWFsNTgxYXFsMmpzYWdyZDlzbnp3In0.IOnweJMuRgEiaqfO47TeWw';
 
   const hukaya = [
@@ -62,7 +61,7 @@ const MapBarComponent: React.FC = () => {
       mapboxgl.accessToken = mapboxToken;
       map.current = new mapboxgl.Map({
         container: mapContainer.current!,
-        style: 'mapbox://styles/shuheikozu/clyy70dzo00a201r5d0bl14bx',
+        style: 'mapbox://styles/shuheikozu/clx8mo1gm01m901rba20pdd6l',
         center: [136.16932, 35.81040],
         zoom: 9.5,
         pitch: 45,
@@ -93,9 +92,50 @@ const MapBarComponent: React.FC = () => {
     "H-7-2": number;
   }
 
-  const updateMapLayers = (time: string) => {
+  const updateMapLayers = async (time: string) => {
+    try {
+      const response = await fetch('/九頭竜ダム地点_修正.json');
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const geojson: GeoJSON.FeatureCollection = await response.json();
+
+      const features = Array.isArray(geojson) ? geojson : geojson.features;
+      const testGeojsonData: GeoJSON.FeatureCollection<GeoJSON.Point> = {
+        type: 'FeatureCollection',
+        features: features.map(data => ({
+          type: 'Feature',
+          geometry: {
+            type: 'Point',
+            coordinates: data.geometry.coordinates,
+          },
+          properties: {
+            amount: data.amount,
+            name: data.name,
+          },
+        })),
+      };
+      
+      map.current!.addSource('points-main', {
+        type: 'geojson',
+        data: testGeojsonData,
+      });
+      map.current!.addLayer({
+        id: 'points-main',
+        type: 'circle',
+        source: 'points-main',
+        paint: {
+          'circle-radius': 6,
+          'circle-color': '#FF5722',
+          'circle-stroke-width': 2,
+          'circle-stroke-color': '#FFFFFF',
+        },
+      });
+    } catch (error) {
+      console.error('エラーです:', error);
+    }
+
     const timeData = precipitationData.find(data => data["時刻"] === time);
-    console.log(timeData)
     hukaya.forEach((feature: any) => {
       const layerId = `geojson-layer-${feature.properties.ryuuiki_No}`;
       if (timeData) {
@@ -104,35 +144,20 @@ const MapBarComponent: React.FC = () => {
         const height = timeData[ryuuikiNoKey] as number;
 
         if(height > 80){
-          const fillColor = '#c7408e'
-          addFillExtusionLayer(map.current!, layerId, feature, height, fillColor)
-
+          addFillExtusionLayer(map.current!, layerId, feature, height, '#c7408e')
         } else if(height > 50){
-          const fillColor = '#ff5e40'
-          addFillExtusionLayer(map.current!, layerId, feature, height, fillColor)
-
+          addFillExtusionLayer(map.current!, layerId, feature, height, '#ff5e40')
         } else if(height > 30){
-          const fillColor = '#ffb340'
-          addFillExtusionLayer(map.current!, layerId, feature, height, fillColor)
-
+          addFillExtusionLayer(map.current!, layerId, feature, height, '#ffb340')
         } else if(height > 20){
-          const fillColor = '#fff840'
-          addFillExtusionLayer(map.current!, layerId, feature, height, fillColor)
-
+          addFillExtusionLayer(map.current!, layerId, feature, height, '#fff840')
         } else if(height > 10){
-          const fillColor = '#4071ff'
-          addFillExtusionLayer(map.current!, layerId, feature, height, fillColor)
-
+          addFillExtusionLayer(map.current!, layerId, feature, height, '#4071ff')
         } else if(height > 5){
-          const fillColor = '#59a9ff'
-          addFillExtusionLayer(map.current!, layerId, feature, height, fillColor)
-
+          addFillExtusionLayer(map.current!, layerId, feature, height, '#59a9ff')
         } else if(height !== 0){
-          const fillColor = '#b8deff'
-          addFillExtusionLayer(map.current!, layerId, feature, height, fillColor)
-
+          addFillExtusionLayer(map.current!, layerId, feature, height, '#b8deff')
         }
-
       }
     });
   };

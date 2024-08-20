@@ -37,9 +37,8 @@ const Row = styled('div')({
 });
 
 const CustomText = styled(Typography)({
-  fontSize: '16px',
+  fontSize: '0.875rem',
   left: '10px',
-  textDecoration: 'underline',
 });
 
 const CustomTitle = styled(Typography)({
