@@ -4,7 +4,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import { styled } from '@mui/material/styles';
 import mapboxgl, { Map } from 'mapbox-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { addFillExtusionLayer, removeAllLayersAndSources } from './MapUtil';
+import { addFillExtusionLayer } from './MapUtil';
 import { Slider } from '@mui/material';
 
 const MapBarComponent: React.FC = () => {
@@ -116,17 +116,59 @@ const MapBarComponent: React.FC = () => {
         })),
       };
       
-      map.current!.addSource('points-main', {
+      map.current!.addSource('geojson-points-main', {
         type: 'geojson',
         data: testGeojsonData,
       });
       map.current!.addLayer({
-        id: 'points-main',
+        id: 'geojson-points-main',
         type: 'circle',
-        source: 'points-main',
+        source: 'geojson-points-main',
         paint: {
           'circle-radius': 6,
           'circle-color': '#FF5722',
+          'circle-stroke-width': 2,
+          'circle-stroke-color': '#FFFFFF',
+        },
+      });
+    } catch (error) {
+      console.error('エラーです:', error);
+    }
+
+    try {
+      const response = await fetch('/九頭竜治水基準点.json');
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const geojson: GeoJSON.FeatureCollection = await response.json();
+
+      const features = Array.isArray(geojson) ? geojson : geojson.features;
+      const testGeojsonData: GeoJSON.FeatureCollection<GeoJSON.Point> = {
+        type: 'FeatureCollection',
+        features: features.map(data => ({
+          type: 'Feature',
+          geometry: {
+            type: 'Point',
+            coordinates: data.geometry.coordinates,
+          },
+          properties: {
+            amount: data.amount,
+            name: data.name,
+          },
+        })),
+      };
+      
+      map.current!.addSource('geojson-points-water', {
+        type: 'geojson',
+        data: testGeojsonData,
+      });
+      map.current!.addLayer({
+        id: 'geojson-points-water',
+        type: 'circle',
+        source: 'geojson-points-water',
+        paint: {
+          'circle-radius': 6,
+          'circle-color': '#000',
           'circle-stroke-width': 2,
           'circle-stroke-color': '#FFFFFF',
         },
@@ -159,6 +201,10 @@ const MapBarComponent: React.FC = () => {
           addFillExtusionLayer(map.current!, layerId, feature, height, '#b8deff')
         }
       }
+
+      const layers = map.current!.getStyle()!.layers;
+
+      console.log(layers); // Logs the ID of each layer
     });
   };
 
@@ -190,6 +236,31 @@ const MapBarComponent: React.FC = () => {
         onChange={handleSliderChange}
       />
     );
+  };
+
+  const removeAllLayersAndSources = (map: mapboxgl.Map, startIndex: number = 85) => {
+    if (!map || !map.getStyle()) {
+      return;
+    }
+    
+    // レイヤーを逆順に削除（依存関係のため）
+    const layers = map.getStyle()!.layers;
+    if (layers) {
+      for (let i = layers.length - 1; i >= startIndex; i--) {
+        const layer = layers[i];
+        if (layer.id) {
+          map.removeLayer(layer.id);
+        }
+      }
+    }
+  
+    // レイヤー削除後にソースを削除
+    const sources = map.getStyle()!.sources;
+    for (const sourceId in sources) {
+      if (sourceId.startsWith('geojson')) {
+        map.removeSource(sourceId);
+      }
+    }
   };
 
   const handleTimeChange = (time: string) => {
