@@ -3,8 +3,7 @@ import React, { useRef, useState, useEffect } from 'react';
 //import maplibregl, { Map, MapGeoJSONFeature } from 'maplibre-gl';
 import { styled } from '@mui/material/styles';
 import mapboxgl, { Map } from 'mapbox-gl';
-import 'maplibre-gl/dist/maplibre-gl.css';
-import { addFillExtusionLayer } from './MapUtil';
+import { addFillExtusionLayer, removeAllLayersAndSources } from './MapUtil';
 import { Slider } from '@mui/material';
 
 const MapBarComponent: React.FC = () => {
@@ -93,88 +92,92 @@ const MapBarComponent: React.FC = () => {
   }
 
   const updateMapLayers = async (time: string) => {
-    try {
-      const response = await fetch('/九頭竜ダム地点_修正.json');
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+    if (!map.current!.getSource('geojson-points-main')) {
+      try {
+        const response = await fetch('/九頭竜ダム地点_修正.json');
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const geojson: GeoJSON.FeatureCollection = await response.json();
+  
+        const features = Array.isArray(geojson) ? geojson : geojson.features;
+        const testGeojsonData: GeoJSON.FeatureCollection<GeoJSON.Point> = {
+          type: 'FeatureCollection',
+          features: features.map(data => ({
+            type: 'Feature',
+            geometry: {
+              type: 'Point',
+              coordinates: data.geometry.coordinates,
+            },
+            properties: {
+              amount: data.amount,
+              name: data.name,
+            },
+          })),
+        };
+        
+        map.current!.addSource('geojson-points-main', {
+          type: 'geojson',
+          data: testGeojsonData,
+        });
+        map.current!.addLayer({
+          id: 'geojson-points-main',
+          type: 'circle',
+          source: 'geojson-points-main',
+          paint: {
+            'circle-radius': 6,
+            'circle-color': '#FF5722',
+            'circle-stroke-width': 2,
+            'circle-stroke-color': '#FFFFFF',
+          },
+        });
+      } catch (error) {
+        console.error('エラーです:', error);
       }
-      const geojson: GeoJSON.FeatureCollection = await response.json();
-
-      const features = Array.isArray(geojson) ? geojson : geojson.features;
-      const testGeojsonData: GeoJSON.FeatureCollection<GeoJSON.Point> = {
-        type: 'FeatureCollection',
-        features: features.map(data => ({
-          type: 'Feature',
-          geometry: {
-            type: 'Point',
-            coordinates: data.geometry.coordinates,
-          },
-          properties: {
-            amount: data.amount,
-            name: data.name,
-          },
-        })),
-      };
-      
-      map.current!.addSource('geojson-points-main', {
-        type: 'geojson',
-        data: testGeojsonData,
-      });
-      map.current!.addLayer({
-        id: 'geojson-points-main',
-        type: 'circle',
-        source: 'geojson-points-main',
-        paint: {
-          'circle-radius': 6,
-          'circle-color': '#FF5722',
-          'circle-stroke-width': 2,
-          'circle-stroke-color': '#FFFFFF',
-        },
-      });
-    } catch (error) {
-      console.error('エラーです:', error);
     }
 
-    try {
-      const response = await fetch('/九頭竜治水基準点.json');
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      const geojson: GeoJSON.FeatureCollection = await response.json();
+    if (!map.current!.getSource('geojson-points-water')) {
+      try {
+        const response = await fetch('/九頭竜治水基準点.json');
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const geojson: GeoJSON.FeatureCollection = await response.json();
 
-      const features = Array.isArray(geojson) ? geojson : geojson.features;
-      const testGeojsonData: GeoJSON.FeatureCollection<GeoJSON.Point> = {
-        type: 'FeatureCollection',
-        features: features.map(data => ({
-          type: 'Feature',
-          geometry: {
-            type: 'Point',
-            coordinates: data.geometry.coordinates,
+        const features = Array.isArray(geojson) ? geojson : geojson.features;
+        const testGeojsonData: GeoJSON.FeatureCollection<GeoJSON.Point> = {
+          type: 'FeatureCollection',
+          features: features.map(data => ({
+            type: 'Feature',
+            geometry: {
+              type: 'Point',
+              coordinates: data.geometry.coordinates,
+            },
+            properties: {
+              amount: data.amount,
+              name: data.name,
+            },
+          })),
+        };
+        
+        map.current!.addSource('geojson-points-water', {
+          type: 'geojson',
+          data: testGeojsonData,
+        });
+        map.current!.addLayer({
+          id: 'geojson-points-water',
+          type: 'circle',
+          source: 'geojson-points-water',
+          paint: {
+            'circle-radius': 6,
+            'circle-color': '#000',
+            'circle-stroke-width': 2,
+            'circle-stroke-color': '#FFFFFF',
           },
-          properties: {
-            amount: data.amount,
-            name: data.name,
-          },
-        })),
-      };
-      
-      map.current!.addSource('geojson-points-water', {
-        type: 'geojson',
-        data: testGeojsonData,
-      });
-      map.current!.addLayer({
-        id: 'geojson-points-water',
-        type: 'circle',
-        source: 'geojson-points-water',
-        paint: {
-          'circle-radius': 6,
-          'circle-color': '#000',
-          'circle-stroke-width': 2,
-          'circle-stroke-color': '#FFFFFF',
-        },
-      });
-    } catch (error) {
-      console.error('エラーです:', error);
+        });
+      } catch (error) {
+        console.error('エラーです:', error);
+      }
     }
 
     const timeData = precipitationData.find(data => data["時刻"] === time);
@@ -184,6 +187,19 @@ const MapBarComponent: React.FC = () => {
         const ryuuikiNoKey = feature.properties.ryuuiki_No as keyof PrecipitationData;
 
         const height = timeData[ryuuikiNoKey] as number;
+        
+        if (height === 0) {
+          if (map.current!.getLayer(`${layerId}-fill`)) {
+            map.current!.removeLayer(`${layerId}-fill`);
+          }
+          if (map.current!.getLayer(`${layerId}-line`)) {
+            map.current!.removeLayer(`${layerId}-line`);
+          }
+          if (map.current!.getSource(layerId)) {
+            map.current!.removeSource(layerId);
+          }
+          return;
+        }
 
         if(height > 80){
           addFillExtusionLayer(map.current!, layerId, feature, height, '#c7408e')
@@ -201,10 +217,6 @@ const MapBarComponent: React.FC = () => {
           addFillExtusionLayer(map.current!, layerId, feature, height, '#b8deff')
         }
       }
-
-      const layers = map.current!.getStyle()!.layers;
-
-      console.log(layers); // Logs the ID of each layer
     });
   };
 
@@ -212,7 +224,6 @@ const MapBarComponent: React.FC = () => {
     const [time, setTime] = useState(0);
   
     const handleSliderChange = (event: any, newValue: number | number[]) => {
-      removeAllLayersAndSources(map.current!)
       const Time = `${Math.floor(newValue as number)}:00`
       setTime(newValue as number);
       const formattedTime = formatTime(newValue as number);
@@ -236,31 +247,6 @@ const MapBarComponent: React.FC = () => {
         onChange={handleSliderChange}
       />
     );
-  };
-
-  const removeAllLayersAndSources = (map: mapboxgl.Map, startIndex: number = 85) => {
-    if (!map || !map.getStyle()) {
-      return;
-    }
-    
-    // レイヤーを逆順に削除（依存関係のため）
-    const layers = map.getStyle()!.layers;
-    if (layers) {
-      for (let i = layers.length - 1; i >= startIndex; i--) {
-        const layer = layers[i];
-        if (layer.id) {
-          map.removeLayer(layer.id);
-        }
-      }
-    }
-  
-    // レイヤー削除後にソースを削除
-    const sources = map.getStyle()!.sources;
-    for (const sourceId in sources) {
-      if (sourceId.startsWith('geojson')) {
-        map.removeSource(sourceId);
-      }
-    }
   };
 
   const handleTimeChange = (time: string) => {

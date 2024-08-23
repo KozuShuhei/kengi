@@ -1,5 +1,35 @@
 //import maplibregl, { Map } from 'maplibre-gl';
 import mapboxgl, { Map, Popup } from 'mapbox-gl';
+import React, { useState, useEffect } from 'react';
+import * as turf from '@turf/turf';
+import { Feature, FeatureCollection, Geometry, Point, Polygon, GeoJsonProperties } from 'geojson';
+
+// // Propsの型定義
+// interface GeoJsonDifferenceMapProps {
+//   geoJson1: FeatureCollection<Geometry>;
+//   geoJson2: Feature<Geometry>;
+// }
+
+// export const GeoJsonDifferenceMap: React.FC<GeoJsonDifferenceMapProps> = ({ geoJson1, geoJson2 }) => {
+//   const [differenceGeoJson, setDifferenceGeoJson] = useState<Feature<Geometry> | null>(null);
+//   const [center, setCenter] = useState<Point | null>(null);
+
+//   useEffect(() => {
+//     if (geoJson1 && geoJson2) {
+//       // geoJson1がFeatureCollectionである場合、最初のFeatureを取得
+//       const feature1 = geoJson1.features[0] as Feature<Polygon, GeoJsonProperties>;
+//       const feature2 = geoJson2 as Feature<Polygon, GeoJsonProperties>;
+
+//       // 大きい領域から小さい領域を引いて差分を取得
+//       const difference = turf.difference(feature1, feature2) as Feature<Geometry, GeoJsonProperties> | null;
+
+//       setDifferenceGeoJson(difference as Feature<Geometry>);
+//     }
+//   }, [geoJson1, geoJson2]);
+
+//   return differenceGeoJson;
+// };
+
 export const initializeMap = (container: HTMLDivElement, styleUrl: string, center: [number, number], zoom: number) => {
   const map = new mapboxgl.Map({
     container,
@@ -82,8 +112,7 @@ export const addPolygonDataLayer = (map: Map, layerId: string, feature: any, lin
   });
 };
 
-export const addFillExtusionLayer = (map: Map, layerId: string, feature: any, height: number,  fillColor: string) => {
-
+export const addFillExtusionLayer = (map: Map, layerId: string, feature: any, height: number, fillColor: string) => {
   const polygon: GeoJSON.Feature<GeoJSON.Polygon> = {
     type: 'Feature',
     geometry: {
@@ -92,35 +121,53 @@ export const addFillExtusionLayer = (map: Map, layerId: string, feature: any, he
     },
     properties: {
       'height': height * 200,
-    }
+    },
   };
-  
-  map.addSource(layerId, {
-    type: 'geojson',
-    data: polygon,
-  });
-  
-  map.addLayer({
-    id: `${layerId}-line`,
-    type: 'line',
-    source: layerId,
-    layout: {},
-    paint: {
-      'line-color': '#000',
-      'line-width': 2,
-    },
-  });
-  map.addLayer({
-    id: `${layerId}-fill`,
-    type: 'fill-extrusion',
-    source: layerId,
-    paint: {
-      'fill-extrusion-color': fillColor,
-      'fill-extrusion-height': ['get', 'height'],
-      'fill-extrusion-base': 0,
-      'fill-extrusion-opacity': 0.6,
-    },
-  });
+
+  // ソースが既に存在するかチェックし、存在する場合はデータを更新
+  if (map.getSource(layerId)) {
+    const source = map.getSource(layerId) as mapboxgl.GeoJSONSource;
+    source.setData(polygon);
+  } else {
+    // ソースが存在しない場合、新しく追加
+    map.addSource(layerId, {
+      type: 'geojson',
+      data: polygon,
+    });
+  }
+
+  // レイヤーが既に存在するかチェックし、存在する場合はpaintプロパティを更新
+  if (map.getLayer(`${layerId}-fill`)) {
+    map.setPaintProperty(`${layerId}-fill`, 'fill-extrusion-height', ['get', 'height']);
+    map.setPaintProperty(`${layerId}-fill`, 'fill-extrusion-color', fillColor);
+  } else {
+    // レイヤーが存在しない場合、新しく追加
+    map.addLayer({
+      id: `${layerId}-fill`,
+      type: 'fill-extrusion',
+      source: layerId,
+      paint: {
+        'fill-extrusion-color': fillColor,
+        'fill-extrusion-height': ['get', 'height'],
+        'fill-extrusion-base': 0,
+        'fill-extrusion-opacity': 0.6,
+      },
+    });
+  }
+
+  // Lineレイヤーも同様に処理
+  if (!map.getLayer(`${layerId}-line`)) {
+    map.addLayer({
+      id: `${layerId}-line`,
+      type: 'line',
+      source: layerId,
+      layout: {},
+      paint: {
+        'line-color': '#000',
+        'line-width': 2,
+      },
+    });
+  }
 };
 
 let popup: Popup | null = null;
