@@ -112,33 +112,71 @@ export const addPolygonDataLayer = (map: Map, layerId: string, feature: any, lin
   });
 };
 
-export const addFillExtusionLayer = (map: Map, layerId: string, feature: any, height: number, fillColor: string) => {
+export const addFillExtrusionLayer = (
+  map: mapboxgl.Map,
+  layerId: string,
+  feature: any,
+  height: number,
+  fillColor: string
+) => {
   const polygon: GeoJSON.Feature<GeoJSON.Polygon> = {
     type: 'Feature',
     geometry: {
-      'type': 'Polygon',
-      'coordinates': feature.geometry.coordinates[0],
+      type: 'Polygon',
+      coordinates: feature.geometry.coordinates[0],
     },
     properties: {
-      'height': height * 200,
+      height: height * 200,
     },
   };
 
-  // ソースが既に存在するかチェックし、存在する場合はデータを更新
+  // データキャッシュに保存
+  const dataCache: { [key: string]: GeoJSON.Feature<GeoJSON.Polygon> } = {};
+  dataCache[layerId] = polygon;
+
+  // ソースの追加または更新
   if (map.getSource(layerId)) {
     const source = map.getSource(layerId) as mapboxgl.GeoJSONSource;
     source.setData(polygon);
   } else {
-    // ソースが存在しない場合、新しく追加
     map.addSource(layerId, {
       type: 'geojson',
       data: polygon,
     });
   }
 
-  // レイヤーが既に存在するかチェックし、存在する場合はpaintプロパティを更新
+  const targetHeight = polygon.properties!.height;
+  const duration = 1000; // アニメーションの持続時間（ミリ秒）
+
+  const animateHeight = (currentTime: number, startTime: number, startHeight: number) => {
+    const elapsed = currentTime - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    const newHeight = startHeight + (targetHeight - startHeight) * progress;
+
+    map.setPaintProperty(`${layerId}-fill`, 'fill-extrusion-height', newHeight);
+
+    if (progress < 1) {
+      requestAnimationFrame((time) => animateHeight(time, startTime, startHeight));
+    }
+  };
+
+  // レイヤーが既に存在するかを確認し、存在しない場合は追加
+  let startHeight = 0;
+
   if (map.getLayer(`${layerId}-fill`)) {
-    map.setPaintProperty(`${layerId}-fill`, 'fill-extrusion-height', ['get', 'height']);
+    const currentHeight = map.getPaintProperty(`${layerId}-fill`, 'fill-extrusion-height');
+    if (typeof currentHeight === 'number') {
+      startHeight = currentHeight;
+    } else if (Array.isArray(currentHeight)) {
+      startHeight = currentHeight.length > 0 ? currentHeight[0] : 0;
+    }
+
+    // もし targetHeight が 0 の場合でもアニメーションが正常に動作するように設定
+    if (startHeight !== targetHeight) {
+      requestAnimationFrame((time) => animateHeight(time, time, startHeight));
+    }
+
+    // ここで新しい色も設定します
     map.setPaintProperty(`${layerId}-fill`, 'fill-extrusion-color', fillColor);
   } else {
     // レイヤーが存在しない場合、新しく追加
@@ -148,14 +186,17 @@ export const addFillExtusionLayer = (map: Map, layerId: string, feature: any, he
       source: layerId,
       paint: {
         'fill-extrusion-color': fillColor,
-        'fill-extrusion-height': ['get', 'height'],
+        'fill-extrusion-height': 0, // 初期高さを0に設定
         'fill-extrusion-base': 0,
         'fill-extrusion-opacity': 0.6,
       },
     });
+
+    // 初期高さを0としてアニメーション開始
+    requestAnimationFrame((time) => animateHeight(time, time, 0));
   }
 
-  // Lineレイヤーも同様に処理
+  // Lineレイヤーの追加
   if (!map.getLayer(`${layerId}-line`)) {
     map.addLayer({
       id: `${layerId}-line`,

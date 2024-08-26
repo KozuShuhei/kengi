@@ -3,7 +3,7 @@ import React, { useRef, useState, useEffect } from 'react';
 //import maplibregl, { Map, MapGeoJSONFeature } from 'maplibre-gl';
 import { styled } from '@mui/material/styles';
 import mapboxgl, { Map } from 'mapbox-gl';
-import { addFillExtusionLayer, removeAllLayersAndSources } from './MapUtil';
+import { addFillExtrusionLayer, removeAllLayersAndSources } from './MapUtil';
 import { Slider } from '@mui/material';
 
 const MapBarComponent: React.FC = () => {
@@ -202,19 +202,19 @@ const MapBarComponent: React.FC = () => {
         }
 
         if(height > 80){
-          addFillExtusionLayer(map.current!, layerId, feature, height, '#c7408e')
+          addFillExtrusionLayer(map.current!, layerId, feature, height, '#c7408e')
         } else if(height > 50){
-          addFillExtusionLayer(map.current!, layerId, feature, height, '#ff5e40')
+          addFillExtrusionLayer(map.current!, layerId, feature, height, '#ff5e40')
         } else if(height > 30){
-          addFillExtusionLayer(map.current!, layerId, feature, height, '#ffb340')
+          addFillExtrusionLayer(map.current!, layerId, feature, height, '#ffb340')
         } else if(height > 20){
-          addFillExtusionLayer(map.current!, layerId, feature, height, '#fff840')
+          addFillExtrusionLayer(map.current!, layerId, feature, height, '#fff840')
         } else if(height > 10){
-          addFillExtusionLayer(map.current!, layerId, feature, height, '#4071ff')
+          addFillExtrusionLayer(map.current!, layerId, feature, height, '#4071ff')
         } else if(height > 5){
-          addFillExtusionLayer(map.current!, layerId, feature, height, '#59a9ff')
+          addFillExtrusionLayer(map.current!, layerId, feature, height, '#59a9ff')
         } else if(height !== 0){
-          addFillExtusionLayer(map.current!, layerId, feature, height, '#b8deff')
+          addFillExtrusionLayer(map.current!, layerId, feature, height, '#b8deff')
         }
       }
     });
