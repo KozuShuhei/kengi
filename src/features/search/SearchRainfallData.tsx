@@ -39,6 +39,10 @@ const SearchRainfallData: React.FC<SearchRainfallDataProps> = ({ selectedPlaces,
     navigate('/map');
   };
 
+  const handleMapGraphClick = () => {
+    navigate('/graph');
+  };
+
   return (
     <Container>
       <Row>
@@ -67,7 +71,7 @@ const SearchRainfallData: React.FC<SearchRainfallDataProps> = ({ selectedPlaces,
       <ButtonContents>
         <LeftContents>
           <StyledButton style={{ fontSize: '10px' }} variant="contained" onClick={handleMapButtonClick}>地図で表示</StyledButton>
-          <StyledButton style={{ fontSize: '10px' }} variant="contained">グラフで見る</StyledButton>
+          <StyledButton style={{ fontSize: '10px' }} variant="contained" onClick={handleMapGraphClick}>グラフで見る</StyledButton>
         </LeftContents>
         <RightContents>
           <select style={{width: '80px', height: '30px'}}>
