@@ -1,10 +1,16 @@
-// src/MapComponent.tsx
-import React, { useRef, useState, useEffect } from 'react';
-//import maplibregl, { Map, MapGeoJSONFeature } from 'maplibre-gl';
+
+import React, { useRef, useState, useEffect } from 'react'
 import { styled } from '@mui/material/styles';
 import mapboxgl, { Map } from 'mapbox-gl';
 import { addFillExtrusionLayer, removeAllLayersAndSources } from './MapUtil';
-import { Slider } from '@mui/material';
+import { Slider, Stack } from '@mui/material';
+import triangleImage from './triangle.png';
+import trapezoidImage from './trapezoid.png';
+import { RainObservatoryLegend } from './consts'
+
+import {
+  LegendContents
+} from './style';
 
 const MapBarComponent: React.FC = () => {
   const mapContainer = useRef<HTMLDivElement | null>(null);
@@ -60,14 +66,130 @@ const MapBarComponent: React.FC = () => {
       mapboxgl.accessToken = mapboxToken;
       map.current = new mapboxgl.Map({
         container: mapContainer.current!,
-        style: 'mapbox://styles/shuheikozu/clx8mo1gm01m901rba20pdd6l',
+        style: 'mapbox://styles/shuheikozu/clyy70dzo00a201r5d0bl14bx',
         center: [136.16932, 35.81040],
         zoom: 9.5,
         pitch: 45,
         bearing: -17.6,
       });
 
-      map.current.on('load', () => {
+      map.current.on('load', async () => {
+        try {
+          const response = await fetch('/九頭竜ダム地点_修正.json');
+          if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+          
+          const geojson = await response.json();
+          console.log(geojson.features)
+          map.current!.addSource('geojson-points-main', {
+            type: 'geojson',
+            data: geojson,
+          });
+      
+          map.current!.loadImage(triangleImage, (error, image) => {
+            if (error || !image) return console.error('Failed to load image:', error);
+      
+            map.current!.addImage('custom-marker', image);
+            map.current!.addLayer({
+              id: 'geojson-points-main',
+              type: 'symbol',
+              source: 'geojson-points-main',
+              layout: {
+                'icon-image': 'custom-marker',
+                'icon-size': 0.1,
+              },
+            });
+            let popup: mapboxgl.Popup | null = null;
+
+            map.current!.on('mouseenter', 'geojson-points-main', (e) => {
+              if (e.features && e.features.length > 0) {
+                const feature = e.features[0];
+                const coordinates = feature.geometry.coordinates.slice();
+                const { 観測所名称 } = feature.properties;
+      
+                while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                  coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+                }
+      
+                popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false })
+                  .setLngLat(coordinates)
+                  .setHTML(`<strong>${観測所名称}</strong>`)
+                  .addTo(map.current!);
+              }
+      
+              map.current!.getCanvas().style.cursor = 'pointer';
+            });
+      
+            map.current!.on('mouseleave', 'geojson-points-main', () => {
+              if (popup) {
+                popup.remove();
+                popup = null;
+              }
+      
+              map.current!.getCanvas().style.cursor = '';
+            });
+          });
+        } catch (error) {
+          console.error('エラーです:', error);
+        }
+
+        try {
+          const response = await fetch('/九頭竜治水基準点.json');
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+
+          const geojson = await response.json();
+          map.current!.addSource('geojson-points-water', {
+            type: 'geojson',
+            data: geojson,
+          });
+      
+          map.current!.loadImage(trapezoidImage, (error, image) => {
+            if (error || !image) return console.error('Failed to load image:', error);
+      
+            map.current!.addImage('custom-water', image);
+            map.current!.addLayer({
+              id: 'geojson-points-water',
+              type: 'symbol',
+              source: 'geojson-points-water',
+              layout: {
+                'icon-image': 'custom-water',
+                'icon-size': 0.1,
+              },
+            });
+            let popup: mapboxgl.Popup | null = null;
+  
+            map.current!.on('mouseenter', 'geojson-points-water', (e) => {
+              if (e.features && e.features.length > 0) {
+                const feature = e.features[0];
+                const coordinates = feature.geometry.coordinates.slice();
+                const { 観測所名称 } = feature.properties;
+      
+                while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                  coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+                }
+      
+                popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false })
+                  .setLngLat(coordinates)
+                  .setHTML(`<strong>${観測所名称}</strong>`)
+                  .addTo(map.current!);
+              }
+      
+              map.current!.getCanvas().style.cursor = 'pointer';
+            });
+      
+            map.current!.on('mouseleave', 'geojson-points-water', () => {
+              if (popup) {
+                popup.remove();
+                popup = null;
+              }
+      
+              map.current!.getCanvas().style.cursor = '';
+            });
+          });
+        } catch (error) {
+          console.error('エラーです:', error);
+        }
         updateMapLayers(selectedTime);
       });
     }
@@ -92,94 +214,7 @@ const MapBarComponent: React.FC = () => {
   }
 
   const updateMapLayers = async (time: string) => {
-    if (!map.current!.getSource('geojson-points-main')) {
-      try {
-        const response = await fetch('/九頭竜ダム地点_修正.json');
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const geojson: GeoJSON.FeatureCollection = await response.json();
-  
-        const features = Array.isArray(geojson) ? geojson : geojson.features;
-        const testGeojsonData: GeoJSON.FeatureCollection<GeoJSON.Point> = {
-          type: 'FeatureCollection',
-          features: features.map(data => ({
-            type: 'Feature',
-            geometry: {
-              type: 'Point',
-              coordinates: data.geometry.coordinates,
-            },
-            properties: {
-              amount: data.amount,
-              name: data.name,
-            },
-          })),
-        };
-        
-        map.current!.addSource('geojson-points-main', {
-          type: 'geojson',
-          data: testGeojsonData,
-        });
-        map.current!.addLayer({
-          id: 'geojson-points-main',
-          type: 'circle',
-          source: 'geojson-points-main',
-          paint: {
-            'circle-radius': 6,
-            'circle-color': '#FF5722',
-            'circle-stroke-width': 2,
-            'circle-stroke-color': '#FFFFFF',
-          },
-        });
-      } catch (error) {
-        console.error('エラーです:', error);
-      }
-    }
-
-    if (!map.current!.getSource('geojson-points-water')) {
-      try {
-        const response = await fetch('/九頭竜治水基準点.json');
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const geojson: GeoJSON.FeatureCollection = await response.json();
-
-        const features = Array.isArray(geojson) ? geojson : geojson.features;
-        const testGeojsonData: GeoJSON.FeatureCollection<GeoJSON.Point> = {
-          type: 'FeatureCollection',
-          features: features.map(data => ({
-            type: 'Feature',
-            geometry: {
-              type: 'Point',
-              coordinates: data.geometry.coordinates,
-            },
-            properties: {
-              amount: data.amount,
-              name: data.name,
-            },
-          })),
-        };
-        
-        map.current!.addSource('geojson-points-water', {
-          type: 'geojson',
-          data: testGeojsonData,
-        });
-        map.current!.addLayer({
-          id: 'geojson-points-water',
-          type: 'circle',
-          source: 'geojson-points-water',
-          paint: {
-            'circle-radius': 6,
-            'circle-color': '#000',
-            'circle-stroke-width': 2,
-            'circle-stroke-color': '#FFFFFF',
-          },
-        });
-      } catch (error) {
-        console.error('エラーです:', error);
-      }
-    }
-
+    
     const timeData = precipitationData.find(data => data["時刻"] === time);
     hukaya.forEach((feature: any) => {
       const layerId = `geojson-layer-${feature.properties.ryuuiki_No}`;
@@ -271,7 +306,29 @@ const MapBarComponent: React.FC = () => {
 
   return (
     <div style={{ display: 'flex'}}>
+      <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
       <div ref={mapContainer} style={{ width: '100%', height: '100vh', position: 'relative' }}>
+        <LegendContents>
+          <Stack direction={'column'}>
+            {
+              RainObservatoryLegend.colors !== undefined && RainObservatoryLegend.colors.map((c, index) => {
+                return (
+                  <Stack key={index} height={18} alignItems={'center'}
+                    sx={{
+                      fontSize: 11,
+                      px: 1,
+                      backgroundColor: c.color,
+                      color: '#ffffff',
+                      textShadow: '1px 1px 1px rgba(30, 30, 30, 1), 1px 1px 2px rgba(30, 30, 30, 0.8), -1px 0px 1px rgba(30, 30, 30, 0.6)',
+                      fontWeight: 'bold'
+                    }}>
+                    {c.value}
+                  </Stack>
+                )
+              })
+            }
+          </Stack>
+        </LegendContents>
         <IconContents>
           <TimeSlider onTimeChange={handleTimeChange} />
         </IconContents>

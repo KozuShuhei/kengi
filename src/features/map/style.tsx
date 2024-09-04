@@ -45,6 +45,13 @@ const SelectedText = styled('p')({
   margin: '5px',
 });
 
+const ExplanationText = styled('p')({
+  fontSize: '18px',
+  padding: '10px 10px',
+  alignItems: 'center',
+  margin: 'auto',
+});
+
 const SelectButton = styled(Button)({
   padding: '3px 0',
   border: '1px solid #1188bb',
@@ -158,11 +165,22 @@ const LogoutIcon = styled(Logout)({
   }
 });
 
+const LegendContents = styled('div')({
+  position: 'absolute',
+  top: '50px',
+  right: '50px',
+  zIndex: '1000',
+  display: 'flex',
+  justifyContent: 'space-around',
+  alignItems: 'center',
+});
+
 export {
   LogoImg,
   SelectPlaceName,
   CloseButton,
   SelectedText,
+  ExplanationText,
   SelectButton,
   SearchContents,
   SearchButton,
@@ -173,4 +191,5 @@ export {
   SplitscreenIcon,
   StorageIcon,
   LogoutIcon,
+  LegendContents,
 };

@@ -5,9 +5,12 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MapComponent from './features/map/MapBarComponent';
+import { Legend, ObservatoryType } from './features/map/common'
 import MapRComponent from './features/map/MapBoxRComponent';
 import MapBarComponent from './features/map/MapBarComponent';
-import SelectTable from './features/table/SelectTable'
+import MapBoxGraph from './features/map/MapBoxGraph';
+import MapBoxMeshComponent from './features/map/MapBoxMeshComponent';
+import CesiumMapComponent from './features/cesium/CesiumMapComponent';
 
 const App: React.FC = () => {
   return (
@@ -17,7 +20,9 @@ const App: React.FC = () => {
           <Route path="/" element={<MapRComponent />} />
           {/* <Route path="/map" element={<MapComponent />} /> */}
           <Route path="/map" element={<MapBarComponent />} />
-          <Route path="/List" element={<SelectTable />} />
+          <Route path="/graph" element={<MapBoxGraph />} />
+          <Route path="/mesh" element={<MapBoxMeshComponent />} />
+          <Route path="/cesium" element={<CesiumMapComponent />} />
         </Routes>
       </Router>
     </>

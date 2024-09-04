@@ -16,6 +16,7 @@ import {
   SelectPlaceName,
   CloseButton,
   SelectedText,
+  ExplanationText,
   SelectButton,
   SearchContents,
   SearchButton,
@@ -437,6 +438,7 @@ const MapRasterComponent: React.FC = () => {
 
   return (
     <div style={{ display: 'flex'}}>
+      <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
       <div ref={mapContainer} style={{ width: changeWidth, height: '100vh', position: 'relative' }}>
         <LogoImg src={logo} alt="Logo" />
         {!(openRainfall || openClimateChangePrediction) && selectedPlaces.length > 0 && (
@@ -446,6 +448,11 @@ const MapRasterComponent: React.FC = () => {
               <SelectedText key={index}>{selectedPlace}</SelectedText>
             ))}
             <SelectButton onClick={openConfirmDialog}>決定</SelectButton>
+          </SelectPlaceName>
+        )}
+        {!(openRainfall || openClimateChangePrediction) && selectedPlaces.length == 0 && (
+          <SelectPlaceName>
+            <ExplanationText>調べたい地点をクリックしてください</ExplanationText>
           </SelectPlaceName>
         )}
 
