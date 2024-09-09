@@ -11,6 +11,7 @@ import MapBarComponent from './features/map/MapBarComponent';
 import MapBoxGraph from './features/map/MapBoxGraph';
 import MapBoxMeshComponent from './features/map/MapBoxMeshComponent';
 import CesiumMapComponent from './features/cesium/CesiumMapComponent';
+import CesiumBarComponent from './features/cesium/CesiumBarComponent';
 
 const App: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const App: React.FC = () => {
           <Route path="/graph" element={<MapBoxGraph />} />
           <Route path="/mesh" element={<MapBoxMeshComponent />} />
           <Route path="/cesium" element={<CesiumMapComponent />} />
+          <Route path="/cbar" element={<CesiumBarComponent />} />
         </Routes>
       </Router>
     </>
