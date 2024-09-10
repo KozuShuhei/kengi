@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 //import maplibregl, { Map, MapGeoJSONFeature } from 'maplibre-gl';
 import mapboxgl, { Map } from 'mapbox-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
+import { useNavigate } from 'react-router-dom';
 import SearchRainfallData from '../search/SearchRainfallData';
 import SeachClimateChangePrediction from '../search/SeachClimateChangePrediction';
 import { addPolygonLayer, addPolygonDataLayer, addPopup, removeAllLayersAndSources } from './MapUtil';
@@ -20,6 +21,7 @@ import {
   SelectButton,
   SearchContents,
   SearchButton,
+  TestContents,
   FutureSearchButton,
   IconContents,
   IconWrapper,
@@ -32,6 +34,7 @@ import {
 const MapRasterComponent: React.FC = () => {
   const mapContainer = useRef<HTMLDivElement | null>(null);
   const map = useRef<Map | null>(null);
+  const navigate = useNavigate();
   const [selectedPlaces, setSelectedPlaces] = useState<string[]>([]);
   const [changeWidth, setChangeWidth] = useState<string>('100%');
   const [openRainfall, setopenRainfall] = useState<boolean>(false);
@@ -430,6 +433,14 @@ const MapRasterComponent: React.FC = () => {
     });
   };
 
+  const linkCesium = () => {
+    navigate('/cesium');
+  };
+
+  const linkCesiumBar = () => {
+    navigate('/cbar');
+  };
+
   useEffect(() => {
     if (changeWidth) {
       map.current!.resize();
@@ -520,6 +531,10 @@ const MapRasterComponent: React.FC = () => {
           <SearchButton onClick={handleRainfall}>実績降雨データ検索</SearchButton>
           <FutureSearchButton onClick={handleClimateChangePrediction}>気候変動予測データ検索</FutureSearchButton>
         </SearchContents>
+        <TestContents>
+          <SearchButton onClick={linkCesium}>セシウム</SearchButton>
+          <FutureSearchButton onClick={linkCesiumBar}>セシウムレイヤー</FutureSearchButton>
+        </TestContents>
       </div>
       {openRainfall &&
         <div style={{width: '40%', maxHeight: '100vh'}}>

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Ion, Viewer, Cartesian3, Math as CesiumMath, createOsmBuildingsAsync, createWorldTerrainAsync, buildModuleUrl, Color  } from 'cesium';
+import { Ion, Viewer, Cartesian3, Math as CesiumMath, createOsmBuildingsAsync, createWorldTerrainAsync, buildModuleUrl, Color, ColorMaterialProperty  } from 'cesium';
 import "cesium/Build/Cesium/Widgets/widgets.css";
 
 const CesiumMapComponent: React.FC = () => {
@@ -33,27 +33,40 @@ const CesiumMapComponent: React.FC = () => {
         });
 
         viewer.current.camera.flyTo({
-          destination: Cartesian3.fromDegrees(136.3629244,35.8659201, 10000),
+          destination: Cartesian3.fromDegrees(136.3629244,35.8659201, 1500000),
           orientation: {
             heading: CesiumMath.toRadians(0.0),
-            pitch: CesiumMath.toRadians(-15.0),
+            pitch: CesiumMath.toRadians(-90.0),
           },
         });
 
-        hukaya.forEach(feature => {
-          const coordinates = feature.geometry.coordinates[0][0];
-          const positions = coordinates.map(coord => Cartesian3.fromDegrees(coord[0], coord[1]));
-
-          viewer.current?.entities.add({
-            polygon: {
-              hierarchy: positions,
-              material: Color.GREEN.withAlpha(0.5),
-              outline: true,
-              outlineColor: Color.BLACK,
-            },
+        try {
+          const response = await fetch('/watershed.geojson');
+          
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const geojson: GeoJSON.FeatureCollection = await response.json();
+          
+          const features = Array.isArray(geojson) ? geojson : geojson.features;
+          features.forEach((feature: any) => {
+            const coordinates = feature.geometry.coordinates;
+            console.log(coordinates)
+            console.log(coordinates.flat())
+            const flatCoordinates = coordinates.map((coordArray: any[]) => [coordArray[0], coordArray[1]]).flat();
+            console.log(flatCoordinates)
+            // viewer.current?.entities.add({
+            //   polygon: {
+            //     hierarchy: Cartesian3.fromDegreesArray(flatCoordinates),
+            //     material: new ColorMaterialProperty(Color.fromCssColorString('#3cb371').withAlpha(0.6)),
+            //     outline: true,
+            //     outlineColor: new ColorMaterialProperty(Color.fromCssColorString('#008000').withAlpha(0.6)),
+            //   },
+            // });
           });
-        });
-        //addPolygonLayer(viewer.current!, 'geojson-test1', testCoordinates, '#3cb371', '#008000', 0.4);
+        } catch (error) {
+          console.error('エラーです:', error);
+        }
       }
     };
 

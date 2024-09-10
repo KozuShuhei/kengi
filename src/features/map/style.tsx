@@ -76,6 +76,17 @@ const SearchContents = styled('div')({
   zIndex: '1000',
 });
 
+const TestContents = styled('div')({
+  position: 'absolute',
+  display: 'flex',
+  justifyContent: 'space-around',
+  alignItems: 'center',
+  top: '60px',
+  right: '40px',
+  width: 'auto',
+  zIndex: '1000',
+});
+
 const SearchButton = styled(Button)({
   borderRadius: '5px',
   backgroundColor: 'white',
@@ -184,6 +195,7 @@ export {
   SelectButton,
   SearchContents,
   SearchButton,
+  TestContents,
   FutureSearchButton,
   IconContents,
   IconWrapper,
