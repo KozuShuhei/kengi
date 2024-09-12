@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react'
-import { Ion, Viewer, Cartesian3, Math as CesiumMath, createOsmBuildingsAsync, createWorldTerrainAsync, buildModuleUrl, Color, Entity, ConstantProperty, ColorMaterialProperty } from 'cesium';
+import { Ion, Viewer, Cartesian3, Math as CesiumMath, createOsmBuildingsAsync, createWorldTerrainAsync, buildModuleUrl, Color, Entity, ConstantProperty, ColorMaterialProperty, JulianDate, CallbackProperty } from 'cesium';
 import "cesium/Build/Cesium/Widgets/widgets.css";
 import { animateHeight } from './CesiumUtil';
 import { Slider, Stack } from '@mui/material';
@@ -8,6 +8,7 @@ import { styled } from '@mui/material/styles';
 const CesiumMapComponent: React.FC = () => {
   const cesiumContainer = useRef<HTMLDivElement | null>(null);
   const viewer = useRef<Viewer | null>(null);
+  const entitiesMap = useRef<{ [key: string]: Entity }>({});
 
   const hukaya = [
     { "type": "Feature", "properties": { "ryuuiki_No": "H-1-1" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 136.27653, 35.73707 ], [ 136.27851, 35.74419 ], [ 136.28338, 35.74923 ], [ 136.28999, 35.75421 ], [ 136.29669, 35.75382 ], [ 136.30597, 35.75573 ], [ 136.32009, 35.75561 ], [ 136.32082, 35.75255 ], [ 136.32532, 35.74779 ], [ 136.32661, 35.74208 ], [ 136.32659, 35.73709 ], [ 136.32818, 35.73483 ], [ 136.32686, 35.73091 ], [ 136.32407, 35.72795 ], [ 136.32232, 35.72534 ], [ 136.32202, 35.7232 ], [ 136.32492, 35.7207 ], [ 136.32345, 35.71821 ], [ 136.31894, 35.71763 ], [ 136.31341, 35.71326 ], [ 136.31285, 35.71018 ], [ 136.3116, 35.70707 ], [ 136.31137, 35.70688 ], [ 136.30863, 35.70454 ], [ 136.30672, 35.70376 ], [ 136.30467, 35.70138 ], [ 136.30265, 35.69801 ], [ 136.29949, 35.69585 ], [ 136.29357, 35.69286 ], [ 136.28944, 35.69845 ], [ 136.28644, 35.70483 ], [ 136.2839, 35.70617 ], [ 136.28243, 35.70938 ], [ 136.28068, 35.71362 ], [ 136.27807, 35.71757 ], [ 136.27713, 35.71979 ], [ 136.27841, 35.72578 ], [ 136.27967, 35.72779 ], [ 136.28087, 35.73045 ], [ 136.28085, 35.7334 ], [ 136.27653, 35.73707 ] ] ] ] } },
@@ -49,8 +50,6 @@ const CesiumMapComponent: React.FC = () => {
     {"年月日":"2004\/7\/18","時刻":"22:00","流域全体（深谷上流域）":0.0,"H-1-1":0.0,"H-1-2":0.0,"H-2-1":0.0,"H-2-2":0.0,"H-3":0.0,"H-4-1":0.0,"H-4-2":0.0,"H-5":0.0,"H-6":0.0,"H-7-1":0.0,"H-7-2":0.0}
   ];
 
-  const entitiesMap: { [key: string]: Entity } = {}; // 流域番号ごとのエンティティを保持
-
   useEffect(() => {
     Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkYThiN2MwYS04ODQyLTRiYjgtYmM5MS04ODU5ZDU4ZTUxNzEiLCJpZCI6MjM3Njg1LCJpYXQiOjE3MjU0MTg1MTl9.v1aYNfrpXuFzyo1D_5MUAA6Xq3OKIWGeQ5SObK1gloc';
     window.CESIUM_BASE_URL = '/Cesium/';
@@ -70,14 +69,12 @@ const CesiumMapComponent: React.FC = () => {
           },
         });
 
-        updateMapLayers('0:00')
-        console.log(entitiesMap)
+        updateMapLayers('0:00');
       }
     };
 
     initializeViewer();
 
-    // コンポーネントがアンマウントされるときにViewerを破棄
     return () => {
       if (viewer.current) {
         viewer.current.destroy();
@@ -86,157 +83,80 @@ const CesiumMapComponent: React.FC = () => {
     };
   }, []);
 
-  interface PrecipitationData {
-    年月日: string;
-    時刻: string;
-    "流域全体（深谷上流域）": number;
-    "H-1-1": number;
-    "H-1-2": number;
-    "H-2-1": number;
-    "H-2-2": number;
-    "H-3": number;
-    "H-4-1": number;
-    "H-4-2": number;
-    "H-5": number;
-    "H-6": number;
-    "H-7-1": number;
-    "H-7-2": number;
-  }
   const updateMapLayers = (time: string) => {
     const timeData = precipitationData.find(data => data["時刻"] === time);
     if (!timeData) return;
-  
-    hukaya.forEach(feature => {
-      const ryuuikiNoKey = feature.properties.ryuuiki_No as keyof PrecipitationData;
-      const height = timeData[ryuuikiNoKey] as number;
-      
-      if (height !== null && height !== undefined) {
-        const entity = entitiesMap[ryuuikiNoKey];
-        if (entity) {
-          // 高さを再設定
-          entity.polygon!.extrudedHeight = new ConstantProperty(height * 200);
-  
-          // 高さに応じて色を変更
-          if (height > 80) {
-            entity.polygon!.material = new ColorMaterialProperty(Color.fromCssColorString('#c7408e').withAlpha(0.6));
-          } else if (height > 50) {
-            entity.polygon!.material = new ColorMaterialProperty(Color.fromCssColorString('#ff5e40').withAlpha(0.6));
-          } else if (height > 30) {
-            entity.polygon!.material = new ColorMaterialProperty(Color.fromCssColorString('#ffb340').withAlpha(0.6));
-          } else if (height > 20) {
-            entity.polygon!.material = new ColorMaterialProperty(Color.fromCssColorString('#fff840').withAlpha(0.6));
-          } else if (height > 10) {
-            entity.polygon!.material = new ColorMaterialProperty(Color.fromCssColorString('#4071ff').withAlpha(0.6));
-          } else if (height > 5) {
-            entity.polygon!.material = new ColorMaterialProperty(Color.fromCssColorString('#59a9ff').withAlpha(0.6));
-          } else {
-            entity.polygon!.material = new ColorMaterialProperty(Color.fromCssColorString('#b8deff').withAlpha(0.6));
-          }
-        } else {
-          type RyuuikiNo = "H-1-1" | "H-1-2" | "H-2-1" | "H-2-2" | "H-3" | "H-4-1" | "H-4-2" | "H-5" | "H-6" | "H-7-1" | "H-7-2";
 
-          const ryuuikiNo = feature.properties.ryuuiki_No as RyuuikiNo;
-          // GeoJSONの座標を取得
-          const coordinates = feature.geometry.coordinates;
-          
-          if (height > 80) {
-            const entity = viewer.current!.entities.add({
-              polygon: {
-                hierarchy: Cartesian3.fromDegreesArray(coordinates[0][0].map(coord => [coord[0], coord[1]]).flat()),
-                extrudedHeight: 0,
-                material: new ColorMaterialProperty(Color.fromCssColorString('#c7408e').withAlpha(0.6)),
-                // outline: true,
-                // outlineColor: Color.BLACK
-              }
-            });
-            entitiesMap[ryuuikiNo] = entity;
-          } else if (height > 50) {
-            const entity = viewer.current!.entities.add({
-              polygon: {
-                hierarchy: Cartesian3.fromDegreesArray(coordinates[0][0].map(coord => [coord[0], coord[1]]).flat()),
-                extrudedHeight: 0,
-                material: new ColorMaterialProperty(Color.fromCssColorString('#ff5e40').withAlpha(0.6)),
-                // outline: true,
-                // outlineColor: Color.BLACK
-              }
-            });
-            entitiesMap[ryuuikiNo] = entity;
-          } else if (height > 30) {
-            const entity = viewer.current!.entities.add({
-              polygon: {
-                hierarchy: Cartesian3.fromDegreesArray(coordinates[0][0].map(coord => [coord[0], coord[1]]).flat()),
-                extrudedHeight: 0,
-                material: new ColorMaterialProperty(Color.fromCssColorString('#ffb340').withAlpha(0.6)),
-                // outline: true,
-                // outlineColor: Color.BLACK
-              }
-            });
-            entitiesMap[ryuuikiNo] = entity;
-          } else if (height > 20) {
-            const entity = viewer.current!.entities.add({
-              polygon: {
-                hierarchy: Cartesian3.fromDegreesArray(coordinates[0][0].map(coord => [coord[0], coord[1]]).flat()),
-                extrudedHeight: 0,
-                material: new ColorMaterialProperty(Color.fromCssColorString('#fff840').withAlpha(0.6)),
-                // outline: true,
-                // outlineColor: Color.BLACK
-              }
-            });
-            entitiesMap[ryuuikiNo] = entity;
-          } else if (height > 10) {
-            const entity = viewer.current!.entities.add({
-              polygon: {
-                hierarchy: Cartesian3.fromDegreesArray(coordinates[0][0].map(coord => [coord[0], coord[1]]).flat()),
-                extrudedHeight: 0,
-                material: new ColorMaterialProperty(Color.fromCssColorString('#4071ff').withAlpha(0.6)),
-                // outline: true,
-                // outlineColor: Color.BLACK
-              }
-            });
-            entitiesMap[ryuuikiNo] = entity;
-          } else if (height > 5) {
-            const entity = viewer.current!.entities.add({
-              polygon: {
-                hierarchy: Cartesian3.fromDegreesArray(coordinates[0][0].map(coord => [coord[0], coord[1]]).flat()),
-                extrudedHeight: 0,
-                material: new ColorMaterialProperty(Color.fromCssColorString('#59a9ff').withAlpha(0.6)),
-                // outline: true,
-                // outlineColor: Color.BLACK
-              }
-            });
-            entitiesMap[ryuuikiNo] = entity;
-          } else {
-            const entity = viewer.current!.entities.add({
-              polygon: {
-                hierarchy: Cartesian3.fromDegreesArray(coordinates[0][0].map(coord => [coord[0], coord[1]]).flat()),
-                extrudedHeight: 0,
-                material: new ColorMaterialProperty(Color.fromCssColorString('#b8deff').withAlpha(0.6)),
-                // outline: true,
-                // outlineColor: Color.BLACK
-              }
-            });
-            entitiesMap[ryuuikiNo] = entity;
-          }
+    hukaya.forEach(feature => {
+      const ryuuikiNo = feature.properties.ryuuiki_No;
+      const height = timeData[ryuuikiNo as keyof typeof timeData] as number;
+      const newHeight = height * 200;
+
+      if (height !== null && height !== undefined) {
+        const entity = entitiesMap.current[ryuuikiNo];
+        if (entity) {
+          setEntityProperties(entity, height, newHeight);
+        } else {
+          createNewEntity(feature, height, newHeight, ryuuikiNo);
         }
       }
     });
-  };  
+  };
+
+  const setEntityProperties = (entity: Entity, height: number, newHeight: number) => {
+    const material = getColorByHeight(height);
+  
+    // 現在の高さを取得し、アニメーションさせる
+    const startHeight = entity.polygon?.extrudedHeight?.getValue(JulianDate.now()) as number || 0;
+    const duration = 1000; // 1秒間のアニメーション
+    const startTime = performance.now();
+  
+    if(entity.polygon) {
+      entity.polygon.material = new ColorMaterialProperty(material);
+    
+      entity.polygon.extrudedHeight = new CallbackProperty(() => {
+        const elapsed = performance.now() - startTime;
+        const t = Math.min(elapsed / duration, 1); // 経過時間に基づく進行割合を計算
+        const interpolatedHeight = CesiumMath.lerp(startHeight, newHeight, t); // 線形補間
+        return t < 1 ? interpolatedHeight : newHeight; // 終了時にはnewHeightに設定
+      }, false);
+    }
+  };
+  
+
+  const createNewEntity = (feature: any, height: number, newHeight: number, ryuuikiNo: string) => {
+    const coordinates = feature.geometry.coordinates;
+    const entity = viewer.current!.entities.add({
+      polygon: {
+        hierarchy: Cartesian3.fromDegreesArray(coordinates[0][0].map((coord: any) => [coord[0], coord[1]]).flat()),
+        extrudedHeight: newHeight, 
+        material: new ColorMaterialProperty(getColorByHeight(height)),
+      }
+    });
+    entitiesMap.current[ryuuikiNo] = entity;
+  };
+
+  const getColorByHeight = (height: number) => {
+    // 高さに基づいて色を決定
+    if (height > 80) return Color.fromCssColorString('#c7408e').withAlpha(0.6);
+    if (height > 50) return Color.fromCssColorString('#ff5e40').withAlpha(0.6);
+    if (height > 30) return Color.fromCssColorString('#ffb340').withAlpha(0.6);
+    if (height > 20) return Color.fromCssColorString('#fff840').withAlpha(0.6);
+    if (height > 10) return Color.fromCssColorString('#4071ff').withAlpha(0.6);
+    if (height > 5) return Color.fromCssColorString('#59a9ff').withAlpha(0.6);
+    return Color.fromCssColorString('#b8deff').withAlpha(0.6);
+  };
 
   const TimeSlider = ({ onTimeChange }: { onTimeChange: (time: string) => void }) => {
     const [time, setTime] = useState(0);
-  
+
     const handleSliderChange = (event: any, newValue: number | number[]) => {
-      const Time = `${Math.floor(newValue as number)}:00`
+      const formattedTime = `${Math.floor(newValue as number)}:00`;
       setTime(newValue as number);
-      const formattedTime = formatTime(newValue as number);
-      onTimeChange(Time);
-      updateMapLayers(formattedTime)
+      onTimeChange(formattedTime);
+      updateMapLayers(formattedTime);
     };
-  
-    const formatTime = (value: number) => {
-      return `${Math.floor(value)}:00`;
-    };
-  
+
     return (
       <Slider
         value={time}
@@ -245,7 +165,7 @@ const CesiumMapComponent: React.FC = () => {
         step={1}
         marks
         valueLabelDisplay="auto"
-        valueLabelFormat={formatTime}
+        valueLabelFormat={(value) => `${value}:00`}
         onChange={handleSliderChange}
       />
     );
@@ -265,13 +185,13 @@ const CesiumMapComponent: React.FC = () => {
     borderRadius: '10px',
     padding: '10px',
     border: '1px solid gray',
-    zIndex: '1000',
+    zIndex: '5000',
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
   });
 
-  return(
+  return (
     <>
       <div ref={cesiumContainer} style={{ width: '100%', height: '100vh' }}>
         <IconContents>
@@ -279,7 +199,7 @@ const CesiumMapComponent: React.FC = () => {
         </IconContents>
       </div>
     </>
-  )
+  );
 };
 
 export default CesiumMapComponent;
