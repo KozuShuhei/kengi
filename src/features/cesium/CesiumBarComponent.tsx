@@ -1,14 +1,22 @@
 import React, { useRef, useState, useEffect } from 'react'
-import { Ion, Viewer, Cartesian3, Math as CesiumMath, createOsmBuildingsAsync, createWorldTerrainAsync, buildModuleUrl, Color, Entity, ConstantProperty, ColorMaterialProperty, JulianDate, CallbackProperty } from 'cesium';
+import { Ion, Viewer, Cartesian3, Math as CesiumMath, createWorldTerrainAsync, Color, Entity, ColorMaterialProperty, JulianDate, CallbackProperty } from 'cesium';
 import "cesium/Build/Cesium/Widgets/widgets.css";
-import { animateHeight } from './CesiumUtil';
-import { Slider, Stack } from '@mui/material';
+import { Slider, IconButton  } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import StopIcon from '@mui/icons-material/Stop';
+import logo from '../map/logo.png'
+import { useNavigate } from 'react-router-dom';
+
+import {
+  LogoImg,
+} from '../map/style';
 
 const CesiumMapComponent: React.FC = () => {
   const cesiumContainer = useRef<HTMLDivElement | null>(null);
   const viewer = useRef<Viewer | null>(null);
   const entitiesMap = useRef<{ [key: string]: Entity }>({});
+  const navigate = useNavigate();
 
   const hukaya = [
     { "type": "Feature", "properties": { "ryuuiki_No": "H-1-1" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 136.27653, 35.73707 ], [ 136.27851, 35.74419 ], [ 136.28338, 35.74923 ], [ 136.28999, 35.75421 ], [ 136.29669, 35.75382 ], [ 136.30597, 35.75573 ], [ 136.32009, 35.75561 ], [ 136.32082, 35.75255 ], [ 136.32532, 35.74779 ], [ 136.32661, 35.74208 ], [ 136.32659, 35.73709 ], [ 136.32818, 35.73483 ], [ 136.32686, 35.73091 ], [ 136.32407, 35.72795 ], [ 136.32232, 35.72534 ], [ 136.32202, 35.7232 ], [ 136.32492, 35.7207 ], [ 136.32345, 35.71821 ], [ 136.31894, 35.71763 ], [ 136.31341, 35.71326 ], [ 136.31285, 35.71018 ], [ 136.3116, 35.70707 ], [ 136.31137, 35.70688 ], [ 136.30863, 35.70454 ], [ 136.30672, 35.70376 ], [ 136.30467, 35.70138 ], [ 136.30265, 35.69801 ], [ 136.29949, 35.69585 ], [ 136.29357, 35.69286 ], [ 136.28944, 35.69845 ], [ 136.28644, 35.70483 ], [ 136.2839, 35.70617 ], [ 136.28243, 35.70938 ], [ 136.28068, 35.71362 ], [ 136.27807, 35.71757 ], [ 136.27713, 35.71979 ], [ 136.27841, 35.72578 ], [ 136.27967, 35.72779 ], [ 136.28087, 35.73045 ], [ 136.28085, 35.7334 ], [ 136.27653, 35.73707 ] ] ] ] } },
@@ -59,6 +67,8 @@ const CesiumMapComponent: React.FC = () => {
         const terrainProvider = await createWorldTerrainAsync();
         viewer.current = new Viewer(cesiumContainer.current, {
           terrainProvider,
+          animation: false,
+          timeline: false,
         });
 
         viewer.current.camera.flyTo({
@@ -108,7 +118,7 @@ const CesiumMapComponent: React.FC = () => {
   
     // 現在の高さを取得し、アニメーションさせる
     const startHeight = entity.polygon?.extrudedHeight?.getValue(JulianDate.now()) as number || 0;
-    const duration = 1000; // 1秒間のアニメーション
+    const duration = 1000;
     const startTime = performance.now();
   
     if(entity.polygon) {
@@ -116,9 +126,9 @@ const CesiumMapComponent: React.FC = () => {
     
       entity.polygon.extrudedHeight = new CallbackProperty(() => {
         const elapsed = performance.now() - startTime;
-        const t = Math.min(elapsed / duration, 1); // 経過時間に基づく進行割合を計算
-        const interpolatedHeight = CesiumMath.lerp(startHeight, newHeight, t); // 線形補間
-        return t < 1 ? interpolatedHeight : newHeight; // 終了時にはnewHeightに設定
+        const t = Math.min(elapsed / duration, 1);
+        const interpolatedHeight = CesiumMath.lerp(startHeight, newHeight, t);
+        return t < 1 ? interpolatedHeight : newHeight;
       }, false);
     }
   };
@@ -126,6 +136,7 @@ const CesiumMapComponent: React.FC = () => {
 
   const createNewEntity = (feature: any, height: number, newHeight: number, ryuuikiNo: string) => {
     const coordinates = feature.geometry.coordinates;
+    console.log(coordinates)
     const entity = viewer.current!.entities.add({
       polygon: {
         hierarchy: Cartesian3.fromDegreesArray(coordinates[0][0].map((coord: any) => [coord[0], coord[1]]).flat()),
@@ -147,29 +158,68 @@ const CesiumMapComponent: React.FC = () => {
     return Color.fromCssColorString('#b8deff').withAlpha(0.6);
   };
 
-  const TimeSlider = ({ onTimeChange }: { onTimeChange: (time: string) => void }) => {
+  interface TimeSliderProps {
+    onTimeChange: (time: string) => void;
+  }
+  const TimeSlider = ({ onTimeChange }: TimeSliderProps) => {
     const [time, setTime] = useState(0);
-
+    const [isPlay, setIsPlay] = useState(false);
+  
     const handleSliderChange = (event: any, newValue: number | number[]) => {
       const formattedTime = `${Math.floor(newValue as number)}:00`;
       setTime(newValue as number);
       onTimeChange(formattedTime);
       updateMapLayers(formattedTime);
     };
+  
+    useEffect(() => {
+      let interval: NodeJS.Timeout | null = null;
+  
+      if (isPlay) {
+        interval = setInterval(() => {
+          setTime((prevTime) => {
+            const newTime = prevTime < 23 ? prevTime + 1 : 0;
+            const formattedTime = `${newTime}:00`;
+            onTimeChange(formattedTime);
+            updateMapLayers(formattedTime);
+            return newTime;
+          });
+        }, 2000);
+      }
+  
+      return () => {
+        if (interval) clearInterval(interval);
+      };
+    }, [isPlay, onTimeChange]);
+
+    const togglePlay = () => {
+      setIsPlay(!isPlay);
+    };
 
     return (
-      <Slider
-        value={time}
-        min={0}
-        max={23}
-        step={1}
-        marks
-        valueLabelDisplay="auto"
-        valueLabelFormat={(value) => `${value}:00`}
-        onChange={handleSliderChange}
-      />
+      <>
+        <IconButton onClick={togglePlay}>
+          {!isPlay ? <PlayArrowIcon /> : <StopIcon />}
+        </IconButton>
+        <div style={{ width: '90%'}}>
+          <Slider
+            value={time}
+            min={0}
+            max={23}
+            step={1}
+            marks
+            valueLabelDisplay="on"
+            valueLabelFormat={(value) => `${value}:00`}
+            onChange={handleSliderChange}
+          />
+        </div>
+      </>
     );
   };
+
+  const homeLink = () => {
+    navigate('/')
+  }
 
   const handleTimeChange = (time: string) => {
     console.log("Selected Time: ", time);
@@ -194,6 +244,7 @@ const CesiumMapComponent: React.FC = () => {
   return (
     <>
       <div ref={cesiumContainer} style={{ width: '100%', height: '100vh' }}>
+      <LogoImg src={logo} alt="Logo" onClick={homeLink}/>
         <IconContents>
           <TimeSlider onTimeChange={handleTimeChange} />
         </IconContents>

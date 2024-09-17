@@ -1,4 +1,3 @@
-// src\features\search\SearchRainfallData.tsx
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Typography from '@mui/material/Typography';
@@ -6,13 +5,15 @@ import { MenuItem, Checkbox, FormControlLabel, SelectChangeEvent } from '@mui/ma
 import OrderList from '../Ecommerce/Orders/OrderList/index.js'
 import Pulldown from '../pulldown/Pulldown'
 import SelectTable from './../table/SelectTable'
+import CloseIcon from '@mui/icons-material/Close';
+
 import {
   Container,
   TextContainer,
   Row,
   CustomText,
   CustomTitle,
-  StyledCancel,
+  CancelContainer,
   StyledButton,
   StyledSelect,
   StyledTextField,
@@ -48,17 +49,45 @@ const SearchRainfallData: React.FC<SearchRainfallDataProps> = ({ selectedPlaces,
       <Row>
         <h4>実績降雨データ検索</h4>
       </Row>
-      <StyledCancel onClick={closeRainfall} />
+      <CancelContainer onClick={closeRainfall}>
+        <CloseIcon />
+      </CancelContainer>
       <Row>
-        {selectedPlaces.map((selectedPlace, index) => (
-          <CustomText key={index}>{selectedPlace}</CustomText>
-        ))}
+        {selectedPlaces[0]}
       </Row>
 
-      <Row>
-        <CustomTitle>水系詳細選択</CustomTitle>
-        <Pulldown />
-      </Row>
+      <ButtonContents>
+        {
+          selectedPlaces.length < 2 ? (
+            <>
+              <CustomTitle>水系選択</CustomTitle>
+              <Pulldown selectItems={['集水域','氾濫域']} />
+            </>
+          ) : (
+            <CustomTitle>{selectedPlaces[1]}</CustomTitle>
+          )
+        }
+        {
+          selectedPlaces.length < 3 ? (
+            <>
+              <CustomTitle>水系選択</CustomTitle>
+              <Pulldown selectItems={['集水域','氾濫域']} />
+            </>
+          ) : (
+            <CustomTitle>{selectedPlaces[2]}</CustomTitle>
+          )
+        }
+        {
+          selectedPlaces.length < 4 ? (
+            <>
+              <CustomTitle>水系選択</CustomTitle>
+              <Pulldown selectItems={['集水域','氾濫域']} />
+            </>
+          ) : (
+            <CustomTitle>{selectedPlaces[3]}</CustomTitle>
+          )
+        }
+      </ButtonContents>
       <Row>
         <StyledTextField type="date" />
         <CustomTitle>〜</CustomTitle>

@@ -5,10 +5,18 @@ import { styled } from '@mui/material/styles';
 import mapboxgl, { Map } from 'mapbox-gl';
 import { addFillExtrusionLayer, addPolygonDataLayer, removeAllLayersAndSources } from './MapUtil';
 import { Slider } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
+import logo from './logo.png'
+
+import {
+  LogoImg,
+  LegendContents
+} from './style';
 
 const MapBarComponent: React.FC = () => {
   const mapContainer = useRef<HTMLDivElement | null>(null);
   const map = useRef<Map | null>(null);
+  const navigate = useNavigate();
   const [selectedTime, setSelectedTime] = useState<string>("900");
   const mapboxToken = 'pk.eyJ1Ijoic2h1aGVpa296dSIsImEiOiJjbHd5ZWFsNTgxYXFsMmpzYWdyZDlzbnp3In0.IOnweJMuRgEiaqfO47TeWw';
 
@@ -110,6 +118,10 @@ const MapBarComponent: React.FC = () => {
     );
   };
 
+  const homeLink = () => {
+    navigate('/')
+  }
+
   const handleTimeChange = (time: string) => {
     console.log("Selected Time: ", time);
   };
@@ -134,6 +146,7 @@ const MapBarComponent: React.FC = () => {
     <div style={{ display: 'flex'}}>
       <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
       <div ref={mapContainer} style={{ width: '100%', height: '100vh', position: 'relative' }}>
+      <LogoImg src={logo} alt="Logo" onClick={homeLink}/>
         <IconContents>
           <TimeSlider onTimeChange={handleTimeChange} />
         </IconContents>

@@ -1,10 +1,10 @@
 // src/components/style.tsx
 import { styled } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
-import CloseIcon from '@mui/icons-material/Close';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import Select from '@mui/material/Select';
+import IconButton from '@mui/material/IconButton';
 
 const Container = styled('div')({
   display: 'flex',
@@ -42,8 +42,7 @@ const CustomText = styled(Typography)({
 });
 
 const CustomTitle = styled(Typography)({
-  fontSize: '14px',
-  left: '10px',
+  fontSize: '10px',
 });
 
 const Column = styled('div')({
@@ -52,9 +51,9 @@ const Column = styled('div')({
   alignItems: 'center',
 });
 
-const StyledCancel = styled(CloseIcon)({
+const CancelContainer = styled(IconButton)({
   marginLeft: 'auto',
-  marginTop: '-50px',
+  marginTop: '-60px',
   marginRight: '20px',
 });
 
@@ -103,7 +102,7 @@ export {
   CustomText,
   CustomTitle,
   Column,
-  StyledCancel,
+  CancelContainer,
   StyledButton,
   StyledSelect,
   StyledTextField,

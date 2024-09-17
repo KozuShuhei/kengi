@@ -2,13 +2,13 @@ import React, { useRef, useState, useEffect } from 'react';
 //import maplibregl, { Map, MapGeoJSONFeature } from 'maplibre-gl';
 import mapboxgl, { Map } from 'mapbox-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { useNavigate } from 'react-router-dom';
 import SearchRainfallData from '../search/SearchRainfallData';
 import SeachClimateChangePrediction from '../search/SeachClimateChangePrediction';
 import { addPolygonLayer, addPolygonDataLayer, addPopup, removeAllLayersAndSources } from './MapUtil';
 import rivClass from './rivClass1.geojson';
 import hanran_067 from './hanran_067.geojson';
 import karyu from './小流域ダム下流域.geojson';
+import { useNavigate } from 'react-router-dom';
 import logo from './logo.png'
 import { Button, Dialog, DialogActions, DialogContent, FormControlLabel, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Paper, Stack, Typography } from '@mui/material'
 
@@ -441,6 +441,14 @@ const MapRasterComponent: React.FC = () => {
     navigate('/cbar');
   };
 
+  const linkMesh = () => {
+    navigate('/mesh')
+  }
+
+  const homeLink = () => {
+    navigate('/')
+  }
+
   useEffect(() => {
     if (changeWidth) {
       map.current!.resize();
@@ -451,7 +459,7 @@ const MapRasterComponent: React.FC = () => {
     <div style={{ display: 'flex'}}>
       <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
       <div ref={mapContainer} style={{ width: changeWidth, height: '100vh', position: 'relative' }}>
-        <LogoImg src={logo} alt="Logo" />
+        <LogoImg src={logo} alt="Logo" onClick={homeLink}/>
         {!(openRainfall || openClimateChangePrediction) && selectedPlaces.length > 0 && (
           <SelectPlaceName>
             <CloseButton onClick={clearSelection}>×</CloseButton>
@@ -532,6 +540,7 @@ const MapRasterComponent: React.FC = () => {
           <FutureSearchButton onClick={handleClimateChangePrediction}>気候変動予測データ検索</FutureSearchButton>
         </SearchContents>
         <TestContents>
+          <SearchButton onClick={linkMesh}>メッシュデータ</SearchButton>
           <SearchButton onClick={linkCesium}>セシウム</SearchButton>
           <FutureSearchButton onClick={linkCesiumBar}>セシウムレイヤー</FutureSearchButton>
         </TestContents>

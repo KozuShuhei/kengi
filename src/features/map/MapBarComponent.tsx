@@ -7,14 +7,18 @@ import { Slider, Stack } from '@mui/material';
 import triangleImage from './triangle.png';
 import trapezoidImage from './trapezoid.png';
 import { RainObservatoryLegend } from './consts'
+import { useNavigate } from 'react-router-dom';
+import logo from './logo.png'
 
 import {
+  LogoImg,
   LegendContents
 } from './style';
 
 const MapBarComponent: React.FC = () => {
   const mapContainer = useRef<HTMLDivElement | null>(null);
   const map = useRef<Map | null>(null);
+  const navigate = useNavigate();
   const [selectedTime, setSelectedTime] = useState<string>("0:00");
   const mapboxToken = 'pk.eyJ1Ijoic2h1aGVpa296dSIsImEiOiJjbHd5ZWFsNTgxYXFsMmpzYWdyZDlzbnp3In0.IOnweJMuRgEiaqfO47TeWw';
 
@@ -85,7 +89,7 @@ const MapBarComponent: React.FC = () => {
             data: geojson,
           });
       
-          map.current!.loadImage(triangleImage, (error, image) => {
+          map.current!.loadImage(trapezoidImage, (error, image) => {
             if (error || !image) return console.error('Failed to load image:', error);
       
             map.current!.addImage('custom-marker', image);
@@ -95,7 +99,7 @@ const MapBarComponent: React.FC = () => {
               source: 'geojson-points-main',
               layout: {
                 'icon-image': 'custom-marker',
-                'icon-size': 0.1,
+                'icon-size': 0.05,
               },
             });
             let popup: mapboxgl.Popup | null = null;
@@ -144,7 +148,7 @@ const MapBarComponent: React.FC = () => {
             data: geojson,
           });
       
-          map.current!.loadImage(trapezoidImage, (error, image) => {
+          map.current!.loadImage(triangleImage, (error, image) => {
             if (error || !image) return console.error('Failed to load image:', error);
       
             map.current!.addImage('custom-water', image);
@@ -154,7 +158,7 @@ const MapBarComponent: React.FC = () => {
               source: 'geojson-points-water',
               layout: {
                 'icon-image': 'custom-water',
-                'icon-size': 0.1,
+                'icon-size': 0.05,
               },
             });
             let popup: mapboxgl.Popup | null = null;
@@ -288,6 +292,10 @@ const MapBarComponent: React.FC = () => {
     console.log("Selected Time: ", time);
   };
 
+  const homeLink = () => {
+    navigate('/')
+  }
+
   const IconContents = styled('div')({
     position: 'absolute',
     bottom: '50px',
@@ -308,6 +316,7 @@ const MapBarComponent: React.FC = () => {
     <div style={{ display: 'flex'}}>
       <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
       <div ref={mapContainer} style={{ width: '100%', height: '100vh', position: 'relative' }}>
+      <LogoImg src={logo} alt="Logo" onClick={homeLink}/>
         <LegendContents>
           <Stack direction={'column'}>
             {

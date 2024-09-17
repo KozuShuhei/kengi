@@ -7,11 +7,13 @@ import OrderList from '../Ecommerce/Orders/OrderList/index.js'
 import Pulldown from '../pulldown/Pulldown'
 import SeachClimateChangePredictionPullDown from '../pulldown/SeachClimateChangePredictionPullDown'
 import SelectTable from './../table/SelectTable'
+import CloseIcon from '@mui/icons-material/Close';
+
 import {
   Container,
   Row,
   CustomText,
-  StyledCancel,
+  CancelContainer,
   StyledButton,
   StyledSelect,
   StyledTextField,
@@ -47,7 +49,9 @@ const SearchRainfallData: React.FC<SearchRainfallDataProps> = ({ selectedPlaces,
       <Row>
         <h4>気候変動予測データ検索</h4>
       </Row>
-      <StyledCancel onClick={closeClimateChangePrediction} />
+      <CancelContainer onClick={closeClimateChangePrediction}>
+        <CloseIcon />
+      </CancelContainer>
       <Row>
         <CustomText>
           {selectedPlaces}
@@ -56,7 +60,7 @@ const SearchRainfallData: React.FC<SearchRainfallDataProps> = ({ selectedPlaces,
 
       <Row>
         <CustomText>水系詳細選択</CustomText>
-        <Pulldown />
+        <Pulldown selectItems={[]} />
       </Row>
       <Row>
         <CustomText>気候変動データ選択</CustomText>

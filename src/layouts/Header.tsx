@@ -16,7 +16,6 @@ const Header: React.FC = () => {
           <option>選択肢のサンプル2</option>
           <option>選択肢のサンプル3</option>
         </CustomSelect> */}
-        <Pulldown />
       </ElementContents>
     </CustomHeader>
   );
