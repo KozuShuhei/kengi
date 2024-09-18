@@ -209,6 +209,31 @@ export const addFillExtrusionLayer = (
       },
     });
   }
+
+  // ポップアップの準備
+  const popup = new mapboxgl.Popup({
+    closeButton: false,
+    closeOnClick: false,
+  });
+
+  // ホバーイベントの追加
+  map.on('mouseenter', `${layerId}-fill`, (e) => {
+    map.getCanvas().style.cursor = 'pointer';
+
+    const coordinates = e.lngLat;
+
+    // 引数の height を表示する
+    popup
+      .setLngLat(coordinates)
+      .setHTML(`<strong>降雨量：</strong> ${height}mm`)
+      .addTo(map);
+  });
+
+  // ホバー解除時の処理
+  map.on('mouseleave', `${layerId}-fill`, () => {
+    map.getCanvas().style.cursor = '';
+    popup.remove(); // ポップアップを削除
+  });
 };
 
 let popup: Popup | null = null;

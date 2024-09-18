@@ -37,7 +37,7 @@ const SearchRainfallData: React.FC<SearchRainfallDataProps> = ({ selectedPlaces,
   };
 
   const handleMapButtonClick = () => {
-    navigate('/map');
+    navigate('/mesh');
   };
 
   const handleMapGraphClick = () => {
