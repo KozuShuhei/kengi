@@ -316,7 +316,7 @@ const MapBarComponent: React.FC = () => {
     <div style={{ display: 'flex'}}>
       <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
       <div ref={mapContainer} style={{ width: '100%', height: '100vh', position: 'relative' }}>
-      <LogoImg src={logo} alt="Logo" onClick={homeLink}/>
+        <LogoImg src={logo} alt="Logo" onClick={homeLink}/>
         <LegendContents>
           <Stack direction={'column'}>
             {

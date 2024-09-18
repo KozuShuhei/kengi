@@ -4,8 +4,9 @@ import React, { useRef, useState, useEffect } from 'react';
 import { styled } from '@mui/material/styles';
 import mapboxgl, { Map } from 'mapbox-gl';
 import { addFillExtrusionLayer, addPolygonDataLayer, removeAllLayersAndSources } from './MapUtil';
-import { Slider } from '@mui/material';
+import { Slider, Stack } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
+import { RainObservatoryLegend } from './consts'
 import logo from './logo.png'
 
 import {
@@ -146,7 +147,28 @@ const MapBarComponent: React.FC = () => {
     <div style={{ display: 'flex'}}>
       <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
       <div ref={mapContainer} style={{ width: '100%', height: '100vh', position: 'relative' }}>
-      <LogoImg src={logo} alt="Logo" onClick={homeLink}/>
+        <LogoImg src={logo} alt="Logo" onClick={homeLink}/>
+        <LegendContents>
+          <Stack direction={'column'}>
+            {
+              RainObservatoryLegend.colors !== undefined && RainObservatoryLegend.colors.map((c, index) => {
+                return (
+                  <Stack key={index} height={18} alignItems={'center'}
+                    sx={{
+                      fontSize: 11,
+                      px: 1,
+                      backgroundColor: c.color,
+                      color: '#ffffff',
+                      textShadow: '1px 1px 1px rgba(30, 30, 30, 1), 1px 1px 2px rgba(30, 30, 30, 0.8), -1px 0px 1px rgba(30, 30, 30, 0.6)',
+                      fontWeight: 'bold'
+                    }}>
+                    {c.value}
+                  </Stack>
+                )
+              })
+            }
+          </Stack>
+        </LegendContents>
         <IconContents>
           <TimeSlider onTimeChange={handleTimeChange} />
         </IconContents>
