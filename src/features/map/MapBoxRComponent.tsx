@@ -441,10 +441,6 @@ const MapRasterComponent: React.FC = () => {
     navigate('/cbar');
   };
 
-  const linkMesh = () => {
-    navigate('/mesh')
-  }
-
   const homeLink = () => {
     navigate('/')
   }
@@ -540,7 +536,6 @@ const MapRasterComponent: React.FC = () => {
           <FutureSearchButton onClick={handleClimateChangePrediction}>気候変動予測データ検索</FutureSearchButton>
         </SearchContents>
         <TestContents>
-          <SearchButton onClick={linkMesh}>メッシュデータ</SearchButton>
           <SearchButton onClick={linkCesium}>セシウム</SearchButton>
           <FutureSearchButton onClick={linkCesiumBar}>セシウムレイヤー</FutureSearchButton>
         </TestContents>
