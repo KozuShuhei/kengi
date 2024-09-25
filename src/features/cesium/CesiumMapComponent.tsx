@@ -31,7 +31,7 @@ const CesiumMapComponent: React.FC = () => {
   const viewer = useRef<Viewer | null>(null);
   const navigate = useNavigate();
   const [selectedPlaces, setSelectedPlaces] = useState<string[]>([]);
-  const [changeWidth, setChangeWidth] = useState<string>('100%');
+  const [mapWidth, setMapWidth] = useState<string>('100%');
   const [openRainfall, setopenRainfall] = useState<boolean>(false);
   const [openClimateChangePrediction, setopenClimateChangePrediction] = useState<boolean>(false);
   const [draftDialog, setDraftDialog] = useState<boolean>(false)
@@ -39,55 +39,64 @@ const CesiumMapComponent: React.FC = () => {
   const [draftItems, setDraftItems] = useState<String[]>([])
   
   useEffect(() => {
-    // Cesium Ionのアクセストークンを設定
+  
     Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkYThiN2MwYS04ODQyLTRiYjgtYmM5MS04ODU5ZDU4ZTUxNzEiLCJpZCI6MjM3Njg1LCJpYXQiOjE3MjU0MTg1MTl9.v1aYNfrpXuFzyo1D_5MUAA6Xq3OKIWGeQ5SObK1gloc';
     window.CESIUM_BASE_URL = '/Cesium/';
 
     const initializeViewer = async () => {
-      if (cesiumContainer.current && !viewer.current) {
+      if (!cesiumContainer.current || !viewer.current) {
         const terrainProvider = await createWorldTerrainAsync();
-        viewer.current = new Viewer(cesiumContainer.current, {
+        viewer.current = new Viewer(cesiumContainer.current!, {
           terrainProvider,
+          homeButton: false,
+          sceneModePicker: false,
+          baseLayerPicker: false,
+          geocoder: false,
+          navigationHelpButton: false,
+          fullscreenButton: false,
+          timeline: false,
+          animation: false,
         });
 
         viewer.current.camera.flyTo({
-          destination: Cartesian3.fromDegrees(136.3629244,35.8659201, 1500000),
+          destination: Cartesian3.fromDegrees(136.3629244, 35.8659201, 1500000),
           orientation: {
             heading: CesiumMath.toRadians(0.0),
             pitch: CesiumMath.toRadians(-90.0),
           },
         });
 
-        try {
           const response = await fetch('/watershed.geojson');
-          
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
           const geojson: GeoJSON.FeatureCollection = await response.json();
-          
           const features = Array.isArray(geojson) ? geojson : geojson.features;
-          features.forEach((feature: any) => {
+          
+          features.forEach((feature: any, index: number) => {
             const coordinates = feature.geometry.coordinates;
-            console.log(coordinates)
+            console.log(coordinates[0].flat().flat())
+
+            const outlineColors = [Color.RED, Color.BLUE, Color.YELLOW, Color.GREEN];  // 境界線の色のパターン
+            const outlineColor = outlineColors[index % outlineColors.length]; // 各ポリゴンごとに異なる色を選択          
+            
+            const polygonHierarchy = Cartesian3.fromDegreesArray(coordinates[0].flat().flat());
             viewer.current?.entities.add({
               polygon: {
-                hierarchy: Cartesian3.fromDegreesArray(coordinates[0]),
+                hierarchy: polygonHierarchy,
                 material: new ColorMaterialProperty(Color.fromCssColorString('#3cb371').withAlpha(0.6)),
                 outline: true,
-                outlineColor: new ColorMaterialProperty(Color.fromCssColorString('#000').withAlpha(10)),
+                outlineColor: outlineColor,
+                outlineWidth: 3,
               },
             });
           });
-        } catch (error) {
-          console.error('エラーです:', error);
-        }
+
       }
     };
 
     initializeViewer();
 
-    // コンポーネントがアンマウントされるときにViewerを破棄
     return () => {
       if (viewer.current) {
         viewer.current.destroy();
@@ -110,9 +119,6 @@ const CesiumMapComponent: React.FC = () => {
   const closeDialog = () => {
     setDraftDialog(false);
     setDraftItems([]);
-    // map.current!.flyTo({
-    //   zoom: 9,
-    // });
   }
 
   const closeConfirmDialog = () => {
@@ -125,43 +131,30 @@ const CesiumMapComponent: React.FC = () => {
 
   const closeRainfall = () => {
     setopenRainfall(false);
-    setChangeWidth('100%');
+    setMapWidth('100%');
   };
 
   const closeClimateChangePrediction = () => {
     setopenClimateChangePrediction(false);
-    setChangeWidth('100%');
+    setMapWidth('100%');
   };
 
   const handleRainfall = () => {
     setopenClimateChangePrediction(false);
     setopenRainfall(true);
-    setChangeWidth('60%');
+    setMapWidth('60%');
     setConfirmDialog(false);
   };
+
   const handleClimateChangePrediction = () => {
     setopenRainfall(false);
     setopenClimateChangePrediction(true);
-    setChangeWidth('60%');
+    setMapWidth('60%');
     setConfirmDialog(false);
   };
 
   const clearSelection = async () => {
-    //removeAllLayersAndSources(map.current!);
     setSelectedPlaces([]);
-    // firstLayer()
-    // map.current!.flyTo({
-    //   center: [136.3629244,35.8659201],
-    //   zoom: 6,
-    // });
-  };
-
-  const linkCesium = () => {
-    navigate('/cesium');
-  };
-
-  const linkCesiumBar = () => {
-    navigate('/cbar');
   };
 
   const homeLink = () => {
@@ -170,7 +163,7 @@ const CesiumMapComponent: React.FC = () => {
 
   return (
     <div style={{ display: 'flex'}}>
-      <div ref={cesiumContainer} style={{ width: '100%', height: '100vh' }}>
+      <div ref={cesiumContainer} style={{ width: mapWidth, height: '100vh' }}>
         <LogoImg src={logo} alt="Logo" onClick={homeLink}/>
         {!(openRainfall || openClimateChangePrediction) && selectedPlaces.length > 0 && (
           <SelectPlaceName>
@@ -187,7 +180,7 @@ const CesiumMapComponent: React.FC = () => {
           </SelectPlaceName>
         )}
 
-        <IconContents>
+        <IconContents openRainfall={openRainfall} openClimateChangePrediction={openClimateChangePrediction}>
           <IconWrapper>
             <StorageIcon />
             <Popup className="popup">保存済みデータ</Popup>
@@ -209,15 +202,11 @@ const CesiumMapComponent: React.FC = () => {
           <DialogContent dividers  sx={{ pl: 0, pr: 0, py: 1, width: '300px' }}>
             <List dense disablePadding>
               {
-                draftItems.map((item, i) => {
-                  return (
-                    <ListItem disablePadding key={i}>
-                        <ListItemText primary={`${item}`} />
-                      {/* <ListItemButton onClick={() => showObservatoryContainer(item as string)} sx={{pr: 4}}>
-                      </ListItemButton> */}
-                    </ListItem>
-                  )
-                })
+                draftItems.map((item, i) => (
+                  <ListItem disablePadding key={i}>
+                    <ListItemText primary={`${item}`} />
+                  </ListItem>
+                ))
               }
             </List>
           </DialogContent>
@@ -247,23 +236,24 @@ const CesiumMapComponent: React.FC = () => {
           </DialogActions>
         </Dialog>
 
-        <SearchContents>
+        <SearchContents openRainfall={openRainfall} openClimateChangePrediction={openClimateChangePrediction}>
           <SearchButton onClick={handleRainfall}>実績降雨データ検索</SearchButton>
           <FutureSearchButton onClick={handleClimateChangePrediction}>気候変動予測データ検索</FutureSearchButton>
         </SearchContents>
       </div>
-      {openRainfall &&
-        <div style={{width: '40%', maxHeight: '100vh'}}>
+
+      {openRainfall && (
+        <div style={{ width: '40%', maxHeight: '100vh' }}>
           <SearchRainfallData selectedPlaces={selectedPlaces} closeRainfall={closeRainfall} />
         </div>
-      }
-      {openClimateChangePrediction &&
-        <div style={{width: '40%', height: '100vh'}}>
+      )}
+      {openClimateChangePrediction && (
+        <div style={{ width: '40%', height: '100vh' }}>
           <SeachClimateChangePrediction selectedPlaces={selectedPlaces} closeClimateChangePrediction={closeClimateChangePrediction} />
         </div>
-      }
+      )}
     </div>
-  )
+  );
 };
 
 export default CesiumMapComponent;

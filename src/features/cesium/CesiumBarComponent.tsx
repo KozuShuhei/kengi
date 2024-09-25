@@ -1,5 +1,5 @@
-import React, { useRef, useState, useEffect } from 'react'
-import { Ion, Viewer, Cartesian3, Math as CesiumMath, createWorldTerrainAsync, Color, Entity, ColorMaterialProperty, JulianDate, CallbackProperty } from 'cesium';
+import React, { useRef, useState, useEffect, CSSProperties } from 'react'
+import { Ion, Viewer, Cartesian3, Math as CesiumMath, createWorldTerrainAsync, Color, Entity, ColorMaterialProperty, JulianDate, CallbackProperty, ScreenSpaceEventHandler, ScreenSpaceEventType, defined } from 'cesium';
 import "cesium/Build/Cesium/Widgets/widgets.css";
 import { Slider, IconButton  } from '@mui/material';
 import { styled } from '@mui/material/styles';
@@ -67,8 +67,14 @@ const CesiumMapComponent: React.FC = () => {
         const terrainProvider = await createWorldTerrainAsync();
         viewer.current = new Viewer(cesiumContainer.current, {
           terrainProvider,
-          animation: false,
+          homeButton: false,
+          sceneModePicker: false,
+          baseLayerPicker: false,
+          geocoder: false,
+          navigationHelpButton: false,
+          fullscreenButton: false,
           timeline: false,
+          animation: false,
         });
 
         viewer.current.camera.flyTo({
@@ -78,6 +84,34 @@ const CesiumMapComponent: React.FC = () => {
             pitch: CesiumMath.toRadians(-45.0),
           },
         });
+
+        const handler = new ScreenSpaceEventHandler(viewer.current!.scene.canvas);
+
+        handler.setInputAction((movement: { endPosition: any; }) => {
+          const pickedObject = viewer.current!.scene.pick(movement.endPosition);
+          if (defined(pickedObject) && pickedObject.id) {
+            const entity = pickedObject.id;
+      
+            // ポップアップ表示ロジック
+            const position = movement.endPosition;
+            const popupElement = document.getElementById('popup');
+            
+            if (popupElement) {
+              popupElement.style.left = `${position.x}px`;
+              popupElement.style.top = `${position.y}px`;
+              popupElement.innerHTML = `
+                <div>RyuuikiNo: ${entity.properties.ryuuikiNo.getValue()}</div>
+                <div>Height: ${entity.properties.height.getValue()}</div>
+              `;
+              popupElement.style.display = 'block';
+            }
+          } else {
+            const popupElement = document.getElementById('popup');
+            if (popupElement) {
+              popupElement.style.display = 'none';
+            }
+          }
+        }, ScreenSpaceEventType.MOUSE_MOVE);      
 
         updateMapLayers('0:00');
       }
@@ -132,7 +166,6 @@ const CesiumMapComponent: React.FC = () => {
       }, false);
     }
   };
-  
 
   const createNewEntity = (feature: any, height: number, newHeight: number, ryuuikiNo: string) => {
     const coordinates = feature.geometry.coordinates;
@@ -142,6 +175,10 @@ const CesiumMapComponent: React.FC = () => {
         hierarchy: Cartesian3.fromDegreesArray(coordinates[0][0].map((coord: any) => [coord[0], coord[1]]).flat()),
         extrudedHeight: newHeight, 
         material: new ColorMaterialProperty(getColorByHeight(height)),
+      },
+      properties: {
+        height: newHeight,  // エンティティに高さをプロパティとして追加
+        ryuuikiNo: ryuuikiNo, // 他の情報もプロパティに追加可能
       }
     });
     entitiesMap.current[ryuuikiNo] = entity;
@@ -241,10 +278,26 @@ const CesiumMapComponent: React.FC = () => {
     alignItems: 'center',
   });
 
+  const popupStyle: CSSProperties = {
+    position: 'absolute',
+    display: 'none',
+    background: 'white',
+    padding: '5px',
+    border: '1px solid black',
+  };
+
+  const Popup = () => (
+    <div id="popup" style={popupStyle}>
+      {/* ポップアップの内容 */}
+    </div>
+  );
+
   return (
     <>
       <div ref={cesiumContainer} style={{ width: '100%', height: '100vh' }}>
-      <LogoImg src={logo} alt="Logo" onClick={homeLink}/>
+        <LogoImg src={logo} alt="Logo" onClick={homeLink}/>
+        <Popup />
+
         <IconContents>
           <TimeSlider onTimeChange={handleTimeChange} />
         </IconContents>

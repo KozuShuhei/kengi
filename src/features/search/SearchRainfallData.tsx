@@ -56,7 +56,7 @@ const SearchRainfallData: React.FC<SearchRainfallDataProps> = ({ selectedPlaces,
         {selectedPlaces[0]}
       </Row>
 
-      <ButtonContents>
+      <Row>
         {
           selectedPlaces.length < 2 ? (
             <>
@@ -67,7 +67,7 @@ const SearchRainfallData: React.FC<SearchRainfallDataProps> = ({ selectedPlaces,
             <CustomTitle>{selectedPlaces[1]}</CustomTitle>
           )
         }
-        {
+        {/* {
           selectedPlaces.length < 3 ? (
             <>
               <CustomTitle>水系選択</CustomTitle>
@@ -86,8 +86,8 @@ const SearchRainfallData: React.FC<SearchRainfallDataProps> = ({ selectedPlaces,
           ) : (
             <CustomTitle>{selectedPlaces[3]}</CustomTitle>
           )
-        }
-      </ButtonContents>
+        } */}
+      </Row>
       <Row>
         <StyledTextField type="date" />
         <CustomTitle>〜</CustomTitle>
