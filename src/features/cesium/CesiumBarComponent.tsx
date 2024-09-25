@@ -85,33 +85,33 @@ const CesiumMapComponent: React.FC = () => {
           },
         });
 
-        const handler = new ScreenSpaceEventHandler(viewer.current!.scene.canvas);
+        // const handler = new ScreenSpaceEventHandler(viewer.current!.scene.canvas);
 
-        handler.setInputAction((movement: { endPosition: any; }) => {
-          const pickedObject = viewer.current!.scene.pick(movement.endPosition);
-          if (defined(pickedObject) && pickedObject.id) {
-            const entity = pickedObject.id;
+        // handler.setInputAction((movement: { endPosition: any; }) => {
+        //   const pickedObject = viewer.current!.scene.pick(movement.endPosition);
+        //   if (defined(pickedObject) && pickedObject.id) {
+        //     const entity = pickedObject.id;
       
-            // ポップアップ表示ロジック
-            const position = movement.endPosition;
-            const popupElement = document.getElementById('popup');
+        //     // ポップアップ表示ロジック
+        //     const position = movement.endPosition;
+        //     const popupElement = document.getElementById('popup');
             
-            if (popupElement) {
-              popupElement.style.left = `${position.x}px`;
-              popupElement.style.top = `${position.y}px`;
-              popupElement.innerHTML = `
-                <div>RyuuikiNo: ${entity.properties.ryuuikiNo.getValue()}</div>
-                <div>Height: ${entity.properties.height.getValue()}</div>
-              `;
-              popupElement.style.display = 'block';
-            }
-          } else {
-            const popupElement = document.getElementById('popup');
-            if (popupElement) {
-              popupElement.style.display = 'none';
-            }
-          }
-        }, ScreenSpaceEventType.MOUSE_MOVE);      
+        //     if (popupElement) {
+        //       popupElement.style.left = `${position.x}px`;
+        //       popupElement.style.top = `${position.y}px`;
+        //       popupElement.innerHTML = `
+        //         <div>RyuuikiNo: ${entity.properties.ryuuikiNo.getValue()}</div>
+        //         <div>Height: ${entity.properties.height.getValue()}</div>
+        //       `;
+        //       popupElement.style.display = 'block';
+        //     }
+        //   } else {
+        //     const popupElement = document.getElementById('popup');
+        //     if (popupElement) {
+        //       popupElement.style.display = 'none';
+        //     }
+        //   }
+        // }, ScreenSpaceEventType.MOUSE_MOVE);      
 
         updateMapLayers('0:00');
       }

@@ -88,8 +88,8 @@ const CesiumMapComponent: React.FC = () => {
             viewer.current?.entities.add({
               polyline: {
                 positions: Cartesian3.fromDegreesArray(coordinates[0].flat().flat()),
-                width: 1,
-                material: Color.BLACK,
+                width: 2,
+                material:  new ColorMaterialProperty(Color.fromCssColorString('#008000').withAlpha(0.6)),
               },
             });
           });
