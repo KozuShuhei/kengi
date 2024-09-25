@@ -73,21 +73,23 @@ const CesiumMapComponent: React.FC = () => {
           const geojson: GeoJSON.FeatureCollection = await response.json();
           const features = Array.isArray(geojson) ? geojson : geojson.features;
           
-          features.forEach((feature: any, index: number) => {
+          features.forEach((feature: any) => {
             const coordinates = feature.geometry.coordinates;
             console.log(coordinates[0].flat().flat())
 
-            const outlineColors = [Color.RED, Color.BLUE, Color.YELLOW, Color.GREEN];  // 境界線の色のパターン
-            const outlineColor = outlineColors[index % outlineColors.length]; // 各ポリゴンごとに異なる色を選択          
-            
             const polygonHierarchy = Cartesian3.fromDegreesArray(coordinates[0].flat().flat());
             viewer.current?.entities.add({
               polygon: {
                 hierarchy: polygonHierarchy,
                 material: new ColorMaterialProperty(Color.fromCssColorString('#3cb371').withAlpha(0.6)),
-                outline: true,
-                outlineColor: outlineColor,
-                outlineWidth: 3,
+                outline: false,
+              },
+            });
+            viewer.current?.entities.add({
+              polyline: {
+                positions: Cartesian3.fromDegreesArray(coordinates[0].flat().flat()),
+                width: 1,
+                material: Color.BLACK,
               },
             });
           });
