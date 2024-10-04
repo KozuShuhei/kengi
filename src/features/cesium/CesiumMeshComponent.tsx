@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect, CSSProperties } from 'react'
-import { Ion, Viewer, Cartesian3, Math as CesiumMath, createWorldTerrainAsync, Color, Entity, ColorMaterialProperty, JulianDate, CallbackProperty, ScreenSpaceEventHandler, ScreenSpaceEventType, defined, ConstantProperty } from 'cesium';
+import { Ion, Viewer, Cartesian3, Math as CesiumMath, createWorldTerrainAsync, Color, Entity, ColorMaterialProperty, JulianDate, CallbackProperty } from 'cesium';
 import "cesium/Build/Cesium/Widgets/widgets.css";
 import { Slider, IconButton  } from '@mui/material';
 import { styled } from '@mui/material/styles';
@@ -22,8 +22,10 @@ const CesiumMeshComponent: React.FC = () => {
   useEffect(() => {
     Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkYThiN2MwYS04ODQyLTRiYjgtYmM5MS04ODU5ZDU4ZTUxNzEiLCJpZCI6MjM3Njg1LCJpYXQiOjE3MjU0MTg1MTl9.v1aYNfrpXuFzyo1D_5MUAA6Xq3OKIWGeQ5SObK1gloc';
     window.CESIUM_BASE_URL = '/Cesium/';
+    
     const initializeViewer = async () => {
-      if (cesiumContainer.current && !viewer.current) {
+      // Viewerがすでに存在する場合は初期化しない
+      if (!viewer.current && cesiumContainer.current) {
         const terrainProvider = await createWorldTerrainAsync();
         viewer.current = new Viewer(cesiumContainer.current, {
           terrainProvider,
@@ -36,7 +38,7 @@ const CesiumMeshComponent: React.FC = () => {
           timeline: false,
           animation: false,
         });
-
+  
         viewer.current.camera.flyTo({
           destination: Cartesian3.fromDegrees(136.16932, 35.31040, 60000),
           orientation: {
@@ -44,15 +46,22 @@ const CesiumMeshComponent: React.FC = () => {
             pitch: CesiumMath.toRadians(-45.0),
           },
         });
-
+  
         createNewEntity();
         updateMapLayers('9:00');
       }
     };
   
     initializeViewer();
-  
+
+    return () => {
+      if (viewer.current) {
+        viewer.current.destroy();
+        viewer.current = null;
+      }
+    };
   }, []);
+    
 
   const updateMapLayers = async (time: string) => {
     const convertTime = convertTimeFormat(time);
@@ -67,8 +76,6 @@ const CesiumMeshComponent: React.FC = () => {
       const responceFillExtrusions = Array.isArray(responceFillExtrusion)
         ? responceFillExtrusion
         : responceFillExtrusion.features;
-
-      console.log(responceFillExtrusions)
 
       const startTime = performance.now();
   
@@ -107,20 +114,22 @@ const CesiumMeshComponent: React.FC = () => {
 
   const setEntityProperties = (entity: Entity, height: number, newHeight: number, startTime: number) => {
     const material = getColorByHeight(height);
-  
-    //const duration = 1000; // アニメーションの持続時間（ミリ秒）
-  
+    const startHeight = entity.polygon?.extrudedHeight?.getValue(JulianDate.now()) as number || 0;
+
     if (entity.polygon) {
       entity.polygon.material = new ColorMaterialProperty(material);
-      entity.polygon.extrudedHeight = new ConstantProperty(newHeight);
-  
-      // entity.polygon.extrudedHeight = new CallbackProperty(() => {
-      //   const elapsed = performance.now() - startTime;
-      //   const t = Math.min(elapsed / duration, 1);
-      //   const interpolatedHeight = CesiumMath.lerp(height, newHeight, t);
-      //   return t < 1 ? interpolatedHeight : newHeight;
-      // }, false);
+      //entity.polygon.extrudedHeight = new ConstantProperty(newHeight);
+
+      animateHeightChange(entity, startHeight, newHeight, startTime);
     }
+  };
+
+  const animateHeightChange = (entity: Entity, startHeight: number, endHeight: number, startTime: number, duration: number = 1000) => {
+    entity.polygon!.extrudedHeight = new CallbackProperty(() => {
+      const elapsed = performance.now() - startTime;
+      const t = Math.min(elapsed / duration, 1);
+      return CesiumMath.lerp(startHeight, endHeight, t);
+    }, false);
   };
 
   const createNewEntity = async () => {
@@ -167,7 +176,7 @@ const CesiumMeshComponent: React.FC = () => {
     onTimeChange: (time: string) => void;
   }
   const TimeSlider = ({ onTimeChange }: TimeSliderProps) => {
-    const [time, setTime] = useState(0);
+    const [time, setTime] = useState(9);
     const [isPlay, setIsPlay] = useState(false);
   
     const handleSliderChange = (event: any, newValue: number | number[]) => {
@@ -183,7 +192,7 @@ const CesiumMeshComponent: React.FC = () => {
       if (isPlay) {
         interval = setInterval(() => {
           setTime((prevTime) => {
-            const newTime = prevTime < 23 ? prevTime + 1 : 0;
+            const newTime = prevTime < 11 ? prevTime + 1 : 9;
             const formattedTime = `${newTime}:00`;
             onTimeChange(formattedTime);
             updateMapLayers(formattedTime);
