@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Ion, Viewer, Cartesian3, Math as CesiumMath, createOsmBuildingsAsync, createWorldTerrainAsync, buildModuleUrl, Color, ColorMaterialProperty  } from 'cesium';
+import { Ion, Viewer, Cartesian3, Math as CesiumMath, createOsmBuildingsAsync, createWorldTerrainAsync, buildModuleUrl, Color, ColorMaterialProperty, ScreenSpaceEventHandler, defined, ScreenSpaceEventType  } from 'cesium';
 import "cesium/Build/Cesium/Widgets/widgets.css";
 import logo from '../map/logo.png'
 import { useNavigate } from 'react-router-dom';
@@ -66,6 +66,7 @@ const CesiumMapComponent: React.FC = () => {
           },
         });
 
+        try {
           const response = await fetch('/watershed.geojson');
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -73,27 +74,74 @@ const CesiumMapComponent: React.FC = () => {
           const geojson: GeoJSON.FeatureCollection = await response.json();
           const features = Array.isArray(geojson) ? geojson : geojson.features;
           
+          const popup = document.createElement('div');
+          popup.id = 'popup';
+          popup.style.position = 'absolute';
+          popup.style.backgroundColor = 'white';
+          popup.style.padding = '5px';
+          popup.style.display = 'none';
+          document.body.appendChild(popup);
+
+          const handler = new ScreenSpaceEventHandler(viewer.current?.scene.canvas);
+
           features.forEach((feature: any) => {
             const coordinates = feature.geometry.coordinates;
-            console.log(coordinates[0].flat().flat())
 
             const polygonHierarchy = Cartesian3.fromDegreesArray(coordinates[0].flat().flat());
             viewer.current?.entities.add({
+              id: feature.properties.id,
+              name: feature.properties.name,
               polygon: {
                 hierarchy: polygonHierarchy,
                 material: new ColorMaterialProperty(Color.fromCssColorString('#3cb371').withAlpha(0.6)),
                 outline: false,
               },
+              properties: {
+                name: feature.properties.name,
+              },
             });
             viewer.current?.entities.add({
+              id: feature.properties.id + 'line',
+              name: feature.properties.name,
               polyline: {
                 positions: Cartesian3.fromDegreesArray(coordinates[0].flat().flat()),
                 width: 2,
                 material:  new ColorMaterialProperty(Color.fromCssColorString('#008000').withAlpha(0.6)),
               },
             });
-          });
 
+            handler.setInputAction((movement: any) => {
+              const pickedObject = viewer.current?.scene.pick(movement.endPosition);
+
+              if (defined(pickedObject) && pickedObject.id) {
+                popup.innerHTML = feature.properties.name;
+                popup.style.left = movement.endPosition.x + 'px';
+                popup.style.top = movement.endPosition.y + 'px';
+                popup.style.display = 'block';
+              } else {
+                popup.style.display = 'none';
+              }
+            }, ScreenSpaceEventType.MOUSE_MOVE);
+
+            handler.setInputAction((click: any) => {
+              const pickedObject = viewer.current?.scene.pick(click.position);
+              console.log(pickedObject.id.id)
+              viewer.current?.entities.values.forEach((ent: any) => {
+                if (pickedObject.id.id !== ent.id) {
+                  viewer.current!.entities.remove(ent)
+                  console.log(ent)
+                } else {
+                  console.log(ent)
+                }
+              });
+              // if (defined(pickedObject) && pickedObject.id && pickedObject.id === entity) {
+
+              // }
+            }, ScreenSpaceEventType.LEFT_CLICK);
+          });
+        } catch (error) {
+          console.error('エラーです:', error);
+        }
       }
     };
 

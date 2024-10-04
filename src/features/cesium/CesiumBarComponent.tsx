@@ -7,6 +7,7 @@ import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import StopIcon from '@mui/icons-material/Stop';
 import logo from '../map/logo.png'
 import { useNavigate } from 'react-router-dom';
+import { getColorByHeight } from './CesiumUtil';
 
 import {
   LogoImg,
@@ -83,35 +84,7 @@ const CesiumMapComponent: React.FC = () => {
             heading: CesiumMath.toRadians(0.0),
             pitch: CesiumMath.toRadians(-45.0),
           },
-        });
-
-        // const handler = new ScreenSpaceEventHandler(viewer.current!.scene.canvas);
-
-        // handler.setInputAction((movement: { endPosition: any; }) => {
-        //   const pickedObject = viewer.current!.scene.pick(movement.endPosition);
-        //   if (defined(pickedObject) && pickedObject.id) {
-        //     const entity = pickedObject.id;
-      
-        //     // ポップアップ表示ロジック
-        //     const position = movement.endPosition;
-        //     const popupElement = document.getElementById('popup');
-            
-        //     if (popupElement) {
-        //       popupElement.style.left = `${position.x}px`;
-        //       popupElement.style.top = `${position.y}px`;
-        //       popupElement.innerHTML = `
-        //         <div>RyuuikiNo: ${entity.properties.ryuuikiNo.getValue()}</div>
-        //         <div>Height: ${entity.properties.height.getValue()}</div>
-        //       `;
-        //       popupElement.style.display = 'block';
-        //     }
-        //   } else {
-        //     const popupElement = document.getElementById('popup');
-        //     if (popupElement) {
-        //       popupElement.style.display = 'none';
-        //     }
-        //   }
-        // }, ScreenSpaceEventType.MOUSE_MOVE);      
+        });      
 
         updateMapLayers('0:00');
       }
@@ -182,17 +155,6 @@ const CesiumMapComponent: React.FC = () => {
       }
     });
     entitiesMap.current[ryuuikiNo] = entity;
-  };
-
-  const getColorByHeight = (height: number) => {
-    // 高さに基づいて色を決定
-    if (height > 80) return Color.fromCssColorString('#c7408e').withAlpha(0.6);
-    if (height > 50) return Color.fromCssColorString('#ff5e40').withAlpha(0.6);
-    if (height > 30) return Color.fromCssColorString('#ffb340').withAlpha(0.6);
-    if (height > 20) return Color.fromCssColorString('#fff840').withAlpha(0.6);
-    if (height > 10) return Color.fromCssColorString('#4071ff').withAlpha(0.6);
-    if (height > 5) return Color.fromCssColorString('#59a9ff').withAlpha(0.6);
-    return Color.fromCssColorString('#b8deff').withAlpha(0.6);
   };
 
   interface TimeSliderProps {
