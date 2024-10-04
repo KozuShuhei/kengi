@@ -437,6 +437,10 @@ const MapRasterComponent: React.FC = () => {
     navigate('/cesium');
   };
 
+  const linkCesiumMesh = () => {
+    navigate('/cmesh');
+  };
+
   const linkCesiumBar = () => {
     navigate('/cbar');
   };
@@ -537,6 +541,7 @@ const MapRasterComponent: React.FC = () => {
         </SearchContents>
         <TestContents>
           <SearchButton onClick={linkCesium}>セシウム</SearchButton>
+          <SearchButton onClick={linkCesiumMesh}>セシウムメッシュ</SearchButton>
           <FutureSearchButton onClick={linkCesiumBar}>セシウムレイヤー</FutureSearchButton>
         </TestContents>
       </div>
