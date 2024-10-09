@@ -1,22 +1,26 @@
 import React, { useRef, useState, useEffect, CSSProperties } from 'react'
-import { Ion, Viewer, Cartesian3, Math as CesiumMath, createWorldTerrainAsync, Color, Entity, ColorMaterialProperty, JulianDate, CallbackProperty } from 'cesium';
+import { Ion, Viewer, Cartesian3, Math as CesiumMath, createWorldTerrainAsync, Color, Entity, ColorMaterialProperty, JulianDate, CallbackProperty, ScreenSpaceEventHandler, Cartesian2, defined, ScreenSpaceEventType, ConstantProperty } from 'cesium';
 import "cesium/Build/Cesium/Widgets/widgets.css";
-import { Slider, IconButton  } from '@mui/material';
+import { Slider, IconButton, Stack } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import StopIcon from '@mui/icons-material/Stop';
 import logo from '../map/logo.png'
 import { useNavigate } from 'react-router-dom';
+import { RainObservatoryLegend } from '../map/consts'
 import { getColorByHeight } from './CesiumUtil';
 
 import {
   LogoImg,
+  LegendContents
 } from '../map/style';
 
 const CesiumMeshComponent: React.FC = () => {
   const cesiumContainer = useRef<HTMLDivElement | null>(null);
   const viewer = useRef<Viewer | null>(null);
   const entitiesMap = useRef<{ [key: string]: Entity }>({});
+  const [hoveredHeight, setHoveredHeight] = useState<number | null>(null);
+  const [mousePosition, setMousePosition] = useState<{ x: number, y: number } | null>(null);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -54,6 +58,21 @@ const CesiumMeshComponent: React.FC = () => {
   
     initializeViewer();
 
+    const handler = new ScreenSpaceEventHandler(viewer.current?.scene.canvas);
+
+    handler.setInputAction((movement: { endPosition: Cartesian2; }) => {
+      const pickedObject = viewer.current?.scene.pick(movement.endPosition);
+
+      if (defined(pickedObject) && pickedObject.id && pickedObject.id.polygon) {
+        const entity = pickedObject.id as Entity;
+        const extrudedHeight = entity.polygon?.extrudedHeight?.getValue(JulianDate.now()) as number;
+        setHoveredHeight(extrudedHeight / 200);
+        setMousePosition({ x: movement.endPosition.x, y: movement.endPosition.y });
+      } else {
+        setHoveredHeight(null);
+      }
+    }, ScreenSpaceEventType.MOUSE_MOVE);
+
     return () => {
       if (viewer.current) {
         viewer.current.destroy();
@@ -61,7 +80,6 @@ const CesiumMeshComponent: React.FC = () => {
       }
     };
   }, []);
-    
 
   const updateMapLayers = async (time: string) => {
     const convertTime = convertTimeFormat(time);
@@ -107,6 +125,46 @@ const CesiumMeshComponent: React.FC = () => {
     }
   };
 
+  const createNewEntity = async () => {
+    const responseMesh = await fetch('/meshinfo_SI-CAT_86067.geojson');
+    const responceFillExtrusionMesh = await responseMesh.json();
+    const responceFillExtrusionsMesh = Array.isArray(responceFillExtrusionMesh)
+      ? responceFillExtrusionMesh
+      : responceFillExtrusionMesh.features;
+  
+    responceFillExtrusionsMesh.forEach((feature: any) => {
+      const coordinates = feature.geometry.coordinates;
+
+      const polygonPositions = Cartesian3.fromDegreesArray(
+        coordinates[0][0].map((coord: any) => [coord[0], coord[1]]).flat()
+      );
+
+      const polylinePositions = Cartesian3.fromDegreesArray(coordinates[0].flat().flat());
+
+      const entity = viewer.current?.entities.add({
+        polygon: {
+          hierarchy: polygonPositions,
+          extrudedHeight: 0,
+          material: new ColorMaterialProperty(getColorByHeight(0)),
+        },
+        polyline: {
+          positions: polylinePositions,
+          width: 1,
+          material: new ColorMaterialProperty(Color.fromCssColorString('#000').withAlpha(1)),
+        },
+        properties: {
+          I: feature.properties.I,
+          J: feature.properties.J,
+          height: 0,
+        }
+      });
+  
+      if (entity) {
+        entitiesMap.current[`${feature.properties.I} ${feature.properties.J}`] = entity;
+      }
+    });
+  };
+
   const convertTimeFormat = (timeStr: string) => {
     const [hours, minutes] = timeStr.split(':');
     return `${parseInt(hours, 10)}${minutes}`;
@@ -124,53 +182,36 @@ const CesiumMeshComponent: React.FC = () => {
     }
   };
 
-  const animateHeightChange = (entity: Entity, startHeight: number, endHeight: number, startTime: number, duration: number = 1000) => {
-    entity.polygon!.extrudedHeight = new CallbackProperty(() => {
+  const animateHeightChange = (
+    entity: Entity,
+    startHeight: number,
+    endHeight: number,
+    startTime: number,
+    duration: number = 1000
+  ) => {
+    const callback = new CallbackProperty(() => {
       const elapsed = performance.now() - startTime;
       const t = Math.min(elapsed / duration, 1);
       return CesiumMath.lerp(startHeight, endHeight, t);
     }, false);
-  };
-
-  const createNewEntity = async () => {
-    const responseMesh = await fetch('/meshinfo_SI-CAT_86067.geojson');
-    const responceFillExtrusionMesh = await responseMesh.json();
-    const responceFillExtrusionsMesh = Array.isArray(responceFillExtrusionMesh)
-      ? responceFillExtrusionMesh
-      : responceFillExtrusionMesh.features;
   
-    responceFillExtrusionsMesh.forEach((feature: any) => {
-      const coordinates = feature.geometry.coordinates;
+    entity.polygon!.extrudedHeight = callback;
   
-      const polygonPositions = Cartesian3.fromDegreesArray(
-        coordinates[0][0].map((coord: any) => [coord[0], coord[1]]).flat()
-      );
+    const updateHeight = () => {
+      const elapsed = performance.now() - startTime;
+      const t = Math.min(elapsed / duration, 1);
   
-      const polylinePositions = Cartesian3.fromDegreesArray(coordinates[0].flat().flat());
-  
-      const entity = viewer.current?.entities.add({
-        polygon: {
-          hierarchy: polygonPositions,
-          extrudedHeight: 0,
-          material: new ColorMaterialProperty(getColorByHeight(0)),
-        },
-        polyline: {
-          positions: polylinePositions,
-          width: 1,
-          material: new ColorMaterialProperty(Color.fromCssColorString('#000').withAlpha(1)),
-        },
-        properties: {
-          I: feature.properties.I,
-          J: feature.properties.J,
-          height: 0,  // エンティティに高さをプロパティとして追加
-        }
-      });
-  
-      if (entity) {
-        entitiesMap.current[`${feature.properties.I} ${feature.properties.J}`] = entity;
+      if (t < 1) {
+        requestAnimationFrame(updateHeight); // 次のフレームで更新を続ける
+      } else {
+        // アニメーション完了後にCallbackPropertyをConstantPropertyに切り替える
+        entity.polygon!.extrudedHeight = new ConstantProperty(endHeight);
       }
-    });
+    };
+  
+    requestAnimationFrame(updateHeight); // 初回呼び出し
   };
+  
 
   interface TimeSliderProps {
     onTimeChange: (time: string) => void;
@@ -178,8 +219,10 @@ const CesiumMeshComponent: React.FC = () => {
   const TimeSlider = ({ onTimeChange }: TimeSliderProps) => {
     const [time, setTime] = useState(9);
     const [isPlay, setIsPlay] = useState(false);
+    const isManualChange = useRef(false);  // 手動変更かどうかを追跡
   
     const handleSliderChange = (event: any, newValue: number | number[]) => {
+      isManualChange.current = true;  // 手動変更であることを示す
       const formattedTime = `${Math.floor(newValue as number)}:00`;
       setTime(newValue as number);
       onTimeChange(formattedTime);
@@ -192,7 +235,11 @@ const CesiumMeshComponent: React.FC = () => {
       if (isPlay) {
         interval = setInterval(() => {
           setTime((prevTime) => {
-            const newTime = prevTime < 11 ? prevTime + 1 : 9;
+            if (isManualChange.current) {
+              isManualChange.current = false;  // 手動変更フラグをリセット
+              return prevTime;
+            }
+            const newTime = prevTime < 12 ? prevTime + 1 : 9;
             const formattedTime = `${newTime}:00`;
             onTimeChange(formattedTime);
             updateMapLayers(formattedTime);
@@ -205,7 +252,7 @@ const CesiumMeshComponent: React.FC = () => {
         if (interval) clearInterval(interval);
       };
     }, [isPlay, onTimeChange]);
-
+  
     const togglePlay = () => {
       setIsPlay(!isPlay);
     };
@@ -255,26 +302,48 @@ const CesiumMeshComponent: React.FC = () => {
     alignItems: 'center',
   });
 
-  const popupStyle: CSSProperties = {
-    position: 'absolute',
-    display: 'none',
-    background: 'white',
-    padding: '5px',
-    border: '1px solid black',
-  };
-
-  const Popup = () => (
-    <div id="popup" style={popupStyle}>
-      {/* ポップアップの内容 */}
-    </div>
-  );
-
   return (
     <>
       <div ref={cesiumContainer} style={{ width: '100%', height: '100vh' }}>
         <LogoImg src={logo} alt="Logo" onClick={homeLink}/>
-        <Popup />
-
+        {hoveredHeight !== null && mousePosition && (
+          <div
+            style={{
+              position: 'absolute',
+              top: mousePosition.y + 10,
+              left: mousePosition.x + 10,
+              backgroundColor: 'rgba(0, 0, 0, 0.7)',
+              color: 'white',
+              padding: '5px',
+              borderRadius: '5px',
+              pointerEvents: 'none',
+            }}
+          >
+            降水量: {hoveredHeight.toFixed(2)} m
+          </div>
+        )}
+{/* 
+        <LegendContents>
+          <Stack direction={'column'}>
+            {
+              RainObservatoryLegend.colors !== undefined && RainObservatoryLegend.colors.map((c, index) => {
+                return (
+                  <Stack key={index} height={18} alignItems={'center'}
+                    sx={{
+                      fontSize: 11,
+                      px: 1,
+                      backgroundColor: c.color,
+                      color: '#ffffff',
+                      textShadow: '1px 1px 1px rgba(30, 30, 30, 1), 1px 1px 2px rgba(30, 30, 30, 0.8), -1px 0px 1px rgba(30, 30, 30, 0.6)',
+                      fontWeight: 'bold'
+                    }}>
+                    {c.value}
+                  </Stack>
+                )
+              })
+            }
+          </Stack>
+        </LegendContents> */}
         <IconContents>
           <TimeSlider onTimeChange={handleTimeChange} />
         </IconContents>

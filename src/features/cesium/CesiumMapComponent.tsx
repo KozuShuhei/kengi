@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Ion, Viewer, Cartesian3, Math as CesiumMath, createOsmBuildingsAsync, createWorldTerrainAsync, buildModuleUrl, Color, ColorMaterialProperty, ScreenSpaceEventHandler, defined, ScreenSpaceEventType  } from 'cesium';
+import { Ion, Viewer, Cartesian3, Math as CesiumMath, createOsmBuildingsAsync, createWorldTerrainAsync, buildModuleUrl, Color, ColorMaterialProperty, ScreenSpaceEventHandler, defined, ScreenSpaceEventType, Entity, Cartesian2, JulianDate } from 'cesium';
 import "cesium/Build/Cesium/Widgets/widgets.css";
 import logo from '../map/logo.png'
 import { useNavigate } from 'react-router-dom';
@@ -37,9 +37,11 @@ const CesiumMapComponent: React.FC = () => {
   const [draftDialog, setDraftDialog] = useState<boolean>(false)
   const [confirmDialog, setConfirmDialog] = useState<boolean>(false)
   const [draftItems, setDraftItems] = useState<String[]>([])
-  
+  const [hoveredName, setHoveredName] = useState<string | null>(null);
+  const [mousePosition, setMousePosition] = useState<{ x: number, y: number } | null>(null);
+
   useEffect(() => {
-  
+
     Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkYThiN2MwYS04ODQyLTRiYjgtYmM5MS04ODU5ZDU4ZTUxNzEiLCJpZCI6MjM3Njg1LCJpYXQiOjE3MjU0MTg1MTl9.v1aYNfrpXuFzyo1D_5MUAA6Xq3OKIWGeQ5SObK1gloc';
     window.CESIUM_BASE_URL = '/Cesium/';
 
@@ -73,7 +75,7 @@ const CesiumMapComponent: React.FC = () => {
           }
           const geojson: GeoJSON.FeatureCollection = await response.json();
           const features = Array.isArray(geojson) ? geojson : geojson.features;
-          
+
           const popup = document.createElement('div');
           popup.id = 'popup';
           popup.style.position = 'absolute';
@@ -106,38 +108,9 @@ const CesiumMapComponent: React.FC = () => {
               polyline: {
                 positions: Cartesian3.fromDegreesArray(coordinates[0].flat().flat()),
                 width: 2,
-                material:  new ColorMaterialProperty(Color.fromCssColorString('#008000').withAlpha(0.6)),
+                material: new ColorMaterialProperty(Color.fromCssColorString('#008000').withAlpha(0.6)),
               },
             });
-
-            handler.setInputAction((movement: any) => {
-              const pickedObject = viewer.current?.scene.pick(movement.endPosition);
-
-              if (defined(pickedObject) && pickedObject.id) {
-                popup.innerHTML = feature.properties.name;
-                popup.style.left = movement.endPosition.x + 'px';
-                popup.style.top = movement.endPosition.y + 'px';
-                popup.style.display = 'block';
-              } else {
-                popup.style.display = 'none';
-              }
-            }, ScreenSpaceEventType.MOUSE_MOVE);
-
-            handler.setInputAction((click: any) => {
-              const pickedObject = viewer.current?.scene.pick(click.position);
-              console.log(pickedObject.id.id)
-              viewer.current?.entities.values.forEach((ent: any) => {
-                if (pickedObject.id.id !== ent.id) {
-                  viewer.current!.entities.remove(ent)
-                  console.log(ent)
-                } else {
-                  console.log(ent)
-                }
-              });
-              // if (defined(pickedObject) && pickedObject.id && pickedObject.id === entity) {
-
-              // }
-            }, ScreenSpaceEventType.LEFT_CLICK);
           });
         } catch (error) {
           console.error('エラーです:', error);
@@ -146,6 +119,21 @@ const CesiumMapComponent: React.FC = () => {
     };
 
     initializeViewer();
+
+    const handler = new ScreenSpaceEventHandler(viewer.current?.scene.canvas);
+
+    handler.setInputAction((movement: { endPosition: Cartesian2; }) => {
+      const pickedObject = viewer.current?.scene.pick(movement.endPosition);
+      console.log('pick')
+      if (defined(pickedObject) && pickedObject.id && pickedObject.id.polygon) {
+        const entity = pickedObject.id as Entity;
+        const extrudedName = entity.name || "";
+        setHoveredName(extrudedName);
+        setMousePosition({ x: movement.endPosition.x, y: movement.endPosition.y });
+      } else {
+        setHoveredName('');
+      }
+    }, ScreenSpaceEventType.MOUSE_MOVE);
 
     return () => {
       if (viewer.current) {
@@ -212,9 +200,26 @@ const CesiumMapComponent: React.FC = () => {
   }
 
   return (
-    <div style={{ display: 'flex'}}>
+    <div style={{ display: 'flex' }}>
       <div ref={cesiumContainer} style={{ width: mapWidth, height: '100vh' }}>
-        <LogoImg src={logo} alt="Logo" onClick={homeLink}/>
+        <LogoImg src={logo} alt="Logo" onClick={homeLink} />
+        {hoveredName && mousePosition && (
+          <div
+            style={{
+              position: 'absolute',
+              top: mousePosition.y + 10,
+              left: mousePosition.x + 10,
+              backgroundColor: 'rgba(0, 0, 0, 0.7)',
+              color: 'white',
+              padding: '5px',
+              borderRadius: '5px',
+              pointerEvents: 'none',
+              zIndex: '1000'
+            }}
+          >
+            {hoveredName}
+          </div>
+        )}
         {!(openRainfall || openClimateChangePrediction) && selectedPlaces.length > 0 && (
           <SelectPlaceName>
             <CloseButton onClick={clearSelection}>×</CloseButton>
@@ -247,9 +252,9 @@ const CesiumMapComponent: React.FC = () => {
 
         <Dialog
           open={draftDialog}
-          onClose={() => {closeDialog()}}
+          onClose={() => { closeDialog() }}
         >
-          <DialogContent dividers  sx={{ pl: 0, pr: 0, py: 1, width: '300px' }}>
+          <DialogContent dividers sx={{ pl: 0, pr: 0, py: 1, width: '300px' }}>
             <List dense disablePadding>
               {
                 draftItems.map((item, i) => (
@@ -269,13 +274,13 @@ const CesiumMapComponent: React.FC = () => {
 
         <Dialog
           open={confirmDialog}
-          onClose={() => {closeConfirmDialog()}}
+          onClose={() => { closeConfirmDialog() }}
         >
-          <DialogContent dividers  sx={{ pl: 0, pr: 0, py: 1, width: '300px' }}>
-            <ListItemButton onClick={handleRainfall} sx={{pr: 4}}>
+          <DialogContent dividers sx={{ pl: 0, pr: 0, py: 1, width: '300px' }}>
+            <ListItemButton onClick={handleRainfall} sx={{ pr: 4 }}>
               <ListItemText primary={'実績降雨データ検索'} />
             </ListItemButton>
-            <ListItemButton onClick={handleClimateChangePrediction} sx={{pr: 4}}>
+            <ListItemButton onClick={handleClimateChangePrediction} sx={{ pr: 4 }}>
               <ListItemText primary={'気候変動予測データ検索'} />
             </ListItemButton>
           </DialogContent>
