@@ -1,0 +1,6459 @@
+﻿{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07735769954013,
+                    34.847041062507515
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07933200000014,
+                    34.84711600080982
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08086100000003,
+                    34.84591700080995
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.082444,
+                    34.845139000809866
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0843890000001,
+                    34.84591700080995
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08538899999996,
+                    34.8461110008098
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08963900000015,
+                    34.844833000809956
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09288900000013,
+                    34.84500000080993
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09430600000007,
+                    34.844250000809836
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09454900000014,
+                    34.84353000080978
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09547699999996,
+                    34.842389000809874
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09566200000006,
+                    34.84067800080987
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09686799999997,
+                    34.839700000809785
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09958300000005,
+                    34.83955600080981
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.10094400000003,
+                    34.83797200080983
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.10227799999996,
+                    34.83777800080975
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.10336100000006,
+                    34.83663900080967
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.104013,
+                    34.83603200080972
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.10651799999994,
+                    34.83187600080959
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.10808299999997,
+                    34.830056000809634
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.10911599999997,
+                    34.828942000809604
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11013700000012,
+                    34.827393000809536
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11125000000015,
+                    34.82680600080948
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.1119000000001,
+                    34.82503000080959
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.113292,
+                    34.82315500080955
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11394100000007,
+                    34.822096000809495
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11552800000004,
+                    34.82075000080948
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11542599999996,
+                    34.81908100080943
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11663899999996,
+                    34.81852800080935
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11755600000004,
+                    34.81725000080945
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12191700000005,
+                    34.81341700080941
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12191700000005,
+                    34.8131670008093
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12483299999997,
+                    34.811417000809286
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12553900000012,
+                    34.80970800080928
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.126889,
+                    34.809444000809265
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.127833,
+                    34.808556000809176
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12990000000013,
+                    34.806367000809246
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13268400000004,
+                    34.806367000809246
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13518900000008,
+                    34.8036770008091
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13461100000018,
+                    34.80366700080913
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.134911,
+                    34.80245500080906
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13591700000006,
+                    34.80130600080918
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13593100000014,
+                    34.799521000809136
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.1368060000001,
+                    34.79813900080899
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13708300000008,
+                    34.79638900080897
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.1381580000001,
+                    34.794060000809
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13897200000008,
+                    34.79152800080891
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13922200000013,
+                    34.790111000808906
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13964299999998,
+                    34.787866000808776
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14019900000017,
+                    34.78615500080883
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14066300000002,
+                    34.78460600080888
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14140599999996,
+                    34.781509000808796
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14187000000004,
+                    34.77759700080861
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14112699999998,
+                    34.77596700080875
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14019900000017,
+                    34.77482600080867
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.1397360000002,
+                    34.773522000808555
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14131299999997,
+                    34.77140300080856
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14038500000004,
+                    34.77099600080845
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14019399999995,
+                    34.769361000808544
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13843700000007,
+                    34.76830600080848
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13747200000012,
+                    34.766806000808515
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13518900000008,
+                    34.76651300080846
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13483300000007,
+                    34.7655280008085
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13263500000028,
+                    34.764042000808445
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13392,
+                    34.76272600080847
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13472200000012,
+                    34.76130600080842
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13509599999998,
+                    34.759994000808376
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.133333,
+                    34.758608000808294
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13231299999995,
+                    34.75787500080838
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13203399999998,
+                    34.75706000080828
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13205600000003,
+                    34.75611100080823
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.131663,
+                    34.7550220008082
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13073499999996,
+                    34.754615000808315
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12980700000003,
+                    34.75437000080825
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13007300000004,
+                    34.75366700080821
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13081499999998,
+                    34.75346600080826
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.131756,
+                    34.753311000808196
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.1318060000001,
+                    34.751361000808174
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.133426,
+                    34.74996900080828
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13528199999996,
+                    34.74817600080809
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13732300000004,
+                    34.74719800080817
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13964299999998,
+                    34.74524200080816
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14103500000022,
+                    34.742390000808086
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14187000000004,
+                    34.74133000080792
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14140599999996,
+                    34.73929300080795
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14047800000014,
+                    34.73823300080801
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13964299999998,
+                    34.73684800080798
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13890000000015,
+                    34.73603300080788
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.1397360000002,
+                    34.73505500080796
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14047800000014,
+                    34.73399500080785
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13964299999998,
+                    34.732610000807824
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13964299999998,
+                    34.73073500080778
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14002800000003,
+                    34.727833000807834
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13969399999996,
+                    34.72569400080778
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14083300000004,
+                    34.722861000807654
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14175,
+                    34.72233300080768
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14227800000003,
+                    34.72052800080769
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.142334,
+                    34.718999000807685
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14452800000004,
+                    34.71633300080754
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.1452220000001,
+                    34.715167000807526
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.145528,
+                    34.711917000807546
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.142833,
+                    34.709889000807436
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.140756,
+                    34.7086490008075
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14219400000002,
+                    34.70733300080735
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14289000000008,
+                    34.70683100080737
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14375000000018,
+                    34.706444000807494
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.145083,
+                    34.704278000807335
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14463899999998,
+                    34.70286100080733
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14446800000007,
+                    34.70123200080741
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.143911,
+                    34.700580000807236
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14307599999995,
+                    34.69952100080724
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.14168400000005,
+                    34.699195000807265
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.1412200000001,
+                    34.69829900080737
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13899300000003,
+                    34.69886900080729
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.136667,
+                    34.700472000807395
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13477799999998,
+                    34.69975000080734
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13322200000005,
+                    34.698444000807285
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13097200000004,
+                    34.698000000807326
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.13002800000004,
+                    34.69727800080727
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12683300000003,
+                    34.69644400080733
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12500000000023,
+                    34.69538900080727
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12472200000002,
+                    34.69469400080715
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12480600000004,
+                    34.69388900080713
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12458300000003,
+                    34.693278000807254
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12366700000007,
+                    34.693222000807225
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12322200000006,
+                    34.692778000807266
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12244399999997,
+                    34.69236100080718
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12297200000012,
+                    34.69108300080717
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12258299999996,
+                    34.68988900080711
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12194399999998,
+                    34.689528000807115
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12088900000026,
+                    34.68927800080701
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.12055600000008,
+                    34.68880600080706
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11958300000003,
+                    34.688639000807086
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.118556,
+                    34.687556000807035
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11761100000012,
+                    34.6873060008071
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11530600000003,
+                    34.68577800080698
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.1137500000002,
+                    34.68605600080707
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11313899999993,
+                    34.68569400080713
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11363900000026,
+                    34.684750000807014
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.114639,
+                    34.68405600080695
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11508300000003,
+                    34.68333300080701
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11508300000003,
+                    34.68255600080704
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.113333,
+                    34.679917000806995
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.112167,
+                    34.679861000806966
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11211100000014,
+                    34.67930600080689
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.1110000000001,
+                    34.67925000080686
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.10988899999995,
+                    34.678778000806915
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.10936100000015,
+                    34.67777800080694
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.1096110000001,
+                    34.67722200080692
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.10930600000006,
+                    34.67650000080687
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.10980600000005,
+                    34.674833000806814
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.11066700000003,
+                    34.67436100080681
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.108389,
+                    34.672528000806835
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.10858300000007,
+                    34.67202800080668
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.106083,
+                    34.67038900080678
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.10586100000012,
+                    34.66997200080675
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.10572200000001,
+                    34.66997200080675
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.105417,
+                    34.66958300080671
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.1046110000001,
+                    34.66955600080678
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.1043380000002,
+                    34.669529000806676
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.1026680000001,
+                    34.6702630008067
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.10127599999998,
+                    34.670915000806815
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.099698,
+                    34.671322000806754
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09839899999997,
+                    34.67050700080682
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09747200000004,
+                    34.67001800080686
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09719300000006,
+                    34.669529000806676
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09589400000004,
+                    34.66961100080675
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0953380000002,
+                    34.66928500080678
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09450200000015,
+                    34.669529000806676
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.093296,
+                    34.66904000080672
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09338900000023,
+                    34.66838800080677
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0934820000001,
+                    34.66716600080679
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09264700000017,
+                    34.66675800080674
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.091997,
+                    34.66610600080679
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0920900000001,
+                    34.66488400080658
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09079100000008,
+                    34.664721000806594
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08995600000003,
+                    34.664232000806635
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08939899999996,
+                    34.664639000806744
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08856400000002,
+                    34.66447600080676
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08828600000004,
+                    34.66406900080665
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.088657,
+                    34.66349800080667
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08782200000007,
+                    34.663172000806696
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08661599999994,
+                    34.663172000806696
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08531700000026,
+                    34.66325400080672
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08494500000006,
+                    34.6626020008066
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.084296,
+                    34.66252000080658
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08373900000026,
+                    34.662357000806594
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08373900000026,
+                    34.66178700080667
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.082626,
+                    34.661868000806635
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0815120000002,
+                    34.66178700080667
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.081048,
+                    34.66129800080654
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08067700000004,
+                    34.66080900080658
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07910000000015,
+                    34.66113500080655
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07770800000003,
+                    34.661461000806696
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07603800000004,
+                    34.66154200080666
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0752030000001,
+                    34.661461000806696
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07499400000006,
+                    34.66225500080668
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07471599999997,
+                    34.66282600080666
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.074113,
+                    34.66298900080665
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07304599999998,
+                    34.66307000080661
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07179300000007,
+                    34.66319300080664
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07054000000028,
+                    34.66331500080662
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06901000000016,
+                    34.66355900080674
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.068128,
+                    34.6636820008066
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06715400000007,
+                    34.6636820008066
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06636500000002,
+                    34.664008000806575
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06562300000007,
+                    34.66429300080671
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06474100000025,
+                    34.66421100080669
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.063226,
+                    34.663799000806705
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06265400000007,
+                    34.663396000806586
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.061865,
+                    34.66355900080674
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06098399999996,
+                    34.66364100080659
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.05954500000007,
+                    34.664008000806575
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.05815400000006,
+                    34.664456000806695
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.057226,
+                    34.66470000080665
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.05652999999995,
+                    34.66474100080666
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.05550900000003,
+                    34.664945000806654
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.05448900000022,
+                    34.66527100080663
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.05374600000005,
+                    34.66482300080668
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.05309699999998,
+                    34.66486300080663
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.05221500000005,
+                    34.66486300080663
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.05054500000006,
+                    34.66514900080665
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.04924600000004,
+                    34.66539300080677
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.04854999999998,
+                    34.66531200080664
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.04632300000014,
+                    34.66547500080662
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.04497800000001,
+                    34.6655970008066
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.04284400000006,
+                    34.66596400080658
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.04117400000007,
+                    34.666208000806705
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.03968900000007,
+                    34.66645300080677
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.03968900000007,
+                    34.66690100080666
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.03964300000007,
+                    34.66722700080663
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.038947,
+                    34.66730800080677
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.037416,
+                    34.66751200080677
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0360240000001,
+                    34.66767500080675
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0344930000001,
+                    34.66783800080674
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.03361200000018,
+                    34.667879000806806
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.03221999999994,
+                    34.667960000806715
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.03221999999994,
+                    34.66820500080678
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.03212700000006,
+                    34.66857200080676
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0313850000001,
+                    34.66877500080665
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.030527,
+                    34.66887700080673
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02978399999995,
+                    34.66895900080681
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02867100000014,
+                    34.67058900080684
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02727900000002,
+                    34.67287100080682
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.027465,
+                    34.67393000080688
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02885600000013,
+                    34.67425600080685
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.03006300000015,
+                    34.67531600080679
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02987700000006,
+                    34.6780870008069
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0291350000001,
+                    34.67988000080692
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02719400000012,
+                    34.6804720008069
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02719400000012,
+                    34.68122200080694
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02547200000026,
+                    34.682333000807034
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02477800000008,
+                    34.68238900080706
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02358300000014,
+                    34.68230600080693
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02327800000012,
+                    34.683667000806906
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0235,
+                    34.68413900080708
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02311099999997,
+                    34.68463900080707
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0231940000001,
+                    34.68530600080703
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.023861,
+                    34.68569400080713
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02327800000012,
+                    34.68630600080695
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.023011,
+                    34.68721500080704
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02455599999996,
+                    34.68852800080714
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02461099999994,
+                    34.68963900080706
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02597200000002,
+                    34.69152800080718
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02536099999998,
+                    34.69227800080711
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02505600000018,
+                    34.69450000080707
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02308300000016,
+                    34.695111000807174
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02338900000007,
+                    34.69736100080718
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02216699999997,
+                    34.69811100080727
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02272200000027,
+                    34.69886100080731
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0210830000002,
+                    34.70119400080728
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02200000000005,
+                    34.70250000080733
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02083300000015,
+                    34.70377800080735
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0197780000001,
+                    34.70411100080736
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02027800000008,
+                    34.704917000807484
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02055600000017,
+                    34.70691700080738
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02125,
+                    34.7075830008074
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02119400000015,
+                    34.708111000807435
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01983299999995,
+                    34.70855600080745
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01916700000015,
+                    34.710389000807425
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01824999999997,
+                    34.711222000807595
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0170280000001,
+                    34.713333000807495
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0151390000001,
+                    34.713639000807575
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01497200000017,
+                    34.71288900080748
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01311099999998,
+                    34.713250000807534
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0120280000001,
+                    34.71422200080747
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01177800000005,
+                    34.715917000807565
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01030600000024,
+                    34.71844400080761
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.010806,
+                    34.71919400080765
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.011306,
+                    34.72033300080773
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01099999999997,
+                    34.721722000807745
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00988900000004,
+                    34.722667000807746
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01049999999998,
+                    34.723167000807734
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01019400000007,
+                    34.7250280008077
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01019400000007,
+                    34.7263330008077
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01075000000003,
+                    34.726861000807844
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01061100000004,
+                    34.727833000807834
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00872200000015,
+                    34.72822200080782
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00786099999993,
+                    34.72786100080782
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00677800000005,
+                    34.72819400080783
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00680599999998,
+                    34.72905600080776
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00777800000014,
+                    34.730306000807786
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00713900000005,
+                    34.731583000807916
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0065830000001,
+                    34.73191700080787
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00652800000012,
+                    34.73294400080795
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.005722,
+                    34.73333300080793
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0064440000001,
+                    34.73394400080787
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00675,
+                    34.73491700080791
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00816700000018,
+                    34.73538900080791
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00850000000003,
+                    34.73630600080793
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00947199999996,
+                    34.7367220008079
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00894400000004,
+                    34.737361000807994
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00897199999997,
+                    34.73777800080802
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00850000000003,
+                    34.738889000807944
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00780599999996,
+                    34.73900000080806
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00780599999996,
+                    34.740611000807974
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00719400000014,
+                    34.74080600080811
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0070830000002,
+                    34.742083000808066
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00924999999995,
+                    34.74433300080807
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00852800000007,
+                    34.74705600080813
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.00980600000025,
+                    34.74897200080824
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01047200000016,
+                    34.749250000808104
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01027800000008,
+                    34.75011100080815
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01191700000015,
+                    34.751806000808244
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01191700000015,
+                    34.75211100080821
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.012611,
+                    34.75300000080824
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01347199999998,
+                    34.75330600080832
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01361099999997,
+                    34.75330600080832
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0155830000001,
+                    34.7534440008082
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01727800000015,
+                    34.75394400080836
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01725,
+                    34.75494400080834
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01897199999996,
+                    34.75450000080821
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.01983299999995,
+                    34.756139000808275
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02049999999997,
+                    34.756194000808364
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02069400000016,
+                    34.75686100080833
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02230599999996,
+                    34.75730600080834
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0233330000002,
+                    34.757222000808326
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02402800000016,
+                    34.75805600080844
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02536099999998,
+                    34.75805600080844
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02591700000016,
+                    34.75883300080841
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.02822200000003,
+                    34.75794400080838
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0291390000001,
+                    34.75911100080833
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.03016700000023,
+                    34.759389000808426
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.031111,
+                    34.760083000808436
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.03155600000002,
+                    34.75966700080829
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.03383299999996,
+                    34.75947200080833
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0354440000001,
+                    34.76091700080838
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.03591700000015,
+                    34.76080600080843
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0383210000001,
+                    34.76235700080849
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.03720700000008,
+                    34.76333500080841
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.03691700000024,
+                    34.76525000080841
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.037556,
+                    34.766194000808525
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.03944400000012,
+                    34.766250000808554
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.04047200000002,
+                    34.76705600080845
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.04136099999994,
+                    34.76691700080846
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.04156799999998,
+                    34.768469000808466
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0426940000001,
+                    34.76902800080853
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0437780000002,
+                    34.76850000080856
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.04472199999998,
+                    34.76858300080846
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.04550000000006,
+                    34.76811100080852
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.04688900000008,
+                    34.76827800080849
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.04744400000016,
+                    34.76741700080845
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.04694400000017,
+                    34.767139000808584
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.049083,
+                    34.76400000080838
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.050833,
+                    34.76375000080844
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.05072200000006,
+                    34.76502800080851
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.05197199999998,
+                    34.76563900080845
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.053722,
+                    34.7673060008085
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.053722,
+                    34.769750000808585
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.05525000000011,
+                    34.77077800080855
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.05650000000003,
+                    34.77022200080859
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.060833,
+                    34.76955600080851
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06216699999993,
+                    34.769833000808546
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06455600000004,
+                    34.76875000080861
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06519400000013,
+                    34.76977800080857
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06433300000003,
+                    34.770583000808585
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06455600000004,
+                    34.77183300080861
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06569400000024,
+                    34.77258300080854
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06672200000003,
+                    34.77511100080858
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06780600000002,
+                    34.77536100080869
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06780600000002,
+                    34.77583300080863
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06902800000023,
+                    34.77658300080873
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06933300000003,
+                    34.77727800080868
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0703890000001,
+                    34.77755600080877
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07152800000017,
+                    34.7788060008088
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07275000000004,
+                    34.77888900080876
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0743890000001,
+                    34.780111000808745
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07536100000004,
+                    34.779806000808776
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07675000000006,
+                    34.781306000808684
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07694400000025,
+                    34.78283300080875
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07622200000003,
+                    34.78363900080882
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07630600000005,
+                    34.78416700080879
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07705599999997,
+                    34.78436100080887
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0776390000002,
+                    34.785389000808834
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.078667,
+                    34.78580600080886
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.078444,
+                    34.787000000808916
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07897200000002,
+                    34.78791700080893
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.080472,
+                    34.78800000080889
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08150000000012,
+                    34.7886670008088
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.085194,
+                    34.79352800080903
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0848890000002,
+                    34.79744400080904
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08517700000004,
+                    34.79821700080902
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08629100000007,
+                    34.7989500008091
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0874040000001,
+                    34.79935800080915
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08808299999998,
+                    34.800028000809164
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08813900000018,
+                    34.801361000809095
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0892500000001,
+                    34.80213900080918
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08950000000004,
+                    34.80283300080907
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.091583,
+                    34.80388900080919
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09297200000003,
+                    34.803528000809195
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09625000000005,
+                    34.804222000809034
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09819400000003,
+                    34.80516700080909
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09900300000004,
+                    34.80767100080931
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09992999999997,
+                    34.808567000809205
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.10058000000015,
+                    34.810849000809355
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.099374,
+                    34.81166400080929
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09788900000012,
+                    34.81333300080939
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09603300000015,
+                    34.81500600080943
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09761100000003,
+                    34.81728800080941
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09633299999996,
+                    34.81883300080932
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09552799999994,
+                    34.81938900080951
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09480600000006,
+                    34.821472000809536
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.093167,
+                    34.821472000809536
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09216700000002,
+                    34.82208300080947
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09102799999994,
+                    34.82136100080942
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08872199999996,
+                    34.820639000809535
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.087312,
+                    34.81957000080939
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.084157,
+                    34.820303000809474
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.084157,
+                    34.8215260008094
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08341499999995,
+                    34.823400000809556
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.083167,
+                    34.824139000809396
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0828610000001,
+                    34.82602800080957
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08188899999993,
+                    34.82741700080959
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0821390000001,
+                    34.82875000080958
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08269400000017,
+                    34.82927800080955
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08227799999997,
+                    34.8302780008097
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0813730000001,
+                    34.83089800080967
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08283300000005,
+                    34.831722000809634
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08322199999998,
+                    34.83216700080965
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08233299999995,
+                    34.83344400080961
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08230100000014,
+                    34.83481000080968
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08322899999996,
+                    34.83570600080975
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08444399999996,
+                    34.836611000809626
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08430599999997,
+                    34.836611000809626
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0842500000001,
+                    34.83741700080975
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.083167,
+                    34.83769400080973
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.082722,
+                    34.83844400080977
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08319399999993,
+                    34.83886100080986
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08288900000014,
+                    34.83975000080983
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08219399999996,
+                    34.83988900080982
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.081861,
+                    34.840361000809764
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.08088899999996,
+                    34.840750000809805
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07914600000004,
+                    34.84133000080982
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07822199999998,
+                    34.84200000080983
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07098099999996,
+                    34.84287800080983
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.06634200000008,
+                    34.841411000809785
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07014600000002,
+                    34.84524200080989
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07042400000012,
+                    34.84703500080991
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07283300000017,
+                    34.84758300080995
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.0753420000001,
+                    34.84752400080987
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.07735769954013,
+                    34.847041062507515
+                ]
+            },
+            "properties": {
+                "point": "国安",
+                "point_no": "1"
+            }
+        }
+    ]
+}

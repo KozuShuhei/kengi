@@ -1,16 +1,18 @@
 import React, { useRef, useState, useEffect, CSSProperties } from 'react'
 import { Ion, Viewer, Cartesian3, Math as CesiumMath, createWorldTerrainAsync, Color, Entity, ColorMaterialProperty, JulianDate, CallbackProperty, ScreenSpaceEventHandler, ScreenSpaceEventType, defined } from 'cesium';
 import "cesium/Build/Cesium/Widgets/widgets.css";
-import { Slider, IconButton  } from '@mui/material';
+import { Slider, IconButton, Stack  } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import StopIcon from '@mui/icons-material/Stop';
 import logo from '../map/logo.png'
 import { useNavigate } from 'react-router-dom';
 import { getColorByHeight } from './CesiumUtil';
+import { RainObservatoryLegend } from './consts'
 
 import {
   LogoImg,
+  LegendContents
 } from '../map/style';
 
 const CesiumMapComponent: React.FC = () => {
@@ -259,6 +261,29 @@ const CesiumMapComponent: React.FC = () => {
       <div ref={cesiumContainer} style={{ width: '100%', height: '100vh' }}>
         <LogoImg src={logo} alt="Logo" onClick={homeLink}/>
         <Popup />
+
+        
+        <LegendContents>
+          <Stack direction={'column'}>
+            {
+              RainObservatoryLegend.colors !== undefined && RainObservatoryLegend.colors.map((c: any, index: number) => {
+                return (
+                  <Stack key={index} height={18} alignItems={'center'}
+                    sx={{
+                      fontSize: 11,
+                      px: 1,
+                      backgroundColor: c.color,
+                      color: '#ffffff',
+                      textShadow: '1px 1px 1px rgba(30, 30, 30, 1), 1px 1px 2px rgba(30, 30, 30, 0.8), -1px 0px 1px rgba(30, 30, 30, 0.6)',
+                      fontWeight: 'bold'
+                    }}>
+                    {c.value}
+                  </Stack>
+                )
+              })
+            }
+          </Stack>
+        </LegendContents>
 
         <IconContents>
           <TimeSlider onTimeChange={handleTimeChange} />

@@ -1,0 +1,2483 @@
+﻿{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.81892563913982,
+                    38.627763529440074
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.8224958500374,
+                    38.62512837377733
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.83142137728169,
+                    38.625893418969895
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.84238702503853,
+                    38.62487335871333
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.84314446069607,
+                    38.624524569611026
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.8441473318635,
+                    38.62406274277703
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.84350787394328,
+                    38.6225924628115
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.84104346123422,
+                    38.618565251799
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.83857904852528,
+                    38.61231405858564
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.84801594597172,
+                    38.60197554673283
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.8543873544386,
+                    38.60239630012211
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.858654995959,
+                    38.60137447046225
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.86250188409008,
+                    38.60371866791729
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.86845253916772,
+                    38.603658560290285
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.8717862449231,
+                    38.60272950072857
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.87211910441772,
+                    38.60263673063048
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.8800533111879,
+                    38.60852727808134
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.89381795778195,
+                    38.61183319756941
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.89892710608103,
+                    38.61453804078673
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.90481765353172,
+                    38.61375664163495
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.91148960013425,
+                    38.61610083909011
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.91996477554778,
+                    38.609128354352094
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.9229701569003,
+                    38.60954910774137
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.9240647988479,
+                    38.607849490580406
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.92803190223322,
+                    38.60796970583448
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.947747203905,
+                    38.59931420753901
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.94786741915925,
+                    38.597150332965214
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.96205281914263,
+                    38.59402473635862
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.96806358184745,
+                    38.59138000076831
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.9776808021753,
+                    38.58837461941562
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.9840522106424,
+                    38.585369238063095
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.98994275809332,
+                    38.58440751603024
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.99619395130628,
+                    38.5815223499319
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.00196428350296,
+                    38.57442964993976
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.00220471401133,
+                    38.5684188872346
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.0070133241751,
+                    38.56613479740656
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.01362516315055,
+                    38.557839944873535
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.01807312755216,
+                    38.55074724488139
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.0221604461915,
+                    38.546299280479616
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.012783656372,
+                    38.54329389912698
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.00581117163415,
+                    38.54149067031551
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.99439072249493,
+                    38.538365073708746
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.98056596827348,
+                    38.52766591609361
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.97599778861797,
+                    38.52454031948679
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.95796550050318,
+                    38.51648589746202
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.9556814106753,
+                    38.513480516109325
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.94750677339675,
+                    38.50662824662544
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.9422173022166,
+                    38.507469753404166
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.93596610900374,
+                    38.505666524592584
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.93272029714285,
+                    38.50314200425652
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.93632675476567,
+                    38.49592908901025
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.9417364412002,
+                    38.48955768054276
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.9402938581511,
+                    38.48691294495262
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.93452352595432,
+                    38.48510971614098
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.92702841821028,
+                    38.48095401283723
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.92813038165662,
+                    38.476613758790904
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.93221770029606,
+                    38.46964127405289
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.92861124267324,
+                    38.466515677446125
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.92933253419767,
+                    38.458581470675426
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.92596650708288,
+                    38.456898457117916
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.9245239240338,
+                    38.45160898593741
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.92764952064033,
+                    38.449445111363445
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.93341985283712,
+                    38.447521667297735
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.9339007138534,
+                    38.44295348764189
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.93414114436143,
+                    38.435740572395616
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.92837081216499,
+                    38.42179560291976
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.91779186980432,
+                    38.41915086732945
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.91490670370627,
+                    38.41121666055875
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.91731100878803,
+                    38.40785063344373
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.91610885624732,
+                    38.404725036837135
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.9206770359027,
+                    38.39414609447607
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.9156279952307,
+                    38.38813533177091
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.91346412065695,
+                    38.38813533177091
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.90961723252587,
+                    38.38044155550824
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.91202153760787,
+                    38.37539251483594
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.91683014777163,
+                    38.36793916908147
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.9110598155752,
+                    38.35808151824506
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.9100980935424,
+                    38.35591764367115
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.90264474778826,
+                    38.348945158933134
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.90456819185397,
+                    38.34630042334294
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.90288517829663,
+                    38.34004923012958
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.89831699864078,
+                    38.33596191149013
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.8963935545754,
+                    38.33043200980137
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.89158494441165,
+                    38.33235545386691
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.8870167647558,
+                    38.32778727421106
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.88220815459204,
+                    38.32634469116175
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.8810060020511,
+                    38.32394038607981
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.879563419002,
+                    38.321536080997646
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.8759569613792,
+                    38.319853067440135
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.87475480883813,
+                    38.3174487623582
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.86706103257598,
+                    38.321536080997646
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.8646567274942,
+                    38.32682555217821
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.8552799376747,
+                    38.33427889793262
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.85191391056014,
+                    38.33403846742442
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.84686486988812,
+                    38.33812578606387
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.84768443249084,
+                    38.34314986461726
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.83975022572054,
+                    38.34363072563366
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.82700740878659,
+                    38.34567438495333
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.825204179975,
+                    38.350122349355104
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.81847212574587,
+                    38.352045793420814
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.81630825117213,
+                    38.356253327314334
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.81029748846754,
+                    38.355772466297935
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.80380586474644,
+                    38.35541182053561
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.79767488678772,
+                    38.35144471715023
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7905821867963,
+                    38.34952127308452
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7864948681572,
+                    38.35204579342059
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.77820001562486,
+                    38.353849022232225
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.77098710037922,
+                    38.3537288069781
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.76473590716637,
+                    38.358176771379874
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.76161031055994,
+                    38.3611821527324
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.75151222921636,
+                    38.35913849341273
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.74478017498723,
+                    38.36250452052758
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.74129393261853,
+                    38.365630117134174
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.73263843432403,
+                    38.371400449331134
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.72879154619318,
+                    38.37717078152804
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7293926224637,
+                    38.38318154423325
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.72542551907873,
+                    38.38835080015963
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.72542551907873,
+                    38.39207747303681
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7207371241691,
+                    38.394481778118916
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.70835495299787,
+                    38.38618692558572
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.70414741910463,
+                    38.39604457642213
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.70318569707194,
+                    38.40121383234856
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7049889258834,
+                    38.40734481030785
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7084751682521,
+                    38.40914803911943
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7116007648582,
+                    38.41383643402958
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.71701045129225,
+                    38.42333343910366
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.71881368010372,
+                    38.429344201808874
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.71592851400567,
+                    38.433311305194195
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7177317428168,
+                    38.4381199153583
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.71761152756267,
+                    38.446775413653825
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.71941475637402,
+                    38.4512233780556
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.71761152756267,
+                    38.454829835678595
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.71640937502173,
+                    38.463966194990576
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.71280291739924,
+                    38.47069824922022
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.71172098011232,
+                    38.479714393278016
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7152072224809,
+                    38.47899310175342
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.72049669366083,
+                    38.483561281409436
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7243435817919,
+                    38.485244294966776
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.72566594958676,
+                    38.48776881530301
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.72314142925086,
+                    38.49185613394246
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.71953497162804,
+                    38.4940200085162
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.72205949196393,
+                    38.49774668139355
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.72879154619318,
+                    38.50027120172979
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7325182190698,
+                    38.50027120172979
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.73600446143848,
+                    38.5070032559596
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.73071499025855,
+                    38.5103692830744
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.72975326822586,
+                    38.512653372902435
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.72975326822564,
+                    38.51577896950903
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.727469178398,
+                    38.51974607289441
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.73239800381566,
+                    38.52551640509131
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.73011391398802,
+                    38.53296975084578
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7325182190698,
+                    38.54198589490346
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.73696618347117,
+                    38.54691472032181
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7416545783807,
+                    38.549559455912004
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.74850684786384,
+                    38.55557021861733
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.74934835464262,
+                    38.5578543084452
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.75235373599492,
+                    38.55977775251091
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.75223352074067,
+                    38.56374485589623
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.75415696480616,
+                    38.56578851521607
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7537963190439,
+                    38.56807260504394
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.75523890209297,
+                    38.57215992368356
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.76161031055994,
+                    38.5790121931675
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7700253783463,
+                    38.5847825253644
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.76714021224814,
+                    38.59115393383172
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.76617849021545,
+                    38.59656362026635
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.77194882241167,
+                    38.60113179992243
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7750744190181,
+                    38.60473825754548
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.77940216816557,
+                    38.60642127110293
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.78101339960824,
+                    38.61050751010026
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.78296184157546,
+                    38.61071260925479
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7874737812324,
+                    38.61118755027127
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7899389268523,
+                    38.61543780134025
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.79282909757887,
+                    38.61458775112635
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.79758937877568,
+                    38.61773293691749
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.81008511691732,
+                    38.61977305743051
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.8150154081569,
+                    38.625893418969895
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.81892563913982,
+                    38.627763529440074
+                ]
+            },
+            "properties": {
+                "point": "熊出",
+                "point_no": "1"
+            }
+        }
+    ]
+}

@@ -7,8 +7,8 @@ import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import StopIcon from '@mui/icons-material/Stop';
 import logo from '../map/logo.png'
 import { useNavigate } from 'react-router-dom';
-import { RainObservatoryLegend } from '../map/consts'
 import { getColorByHeight } from './CesiumUtil';
+import { RainObservatoryLegend } from './consts'
 
 import {
   LogoImg,
@@ -194,7 +194,7 @@ const CesiumMeshComponent: React.FC = () => {
       const t = Math.min(elapsed / duration, 1);
       return CesiumMath.lerp(startHeight, endHeight, t);
     }, false);
-  
+
     entity.polygon!.extrudedHeight = callback;
   
     const updateHeight = () => {
@@ -322,11 +322,11 @@ const CesiumMeshComponent: React.FC = () => {
             降水量: {hoveredHeight.toFixed(2)} m
           </div>
         )}
-{/* 
+
         <LegendContents>
           <Stack direction={'column'}>
             {
-              RainObservatoryLegend.colors !== undefined && RainObservatoryLegend.colors.map((c, index) => {
+              RainObservatoryLegend.colors !== undefined && RainObservatoryLegend.colors.map((c: any, index: number) => {
                 return (
                   <Stack key={index} height={18} alignItems={'center'}
                     sx={{
@@ -343,7 +343,7 @@ const CesiumMeshComponent: React.FC = () => {
               })
             }
           </Stack>
-        </LegendContents> */}
+        </LegendContents>
         <IconContents>
           <TimeSlider onTimeChange={handleTimeChange} />
         </IconContents>

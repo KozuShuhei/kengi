@@ -1,0 +1,5227 @@
+﻿{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.09996230709777,
+                    40.62279486658808
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.09907934631426,
+                    40.62506699218398
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0943193941927,
+                    40.626457345670794
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.09272718918075,
+                    40.62872084815003
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0889967677436,
+                    40.63158796756835
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0843655901971,
+                    40.632521711552606
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.08111851138557,
+                    40.63485003764031
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.08111871976052,
+                    40.63503247891457
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.07704442730946,
+                    40.6376257747252
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.07440998437872,
+                    40.63858521467006
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.07403302828766,
+                    40.63977131028811
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.06929409125192,
+                    40.640065969138945
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.062005084457,
+                    40.64361830508568
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.05943175937605,
+                    40.64759677167773
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.055450696009,
+                    40.65054501578188
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.05530988758287,
+                    40.65191338453471
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.05481406063672,
+                    40.65277563326385
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.05431823369054,
+                    40.65363788199302
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.05306724715612,
+                    40.65644800214848
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.05182778453175,
+                    40.658984441722126
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.05213632009242,
+                    40.66062628075239
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0480940455443,
+                    40.66203266733138
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0462367629716,
+                    40.665013987658014
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.04612166319214,
+                    40.66519873673205
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.04388688163488,
+                    40.664798150087094
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0371129623317,
+                    40.66606821858357
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.03500805618916,
+                    40.665220444377745
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.03204176176976,
+                    40.66508656452914
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.02897822662638,
+                    40.66494821527604
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0208087148904,
+                    40.665560828154376
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.01922485990644,
+                    40.66754964057165
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.01506316606645,
+                    40.66848966143319
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.01281667049727,
+                    40.668362135351444
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.00398444641124,
+                    40.6715186452685
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.00262460202615,
+                    40.67396332936843
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.00048403183243,
+                    40.6793178904733
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.99945494308926,
+                    40.682857184737635
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.99593028270976,
+                    40.68655138150949
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.99229882137607,
+                    40.69005389533495
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.99182486247022,
+                    40.694605668219694
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.9918248805057,
+                    40.69460567949401
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.99182487641127,
+                    40.694605686043865
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.99182487650037,
+                    40.69460568310394
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.99182486067699,
+                    40.6946056854403
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.99182486007928,
+                    40.69460569117998
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.98731817797093,
+                    40.69527100501743
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.97979439839685,
+                    40.697896763442216
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.97740462990882,
+                    40.69877193486398
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.97500750196764,
+                    40.70190016940394
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.97373545256687,
+                    40.703560045158326
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.97120285115946,
+                    40.7056209038693
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.96772381407578,
+                    40.70738950545301
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.96483601193532,
+                    40.709358889609184
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.96426577318368,
+                    40.71327200834652
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.9593905068022,
+                    40.714291860911054
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.95611071830308,
+                    40.71762003941636
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.95106782220725,
+                    40.72055507577816
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.94617967156492,
+                    40.7219392403221
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.94143418005459,
+                    40.72241108256595
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.93837016438317,
+                    40.72164312358397
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.93293930991368,
+                    40.7211929063295
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.93103354179286,
+                    40.72180287739757
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.92944559138303,
+                    40.723872533053054
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.92745361589292,
+                    40.72731018551902
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.92507437938104,
+                    40.7278193990631
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.92153627841975,
+                    40.72758885996873
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.91817289155375,
+                    40.729538482493794
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.9157812948387,
+                    40.730330274462574
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.91069283020101,
+                    40.73006171237705
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.90803919622536,
+                    40.73193863843744
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.90693590709697,
+                    40.73375297130745
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.90294229753215,
+                    40.73715199628162
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.90219456387,
+                    40.738510499420634
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.90259293162387,
+                    40.74116532572899
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.90275391126187,
+                    40.74426691311808
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.9061367830803,
+                    40.745966520176204
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.90675879811906,
+                    40.74962492688756
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.9085526108074,
+                    40.75348499017181
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.91245310549786,
+                    40.75801262063582
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.91424809699998,
+                    40.757783582604965
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.91756858845804,
+                    40.757359815490915
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.91958761256188,
+                    40.76167596526168
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.92444184218257,
+                    40.76184363144939
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.92820609480532,
+                    40.76263066436459
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.93309769613887,
+                    40.76115605491985
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.94093643981114,
+                    40.76044913764278
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.94255703267117,
+                    40.76202810336243
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.94678279873244,
+                    40.763371211371876
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.94961209167033,
+                    40.764047611607744
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.95135167615663,
+                    40.76526163496872
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.9561819046865,
+                    40.76634014131712
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.95754198743165,
+                    40.76863941239147
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.96008608007742,
+                    40.77132224694676
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.9623937629556,
+                    40.77364006404112
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.96121855025737,
+                    40.77799987132222
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.96012840088312,
+                    40.7788933971869
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.95925083717128,
+                    40.78061708369771
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.9611383799255,
+                    40.78175046603767
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.96334707115193,
+                    40.78307659471744
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.9643890304772,
+                    40.783702168338145
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.97047539287928,
+                    40.78653189545516
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.97452432879737,
+                    40.790701695794574
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.97754388218567,
+                    40.79311972541995
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.97792144734785,
+                    40.79685975806541
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.97803805398712,
+                    40.80152102984479
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.98179308426668,
+                    40.80303605206943
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.98159045360606,
+                    40.80658439248181
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.9864242416125,
+                    40.807387972421374
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.98886453161924,
+                    40.809249176819286
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.98985911874712,
+                    40.81236896069359
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.99079511910386,
+                    40.81274306962418
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.99171917330236,
+                    40.813673598665495
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.99468147010114,
+                    40.813892813656274
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.9972526259963,
+                    40.81529776049724
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0003216420413,
+                    40.815799612637065
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.00363955872587,
+                    40.81567198235292
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.00599765794516,
+                    40.81633786764298
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.00751448079333,
+                    40.817459818179444
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.00773964360675,
+                    40.81773346565622
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.008711297058,
+                    40.81693071818408
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.00924437685657,
+                    40.81456815585967
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.01105718878426,
+                    40.812944390250934
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.01157834303126,
+                    40.81094668784011
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0143389137582,
+                    40.80953260949865
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0166254637463,
+                    40.808282707556515
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0154877195086,
+                    40.80644021774193
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0158666415902,
+                    40.805172251157636
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.01698003294706,
+                    40.80354845611239
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.02008388045775,
+                    40.80268150941058
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.02175417499944,
+                    40.80196977210154
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.02282038120373,
+                    40.80180541596235
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.02447910720116,
+                    40.80219737943456
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.02863725706945,
+                    40.80152157373339
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.03033088184964,
+                    40.80018030250169
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.03411023410925,
+                    40.80059900031456
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.03657499514617,
+                    40.801820665292276
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.03834042779243,
+                    40.80221239986356
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.03971573191626,
+                    40.80414581159562
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0419551062028,
+                    40.804455249203556
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0428424819132,
+                    40.80236606543404
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0448563745791,
+                    40.80211909131524
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.04620589055713,
+                    40.800403712757685
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.04752056141282,
+                    40.799874166112005
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.04880045819934,
+                    40.800530452896446
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0541957313377,
+                    40.79935269137737
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.05428471639453,
+                    40.799333263884826
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0563828983694,
+                    40.80101075364582
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.05946286342348,
+                    40.80068094473644
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.06054072598968,
+                    40.8004250164181
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.06182091821617,
+                    40.8012635946827
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.063479698272,
+                    40.801472561396466
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0650309452959,
+                    40.80066904019226
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.06819587929257,
+                    40.80253730877933
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0706607975621,
+                    40.80321093458523
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0706739238146,
+                    40.80321112296043
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.07223288023872,
+                    40.80323347892639
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.07433352536435,
+                    40.80326353153505
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.07682182759427,
+                    40.80357214175153
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.08060145415706,
+                    40.80380688031759
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.08263820690186,
+                    40.80292982741445
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.08445470843,
+                    40.8061394579761
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.09000083100148,
+                    40.80712976124713
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.09187406849304,
+                    40.80806790415149
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.09194779081648,
+                    40.81007464279634
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.09395112073395,
+                    40.8107481209631
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.095857811997,
+                    40.810044250489774
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.0988089534131,
+                    40.810625672744635
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.10255605973057,
+                    40.81259285804788
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.1096437249362,
+                    40.81379069759148
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.11380187784755,
+                    40.81320304209399
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.1176047934483,
+                    40.812798020958574
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.11971589568827,
+                    40.81392703500022
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.12492907653876,
+                    40.8136298180424
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.13021779753873,
+                    40.815713068514434
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.13540952160398,
+                    40.81651001505245
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.13869494513568,
+                    40.81801133623988
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.14320956941202,
+                    40.81788741710515
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.14781997723318,
+                    40.818228412980645
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.15229084061644,
+                    40.819746112179786
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.1578285057227,
+                    40.821280469150345
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.16012687974128,
+                    40.82210185328849
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.1610071531694,
+                    40.822416424488736
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.15878756488888,
+                    40.82603163153836
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.15869748135074,
+                    40.830306974208064
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.15869146189723,
+                    40.8305926393639
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.15956415646298,
+                    40.833802327261836
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.16092185456782,
+                    40.836555263218756
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.15709692679138,
+                    40.843346958054944
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.15527539540537,
+                    40.84514633335863
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.1562134281537,
+                    40.84580186888018
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.15606220079937,
+                    40.84706998804432
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.15958715587382,
+                    40.84876194693171
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.1608485993783,
+                    40.850785267916955
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.16283120162288,
+                    40.85190453701432
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.16561263165522,
+                    40.84993951757586
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.16748703507804,
+                    40.84558582193176
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.17119340782406,
+                    40.8438930081459
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.17455560593095,
+                    40.84211848688079
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.18250868822037,
+                    40.841668651622754
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.1880905016798,
+                    40.84110348186437
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.18829658152399,
+                    40.842754187935
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.1937176361928,
+                    40.8440042267025
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.1968766432426,
+                    40.845960176196776
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.19619980136207,
+                    40.84969208799977
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.19241951389847,
+                    40.8544872075723
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.19508384222837,
+                    40.857438273223416
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.19631556950213,
+                    40.85928767950351
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.19712312055228,
+                    40.86050013260257
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.19888292808366,
+                    40.86314212411586
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.2019899369604,
+                    40.8671960039794
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.20346921543623,
+                    40.870130647510805
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.21280720136144,
+                    40.87161924706043
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.21514914265316,
+                    40.87338460235952
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.2190420082067,
+                    40.87425311164497
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.21744785878926,
+                    40.876427024324904
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.21826801718666,
+                    40.8769819301357
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.21728794532038,
+                    40.87834287135247
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.21882039539096,
+                    40.87908801245858
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.22049701822726,
+                    40.88403795262234
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.2226108991981,
+                    40.88479107427189
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.22184819963016,
+                    40.887337457206506
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.22879510161272,
+                    40.889522481480626
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.22851685474473,
+                    40.89143856948662
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.2327003264986,
+                    40.89020806950315
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.24168556149567,
+                    40.89160380430298
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.2467091333411,
+                    40.88984201036186
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.25250086358378,
+                    40.89055031697661
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.26259534576056,
+                    40.89030925732071
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.27073071128044,
+                    40.888782195199376
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.27084501705224,
+                    40.888575636864076
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.27006443533395,
+                    40.88619668421067
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.27008971371694,
+                    40.88509316060457
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.27185243456432,
+                    40.884598148996915
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.27258260062948,
+                    40.884092878557226
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.27888005290436,
+                    40.88380442484533
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.27888008972135,
+                    40.8838044027798
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.2792450039617,
+                    40.88363167539442
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.27998152716424,
+                    40.88328304551684
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.28414805540964,
+                    40.88131068116054
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.2841480946935,
+                    40.88131066389622
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.2900000562755,
+                    40.87956323129729
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.29000009564615,
+                    40.87956321437865
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.29777785873904,
+                    40.87618694967778
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.29777789576795,
+                    40.87618692830096
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.299847753335,
+                    40.8760920606249
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.30241437335619,
+                    40.875974372917696
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.30668394141804,
+                    40.87593590447907
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.31213918940372,
+                    40.87582114924371
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3162905655499,
+                    40.87587385695672
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.32202298885485,
+                    40.874207221060686
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.32202302886395,
+                    40.874207206360836
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.32883046762404,
+                    40.871734556018694
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.328830507066,
+                    40.87173453826574
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3341056805328,
+                    40.868873646934574
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.33410571404826,
+                    40.86887362239834
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.33712674477485,
+                    40.86590043505341
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.33712677471755,
+                    40.865900407310605
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.33983103675916,
+                    40.863539009698265
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.34207356132484,
+                    40.86158063232828
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.34207359065502,
+                    40.86158060435764
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.34595397824418,
+                    40.85752830608336
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.34595400550094,
+                    40.857528277196444
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3514131835355,
+                    40.8516558918569
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.35141321493236,
+                    40.85165586561211
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.35645820854455,
+                    40.84834767561122
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3564582466766,
+                    40.84834765632915
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.35932153714504,
+                    40.84728078403555
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.36574257972424,
+                    40.84644903359424
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.36574261307123,
+                    40.84644900800579
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.36995659646723,
+                    40.843124583441494
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3699566269152,
+                    40.843124556228
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3702648887354,
+                    40.84281116765213
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.37164422728512,
+                    40.84140888908426
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3726207342272,
+                    40.840416087068824
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.37262076028122,
+                    40.840416058925314
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.37289175643517,
+                    40.84012332718762
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3733095499997,
+                    40.84045962000003
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.37469594999968,
+                    40.84190635000002
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3768567099997,
+                    40.84369892000005
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3781147199997,
+                    40.844487120000004
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.38223055999967,
+                    40.84448833000004
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.38563363093567,
+                    40.84405901097786
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.38954539222127,
+                    40.844009537032974
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.39077415002942,
+                    40.84402261966358
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.38967146148465,
+                    40.83916548706184
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.38940743024855,
+                    40.83450516921891
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3902281603494,
+                    40.828865200791164
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3938000054932,
+                    40.82151020727691
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.39678022243234,
+                    40.8144307598959
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.39812570656957,
+                    40.80550509611079
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3986637095533,
+                    40.80231976195085
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.39056824546535,
+                    40.79757643637593
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3805996382947,
+                    40.79235520164565
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.37286557795872,
+                    40.78825709262194
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.36734400741855,
+                    40.785729599680124
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.36366861046565,
+                    40.78050889724841
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3625959607106,
+                    40.771745128062165
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.36868374134903,
+                    40.74922338398601
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.37230735092692,
+                    40.73642857376678
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.363089459097,
+                    40.71254906654604
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.35195336897323,
+                    40.69378096161003
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3537471265762,
+                    40.6930111447559
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.35766939217672,
+                    40.69214175225535
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.35971498278064,
+                    40.689800257370656
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3599996745254,
+                    40.68872604827688
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.36060775411497,
+                    40.68643150443598
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.36301967752792,
+                    40.68408881880106
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.36445569020609,
+                    40.682825520279
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.36473955158033,
+                    40.680635362411195
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3654355750874,
+                    40.67943839600439
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3645393508446,
+                    40.678592664750404
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.36592201008483,
+                    40.67404560078405
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.36783423283606,
+                    40.6734284278572
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3687093200456,
+                    40.67035341215239
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3692153929633,
+                    40.668574965342465
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.36985296285206,
+                    40.66633427471604
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.37171877138258,
+                    40.661612284936915
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.37270970836175,
+                    40.65907321332676
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3759585754334,
+                    40.65655425849123
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.37289396241815,
+                    40.64958573328504
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.36816686180492,
+                    40.643233539821296
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.3659211263978,
+                    40.64321322239855
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.35239546200805,
+                    40.640043795356846
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.34088456785906,
+                    40.64246786400351
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.33012827225951,
+                    40.642252392123666
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.31651679047295,
+                    40.64309270030819
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.31252723069377,
+                    40.64167124759909
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.30921696455744,
+                    40.64145197622529
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.30516092847137,
+                    40.643597161981894
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.29444467877545,
+                    40.64172717268397
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.2887018134829,
+                    40.63919639379792
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.2841225504888,
+                    40.63786662787334
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.27609429564325,
+                    40.63694621047372
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.26738007922157,
+                    40.63583523444814
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.26029846034967,
+                    40.635112245498625
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.25549376338168,
+                    40.63331661655895
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.24538030153056,
+                    40.630638015540946
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.2421020385173,
+                    40.629230883787756
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.23434403197615,
+                    40.62739479813864
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.22135500583664,
+                    40.62649857894693
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.22011821497532,
+                    40.62602973944314
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.21852839942702,
+                    40.625427047031394
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.2169997945349,
+                    40.62484752833121
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.21382173006367,
+                    40.623642575722236
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.2094068464558,
+                    40.621968469281086
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.2039335211654,
+                    40.62034729276924
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.20370526379193,
+                    40.620279676509504
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.1971911845833,
+                    40.61834977442441
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.1905712154355,
+                    40.61694779629549
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.18295823808845,
+                    40.61533497595355
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.1793164863279,
+                    40.61419115864038
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.16752463475626,
+                    40.613578971306374
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.16384986491087,
+                    40.60832976491773
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.16159400767472,
+                    40.60346164535567
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.15351901343874,
+                    40.60016101039261
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.15089936909305,
+                    40.60131374580499
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.1490523645748,
+                    40.59928183745431
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.13869097452294,
+                    40.597871280545704
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.13502925127676,
+                    40.59772951985487
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.13210905602563,
+                    40.5962276295812
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.12579488664554,
+                    40.59878862401385
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.12580345675198,
+                    40.603532118677506
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.12413633225952,
+                    40.609253421832
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.12244943074631,
+                    40.610605227669524
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.11794152035952,
+                    40.61200284644206
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.1164547463982,
+                    40.6124637499541
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.1148336916318,
+                    40.612966251815664
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.11244857329754,
+                    40.613753004847595
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.11137435074883,
+                    40.61428308505719
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.10966556675282,
+                    40.61699391616053
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.10714014334562,
+                    40.61887533818723
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.10245449842677,
+                    40.6221907235753
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.09996230709777,
+                    40.62279486658808
+                ]
+            },
+            "properties": {
+                "point": "小川原湖",
+                "point_no": "1"
+            }
+        }
+    ]
+}

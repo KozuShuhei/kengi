@@ -1,0 +1,7411 @@
+﻿{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.57924919367022,
+                    33.565591872664385
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5792421744159,
+                    33.56560310355539
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.57838739664717,
+                    33.5663237009171
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.57742931999738,
+                    33.56713136014086
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.57529885468145,
+                    33.567988678614
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5751041128426,
+                    33.5689136634919
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.57486068300884,
+                    33.570276798006034
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.57427647204986,
+                    33.571883357003024
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5738869867257,
+                    33.573879376303715
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.57354617929786,
+                    33.57626485966084
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5744042468558,
+                    33.5782028597827
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5768832827911,
+                    33.58091133805629
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5810331142795,
+                    33.584834284845215
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5822181148109,
+                    33.587618719294156
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.58205816797903,
+                    33.59092256274361
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.58156380863866,
+                    33.59410425532791
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.58177714903886,
+                    33.59488045086262
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5819407718632,
+                    33.59547575913764
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5824112888727,
+                    33.59729083269832
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5848914460285,
+                    33.5998377858444
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.58823154163392,
+                    33.60303225668808
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.58975712857966,
+                    33.605863818531276
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5911880061666,
+                    33.606346397279914
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.59175792310242,
+                    33.607517046718336
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.59343166813852,
+                    33.60832836717759
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.59452797839296,
+                    33.60966098827469
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5964752527164,
+                    33.61219246576899
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.59940311980728,
+                    33.61282054739693
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.59939002061785,
+                    33.61283566772785
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.60154220318785,
+                    33.61306166453493
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.60899501738362,
+                    33.61313264375456
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.61140830953232,
+                    33.614339289871516
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6143894349888,
+                    33.61831412411617
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.61573803943818,
+                    33.618739999219144
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6177254563983,
+                    33.62157916653835
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6188611231847,
+                    33.62406343794113
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62134539446333,
+                    33.62619281343768
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62162931110387,
+                    33.6278253346445
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6214163734533,
+                    33.629670793398255
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.61992581046187,
+                    33.632438981525176
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6237586860288,
+                    33.63790437863307
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62475239449714,
+                    33.63953689984768
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62553316538592,
+                    33.641737254526724
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62496533186143,
+                    33.64287292145403
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.621913226913,
+                    33.644505442653156
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62162931004903,
+                    33.64691873488018
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62091951809245,
+                    33.64926104792376
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62020972619447,
+                    33.650538673219586
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.61907405917242,
+                    33.6523131527974
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.619641892148,
+                    33.661185550723005
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62006776718246,
+                    33.66232121766015
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62120343403703,
+                    33.663598842967176
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62120343399818,
+                    33.66430863480231
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62063560050493,
+                    33.66487646826852
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6202097253694,
+                    33.665586260102394
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6202097253306,
+                    33.66629605193791
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62106147548516,
+                    33.66700584377646
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62120343373445,
+                    33.669135219284584
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62255203818395,
+                    33.66956109439078
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62361672595256,
+                    33.669064240109165
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62517826797324,
+                    33.669064240114544
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62574610140817,
+                    33.6695610944017
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62681078913778,
+                    33.66977403195619
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6268817684173,
+                    33.66799955236675
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62723666437753,
+                    33.66714780216524
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6284433104996,
+                    33.66686388543536
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62979191492877,
+                    33.66764465645931
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.63270206132336,
+                    33.66941913605907
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.63412164491936,
+                    33.67048382381806
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.63461849909388,
+                    33.67240026177744
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6360380827052,
+                    33.67318103280248
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6371737496629,
+                    33.67254222015384
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6379545206608,
+                    33.67275515770753
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.63855877523548,
+                    33.67372802967195
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6383067296087,
+                    33.67568125686753
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6396163881006,
+                    33.67747971852081
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.63931478456234,
+                    33.68009173303607
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.63780261248058,
+                    33.68210799689629
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.64330730502178,
+                    33.68812659610335
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6464303890042,
+                    33.68912030468794
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.65065583876884,
+                    33.68784134823505
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6540961407716,
+                    33.68826855450673
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.65979171656153,
+                    33.691306531279345
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6597768080429,
+                    33.693589618387094
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.65977447507052,
+                    33.693946889238845
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.66119405871382,
+                    33.6940888476115
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.66275560078307,
+                    33.69309513904158
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.66458018222897,
+                    33.692566564813575
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6662446218663,
+                    33.69283247512875
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.66588972600346,
+                    33.691909745736645
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6658897260876,
+                    33.69034820369106
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.67014847701438,
+                    33.69077407880977
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.67101191786344,
+                    33.69132354120107
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.67171001897538,
+                    33.691767787389814
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6736974359012,
+                    33.69517478822493
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.67298764399263,
+                    33.696736330269495
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.68136318736074,
+                    33.69971745602681
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.68292472917605,
+                    33.70340837360224
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.68477018788053,
+                    33.704118165449415
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.68590585485958,
+                    33.70298249850842
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.68675760522308,
+                    33.6997174560465
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.68831914726584,
+                    33.69914962258044
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.69229398143236,
+                    33.70000137280327
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6975464409629,
+                    33.69929158098396
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.69981777469803,
+                    33.70113703977615
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6998177745008,
+                    33.70482795734505
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.69797231576075,
+                    33.70482795733807
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.69825623182436,
+                    33.71732029375231
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.69839819000046,
+                    33.72086925296822
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.70024364864267,
+                    33.72271471176731
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.700598544494,
+                    33.72385037871864
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.70095344034533,
+                    33.72498604566995
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.69882406477075,
+                    33.7269734628274
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.69612685571457,
+                    33.72938675509157
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6990370019986,
+                    33.73300669351061
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.701237356699,
+                    33.73208396411776
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.70535414933198,
+                    33.73094829717754
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.70790939984127,
+                    33.73194200576834
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7090450667799,
+                    33.731516130664716
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7090450668474,
+                    33.73023850534387
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7097548586924,
+                    33.72981263023922
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7114583589614,
+                    33.731800047410125
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7142975259813,
+                    33.73691054870586
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.71926606871358,
+                    33.73733642382831
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.72111152736093,
+                    33.73903992426416
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.72423461130944,
+                    33.74031754959672
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.72877727901184,
+                    33.73946579939557
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7310536231327,
+                    33.739514232258216
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7320295730119,
+                    33.73953499715317
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.73234932254195,
+                    33.73954180033593
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.73502074937866,
+                    33.73959863921559
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7354493221233,
+                    33.73960775778638
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7358751969405,
+                    33.74486021745006
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.73630107169888,
+                    33.75124834407685
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.73568242041947,
+                    33.75206142858879
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.74453465677442,
+                    33.752100094318756
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.75120669979577,
+                    33.75380359477419
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.75731090950555,
+                    33.75266792783738
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7594259807451,
+                    33.75168872818203
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.76490226028113,
+                    33.749153413562816
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7649766613399,
+                    33.74911896862794
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.77164870414256,
+                    33.75479730342876
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.77562353807642,
+                    33.75962388800855
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.78101795582245,
+                    33.761043471723866
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.78289727937045,
+                    33.76170123501221
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.78385712304348,
+                    33.76203718032162
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.78683824856137,
+                    33.764308514247844
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.79095206991101,
+                    33.76405140041754
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.79138091620936,
+                    33.76402459752431
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.79549770862596,
+                    33.76643788982512
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.80052104062665,
+                    33.765485654052824
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.79977010082092,
+                    33.76482206709747
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8003056134867,
+                    33.76428653977763
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8006950863533,
+                    33.76287471540683
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8024424364307,
+                    33.76071017606642
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.80196088248684,
+                    33.75727610701823
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8019609044745,
+                    33.75484194044269
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8038420334019,
+                    33.75096587751235
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.805127588645,
+                    33.74969434178625
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.805437416576,
+                    33.74814524142205
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.80381951611247,
+                    33.746424058148634
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8039572482911,
+                    33.74239641065863
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.80407811336445,
+                    33.742075748451114
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8056440536848,
+                    33.73792121591308
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.80588505186614,
+                    33.73451320398609
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8073367437517,
+                    33.734006575419535
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.81091124279584,
+                    33.73298270388052
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.81325177239017,
+                    33.73045098657453
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.81411239057,
+                    33.727869145587604
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.81450806300748,
+                    33.72777718495999
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8172888229977,
+                    33.727130891688816
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.81949867659088,
+                    33.72632792112321
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.82058408138883,
+                    33.725080646089644
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.81941369482925,
+                    33.72291193754576
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.81997007004958,
+                    33.72223718267981
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.82032539148707,
+                    33.72180624745652
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.82103162969983,
+                    33.72094971900165
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.82247549505433,
+                    33.72168408050963
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.82391936040867,
+                    33.72241844201775
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8268403001906,
+                    33.723635467177814
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.83102699712234,
+                    33.723635383854884
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.83832935595305,
+                    33.72563125638762
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.84183449947238,
+                    33.72538777059794
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.84489590584582,
+                    33.724226398475544
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.84753786310677,
+                    33.725768598854
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.84874266465994,
+                    33.72883234046618
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8506015052921,
+                    33.733169769658076
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8550421454648,
+                    33.73544168928399
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86052388096306,
+                    33.737018803644325
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86588559390958,
+                    33.7382642758248
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86705601445857,
+                    33.73678400699427
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86805432350124,
+                    33.73454640607072
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86771012516732,
+                    33.730415492445516
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86898381935066,
+                    33.72869425124266
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8690526933275,
+                    33.725905878789774
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86987889171587,
+                    33.72287652144886
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86939699033806,
+                    33.71967506764199
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87104935912035,
+                    33.716576845723644
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8692593417714,
+                    33.7148900879363
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87073958680014,
+                    33.71234265867009
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87208214444922,
+                    33.709037896731864
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8717379241379,
+                    33.70731668675118
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87297720644787,
+                    33.70445944314905
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87610979092102,
+                    33.70187755755611
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8781455497684,
+                    33.70035994877237
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87714254970572,
+                    33.69716140398455
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.874423132482,
+                    33.691515866468905
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8754214501644,
+                    33.68858977897193
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87879502032172,
+                    33.684148974713814
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88006869730623,
+                    33.684217798589685
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88299475071253,
+                    33.68060318702022
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88406190914066,
+                    33.67836558481523
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88509464606824,
+                    33.675921437313264
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88664372880626,
+                    33.67444116102125
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88846820524637,
+                    33.67258221176666
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88877803960617,
+                    33.67058559462559
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88970749695434,
+                    33.66896763308403
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8888813407939,
+                    33.6677283733049
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88864039548406,
+                    33.665766191281136
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88636844907094,
+                    33.66397617057687
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.886230786768,
+                    33.66091240823447
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88419980647487,
+                    33.65912238311614
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8828087039601,
+                    33.658140431052104
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88249315415217,
+                    33.65791769061284
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8824442100439,
+                    33.657883141923854
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88302943063252,
+                    33.65626518722056
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88406216183634,
+                    33.65444067779231
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88516374535791,
+                    33.65216865083142
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88742349264018,
+                    33.650850604073895
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.89030188056327,
+                    33.65028912092998
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.893180967026,
+                    33.64912282694836
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.89315011234441,
+                    33.64621308626381
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8928747429436,
+                    33.64435417823779
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.89049953905544,
+                    33.641393733250226
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.89184207572058,
+                    33.64032655291322
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.89201421671368,
+                    33.638295514641136
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.89356330905184,
+                    33.636023479074254
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.89511699117116,
+                    33.634255033146815
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.89344336891966,
+                    33.63046551099202
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.89330225183213,
+                    33.62820851056409
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8922502391976,
+                    33.625790229891095
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88795237327588,
+                    33.624422595430566
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88647802108815,
+                    33.61990004963588
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88320851533646,
+                    33.62059768198853
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8817967580652,
+                    33.61753066077274
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88038497917017,
+                    33.61636228933199
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87970963399042,
+                    33.61462781933685
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87614513539432,
+                    33.61581675431557
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87366662850826,
+                    33.61571353144032
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87118812162223,
+                    33.615610308565074
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87352000638393,
+                    33.61404580132887
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87346012735907,
+                    33.61213340792525
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87146739668742,
+                    33.60799907072996
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86912282352745,
+                    33.60476669552304
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86908843158008,
+                    33.60204717667383
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87085530866685,
+                    33.600503358899715
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87147630155388,
+                    33.59752202686285
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86996626836464,
+                    33.59454906137306
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86991849787552,
+                    33.59445501044983
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87045402961252,
+                    33.59241030077336
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87113559383974,
+                    33.5916313539996
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87069747398345,
+                    33.589732714206534
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86918833806695,
+                    33.58793146303965
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86840946013882,
+                    33.58442628162281
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86843295338647,
+                    33.58439587808944
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86923707550804,
+                    33.58335523210792
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86928577385802,
+                    33.58204078214099
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86996734000468,
+                    33.581115785535694
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87092169844874,
+                    33.58022172583227
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8707949772591,
+                    33.57824345421342
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87180112265835,
+                    33.57746626193106
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87196339331732,
+                    33.57527374939522
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87410545823485,
+                    33.57240139122782
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8751158628177,
+                    33.57056623996529
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87703603490033,
+                    33.568069926859565
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8779528630908,
+                    33.567352992912575
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8789297735433,
+                    33.566589053317486
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8791466492949,
+                    33.566419457451836
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8813521508539,
+                    33.56537391710524
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88174872907987,
+                    33.562713260112616
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88024222839243,
+                    33.559800994510546
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87948492374903,
+                    33.55842403896302
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88124057874424,
+                    33.55480945374076
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8838128404367,
+                    33.55231974550264
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8869549810309,
+                    33.54964569494256
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8871959876618,
+                    33.546444232537205
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88712716872806,
+                    33.54420665626925
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88196365688995,
+                    33.540626638786215
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8790032639563,
+                    33.53697772796488
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88075889720662,
+                    33.535153205506624
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88260255304198,
+                    33.53325700874236
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88226151696878,
+                    33.530235127429705
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88274418525512,
+                    33.52749505480999
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88380160464453,
+                    33.52471566383867
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88351295992334,
+                    33.52248502057014
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88347855116865,
+                    33.52134902084579
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88486171650356,
+                    33.51959890827856
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88516537295078,
+                    33.51683940843027
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88571617894195,
+                    33.51484279033163
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88640469687348,
+                    33.51157247218794
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88754070714194,
+                    33.509506993574554
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8911023622184,
+                    33.50731340845812
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.89378602646156,
+                    33.50538138984485
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.89541573534424,
+                    33.50401248741457
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8979077731224,
+                    33.50208021887501
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.89968148192727,
+                    33.50002667361267
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.90020583472094,
+                    33.49957854571344
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.90246092975366,
+                    33.49765127268004
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.90452140503385,
+                    33.495879655073416
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.90629392991934,
+                    33.49495410684015
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.90806748390995,
+                    33.49285997337419
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.91194791682935,
+                    33.49012219939659
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.91302964388865,
+                    33.48531883762642
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.91315425129685,
+                    33.48476552387212
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.91466890854824,
+                    33.48373276561436
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.91580271475576,
+                    33.483749126592606
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.9174228448983,
+                    33.48084107324478
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.92055539493924,
+                    33.48132294827152
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.9257878431887,
+                    33.478018114710196
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.92751869914122,
+                    33.47514112101296
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.92802159979493,
+                    33.4746779657116
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.92852450044867,
+                    33.474214810410224
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.92871725506083,
+                    33.47248205821785
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.92854189983396,
+                    33.46658921410548
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.92954018846325,
+                    33.46648592101988
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.93067617087908,
+                    33.46645147359124
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.9307450564394,
+                    33.463766382652246
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.92950583337873,
+                    33.46166653041981
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.92719950494205,
+                    33.45753567137992
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.9247898511217,
+                    33.45719147876533
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.9204524814723,
+                    33.45605556913829
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.9177330230538,
+                    33.45509174745213
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.91675195253532,
+                    33.45474752568467
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.91577088201674,
+                    33.45440330391725
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.91312030622888,
+                    33.45099536227524
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.91053854744834,
+                    33.44968729627788
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.90802561700886,
+                    33.44968734884551
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.9061667354018,
+                    33.449790660419474
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.9050996125082,
+                    33.448964501898
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.9022768700126,
+                    33.4488612886318
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.9002034629095,
+                    33.44971231515858
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.89824926108395,
+                    33.45127106780741
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.89029736722327,
+                    33.452407234886074
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88871389983896,
+                    33.450789331016736
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8854780751332,
+                    33.450479582148475
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.88031450162904,
+                    33.45158126695133
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87604598597937,
+                    33.44982572441672
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.87188071527643,
+                    33.449860238352656
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8711578056149,
+                    33.45065201048665
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86792198119298,
+                    33.4502734142757
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8641697867679,
+                    33.45085870694823
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86213880098455,
+                    33.44989487362638
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.86151922057687,
+                    33.446693437187434
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.858696457924,
+                    33.447863921255575
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.85573603694135,
+                    33.44652144253552
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.85442918836517,
+                    33.447070448963636
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.85370846218206,
+                    33.448762134009634
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8520813241622,
+                    33.44900203149634
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.850730970495,
+                    33.45080174837235
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.84824262846584,
+                    33.45512292114708
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.84693365104417,
+                    33.4565951280456
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.84498631702627,
+                    33.458931962807725
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.84516968802617,
+                    33.46104267630861
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.84363596179793,
+                    33.46241104739708
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.84205420397126,
+                    33.46373899643461
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.83607728299793,
+                    33.46832801101369
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8360285577004,
+                    33.47134636901791
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.83826791692883,
+                    33.47392652824869
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.842323960043,
+                    33.474218538313146
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8437203356925,
+                    33.475532953722315
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8472741261084,
+                    33.477869669116195
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.84834752642905,
+                    33.47756930778499
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8479105649402,
+                    33.478501552068685
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.84626713425033,
+                    33.48200776235584
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.84324880842968,
+                    33.48273807608281
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.84305404251617,
+                    33.48531828965851
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8412527882234,
+                    33.48541569537038
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.83940287301854,
+                    33.483955239987935
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.83665597485012,
+                    33.48432441393639
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.83521687062657,
+                    33.4859749454613
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.83415205402525,
+                    33.48694477730563
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.833853021058,
+                    33.4872171356571
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.83175966810794,
+                    33.487557964020915
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.82961762855297,
+                    33.48819089268729
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.82774584750146,
+                    33.48773808004598
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.82582038931994,
+                    33.48838570921388
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.823532326986,
+                    33.487217363207556
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.81939428021835,
+                    33.489554248094315
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.81764211503082,
+                    33.48873411422355
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.81710621635952,
+                    33.48848326872982
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8138931804209,
+                    33.487704409265
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.81170247478218,
+                    33.487120259923394
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8111669919646,
+                    33.485318994053486
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8095604759661,
+                    33.48478351499512
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.80853816521324,
+                    33.483176992917684
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.80960924003224,
+                    33.478941532367394
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8097066495265,
+                    33.47577712383295
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.80688311296447,
+                    33.47222331594581
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.80561737751106,
+                    33.47149309699159
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.8036700673156,
+                    33.4721260221386
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.80123594277936,
+                    33.47198002770662
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.79943468767866,
+                    33.472077434851535
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.79826630755718,
+                    33.4720287781912
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7961729544402,
+                    33.472320924718645
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.79325200505332,
+                    33.47212625853098
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7911586690658,
+                    33.47120132619547
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.78911393578218,
+                    33.475923639649565
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.78688275507037,
+                    33.480058712694635
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7837100926358,
+                    33.48171705997465
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.78054572879412,
+                    33.481619766083554
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.77645636459818,
+                    33.48381060249065
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.77390073190466,
+                    33.48402516825544
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.77027365558408,
+                    33.48566070520223
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7657461543136,
+                    33.48741340381349
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.76136771919934,
+                    33.48756752260482
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.75605832201842,
+                    33.48775441080914
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.75128744596793,
+                    33.4867321757082
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7491600554214,
+                    33.48467453224167
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7483178500897,
+                    33.48385993884174
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7469773654478,
+                    33.485798658818794
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.74693639627384,
+                    33.485813931697095
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.74255946096815,
+                    33.487445607264746
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.74160358706357,
+                    33.4878019470292
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.74160009012567,
+                    33.48780325065097
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7415996024203,
+                    33.48780343246237
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.74057562535717,
+                    33.487625396574764
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7348814254716,
+                    33.48663519521707
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.73488143562406,
+                    33.485904947902824
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.73421496394627,
+                    33.484994956572265
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.73239863654152,
+                    33.4850773931124
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.73093816715763,
+                    33.48454191309744
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.72942901045036,
+                    33.484347216344055
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.72627426952536,
+                    33.48308343474023
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7211042846009,
+                    33.48488292940177
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7169873881141,
+                    33.48547106730826
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.7158465403821,
+                    33.48683038115196
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.71384973806403,
+                    33.48809594540036
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.71195190863403,
+                    33.48872911736211
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.71159864478426,
+                    33.49046873709717
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.71049139856763,
+                    33.49111462671721
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.70983331581837,
+                    33.48985686399903
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.70858609346527,
+                    33.49065980310448
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.70494498708817,
+                    33.491457454130185
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.69919702479584,
+                    33.49238066094074
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.69690896744132,
+                    33.4906768063329
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.69595183286148,
+                    33.49208619383591
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.69457216965952,
+                    33.4931597033757
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.69307031589142,
+                    33.4921134667448
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6912788110389,
+                    33.49282328235292
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6909209793153,
+                    33.49296505955332
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.68975258009033,
+                    33.49423084971914
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.68741585948277,
+                    33.49111518563022
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.68415411548295,
+                    33.49194287870376
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.68390864422622,
+                    33.49184618227097
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.68254759921328,
+                    33.49131003722738
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.68206074253823,
+                    33.49354947352744
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6812861057399,
+                    33.49450932473201
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6807126133273,
+                    33.49521992122897
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.68070783563488,
+                    33.49522584111808
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.67806873705723,
+                    33.49603241148699
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.67539117656452,
+                    33.49739560513322
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.672794366435,
+                    33.49895313345383
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6686729686429,
+                    33.4982720669787
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.66821161078147,
+                    33.49790486696396
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.66628754825348,
+                    33.49637348352493
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.66545997384463,
+                    33.4942314460754
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.66468107672307,
+                    33.492478872602035
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.66707969832518,
+                    33.49091874063641
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.66609290320005,
+                    33.49019073049216
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.66580268969776,
+                    33.488432256620605
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6632593729624,
+                    33.48849055359003
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.66053432471827,
+                    33.48759649935091
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6588596189653,
+                    33.487350118682386
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.65670692706172,
+                    33.48694127819811
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.65406459040787,
+                    33.48943219277441
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.65171324784,
+                    33.49083624105933
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.64673464495692,
+                    33.49078187185509
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.64448127498278,
+                    33.491662111267885
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.64179852288905,
+                    33.49205734425496
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6425596491656,
+                    33.493228331132556
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.64226480631655,
+                    33.495080981366804
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.64105985044458,
+                    33.49709249921506
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6416221371983,
+                    33.50011641312675
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.64032308084433,
+                    33.50164404469152
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.63744638130132,
+                    33.502603033700126
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.63575986175013,
+                    33.50513667032364
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.63589909817912,
+                    33.50626553242947
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.63479212925327,
+                    33.50759220441449
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.63454702742683,
+                    33.508961248308296
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.63326038322347,
+                    33.50750689313226
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6313519826653,
+                    33.50580888122251
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62986683619192,
+                    33.506046275520504
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6270012392243,
+                    33.50434485236916
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62306823462092,
+                    33.50590471898893
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6220075857247,
+                    33.50759387369089
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62061702333577,
+                    33.50811371171061
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62013424844992,
+                    33.50903923100147
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.61969983693905,
+                    33.509762941582274
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.62122231403467,
+                    33.51202449188212
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.61987782783154,
+                    33.51298772458729
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6192493076376,
+                    33.51431522244738
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.61766072679177,
+                    33.516204674334624
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.61272506815263,
+                    33.51695490822473
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.611475311429,
+                    33.51803899752562
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.60908520224893,
+                    33.51910994192471
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.61156796200754,
+                    33.523053212670234
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6123025580822,
+                    33.525899650606235
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.61054557683207,
+                    33.526899206441826
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.6077219590526,
+                    33.528992653029704
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.604800981251,
+                    33.530696637068246
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.60480096468984,
+                    33.53196239869971
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.60217206855486,
+                    33.53473740450294
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.59952101214878,
+                    33.53510499100651
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.59876367219067,
+                    33.536378704899185
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5978300552288,
+                    33.538225045212975
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.59555118171193,
+                    33.5389243231285
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5947235392913,
+                    33.54189401589626
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.59587352107462,
+                    33.54704419202738
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.59352306453684,
+                    33.5477215901817
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.59141016361679,
+                    33.54880276688737
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.58852642505576,
+                    33.5508077257529
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5866907887618,
+                    33.55148480017449
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.58602472212021,
+                    33.55309664777988
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.58411057551487,
+                    33.554308488526466
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.58075142864655,
+                    33.55810585981779
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.58089744829078,
+                    33.56034528096862
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.5808974263363,
+                    33.56209787440216
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.57997242787448,
+                    33.56443468927749
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.57924919367022,
+                    33.565591872664385
+                ]
+            },
+            "properties": {
+                "point": "日の出橋",
+                "point_no": "1"
+            }
+        }
+    ]
+}
