@@ -1,13 +1,14 @@
 import React, { useRef, useState, useEffect, CSSProperties } from 'react'
-import { Ion, Viewer, Cartesian3, Math as CesiumMath, createWorldTerrainAsync, Color, Entity, ColorMaterialProperty, JulianDate, CallbackProperty, ScreenSpaceEventHandler, ScreenSpaceEventType, defined } from 'cesium';
+import { Ion, Viewer, Cartesian3, Math as CesiumMath, createWorldTerrainAsync, Color, Entity, ColorMaterialProperty, JulianDate, CallbackProperty, ScreenSpaceEventHandler, ScreenSpaceEventType, defined, GeoJsonDataSource, Cartographic, Cartesian2 } from 'cesium';
 import "cesium/Build/Cesium/Widgets/widgets.css";
 import { Slider, IconButton, Stack  } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import StopIcon from '@mui/icons-material/Stop';
 import logo from '../map/logo.png'
+
 import { useNavigate } from 'react-router-dom';
-import { getColorByHeight } from './CesiumUtil';
+import { loadGeoJsonData, getColorByHeight } from './CesiumUtil';
 import { RainObservatoryLegend } from './consts'
 
 import {
@@ -86,13 +87,17 @@ const CesiumMapComponent: React.FC = () => {
             heading: CesiumMath.toRadians(0.0),
             pitch: CesiumMath.toRadians(-45.0),
           },
-        });      
+        });
+
+        loadGeoJsonData(viewer.current)
 
         updateMapLayers('0:00');
       }
     };
 
     initializeViewer();
+
+    
 
     return () => {
       if (viewer.current) {
@@ -132,7 +137,7 @@ const CesiumMapComponent: React.FC = () => {
   
     if(entity.polygon) {
       entity.polygon.material = new ColorMaterialProperty(material);
-    
+
       entity.polygon.extrudedHeight = new CallbackProperty(() => {
         const elapsed = performance.now() - startTime;
         const t = Math.min(elapsed / duration, 1);

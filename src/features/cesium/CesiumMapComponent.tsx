@@ -189,9 +189,7 @@ const CesiumMapComponent: React.FC = () => {
             // viewer.current?.entities.remove(entity);
           } else {
             secondLayers()
-            console.log(entity.id)
             setSelectId(entity.id)
-            console.log(selectId)
             setSelectName(entity.name as string)
             setSelectedPlaces([entity.name as string])
             const positions = entity.polygon!.hierarchy!.getValue(JulianDate.now()).positions;
@@ -239,7 +237,6 @@ const CesiumMapComponent: React.FC = () => {
 
     // const coordinates = features.geometry!.coordinates;
     features.forEach((feature: any) => {
-      console.log(feature.geometry!.coordinates.flat().flat())
       viewer.current?.entities.add({
         polygon: {
           hierarchy: Cartesian3.fromDegreesArray(feature.geometry!.coordinates.flat().flat().flat()),
@@ -288,8 +285,6 @@ const CesiumMapComponent: React.FC = () => {
             entity.show = false;
             //viewer.current?.entities.remove(entity);
           } else {
-            console.log(selectId)
-            console.log(selectName)
             thirdLayers(selectId ?? "0", selectName)
             const positions = entity.polygon!.hierarchy!.getValue(JulianDate.now()).positions;
             if (positions && positions.length > 0) {

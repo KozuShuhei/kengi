@@ -7,7 +7,7 @@ import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import StopIcon from '@mui/icons-material/Stop';
 import logo from '../map/logo.png'
 import { useNavigate } from 'react-router-dom';
-import { getColorByHeight } from './CesiumUtil';
+import { loadGeoJsonData, getColorByHeight } from './CesiumUtil';
 import { RainObservatoryLegend } from './consts'
 
 import {
@@ -21,6 +21,7 @@ const CesiumMeshComponent: React.FC = () => {
   const entitiesMap = useRef<{ [key: string]: Entity }>({});
   const [hoveredHeight, setHoveredHeight] = useState<number | null>(null);
   const [mousePosition, setMousePosition] = useState<{ x: number, y: number } | null>(null);
+  const [isFirstLoad, setIsFirstLoad] = useState(true);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -42,7 +43,7 @@ const CesiumMeshComponent: React.FC = () => {
           timeline: false,
           animation: false,
         });
-  
+
         viewer.current.camera.flyTo({
           destination: Cartesian3.fromDegrees(136.16932, 35.31040, 60000),
           orientation: {
@@ -50,6 +51,8 @@ const CesiumMeshComponent: React.FC = () => {
             pitch: CesiumMath.toRadians(-45.0),
           },
         });
+
+        //loadGeoJsonData(viewer.current)
   
         createNewEntity();
         updateMapLayers('9:00');
@@ -113,13 +116,22 @@ const CesiumMeshComponent: React.FC = () => {
 
             if (height !== null && height !== undefined) {
               const entity = entitiesMap.current[ryuuikiNo];
-              if (entity) {
-                setEntityProperties(entity, height, newHeight, startTime);
+              if (entity && entity.polygon && entity.polygon.extrudedHeight) {
+                if (isFirstLoad) {
+                  // 初回読み込みはアニメーションなしで直接高さを設定
+                  entity.polygon.extrudedHeight = new ConstantProperty(newHeight);
+                  entity.polygon.material = new ColorMaterialProperty(getColorByHeight(height));
+                } else {
+                  const currentHeight = entity.polygon.extrudedHeight.getValue(viewer.current!.clock.currentTime);  // 現在の高さを取得
+                  
+                  setEntityProperties(entity, height, newHeight, startTime);
+                }
               }
             }
           }
         }
       });
+      setIsFirstLoad(false);
     } catch (error) {
       console.error('エラーです:', error);
     }
@@ -176,9 +188,24 @@ const CesiumMeshComponent: React.FC = () => {
 
     if (entity.polygon) {
       entity.polygon.material = new ColorMaterialProperty(material);
-      //entity.polygon.extrudedHeight = new ConstantProperty(newHeight);
+  
+      const animateHeightChange = new CallbackProperty(() => {
+        const elapsed = performance.now() - startTime;
+        const t = Math.min(elapsed / 500, 1);
+        const interpolatedHeight = CesiumMath.lerp(startHeight, newHeight, t); // 線形補間で高さを計算
+  
+        if (t >= 1) {
+          setTimeout(() => {
+            entity.polygon!.extrudedHeight = new ConstantProperty(newHeight); // 最終的な高さを設定
+          }, 0);
+  
+          return newHeight;
+        }
+  
+        return interpolatedHeight;
+      }, false);
 
-      animateHeightChange(entity, startHeight, newHeight, startTime);
+      entity.polygon.extrudedHeight = animateHeightChange;
     }
   };
 
@@ -216,6 +243,7 @@ const CesiumMeshComponent: React.FC = () => {
   interface TimeSliderProps {
     onTimeChange: (time: string) => void;
   }
+  
   const TimeSlider = ({ onTimeChange }: TimeSliderProps) => {
     const [time, setTime] = useState(9);
     const [isPlay, setIsPlay] = useState(false);
@@ -236,16 +264,17 @@ const CesiumMeshComponent: React.FC = () => {
         interval = setInterval(() => {
           setTime((prevTime) => {
             if (isManualChange.current) {
-              isManualChange.current = false;  // 手動変更フラグをリセット
+              isManualChange.current = false;
               return prevTime;
             }
-            const newTime = prevTime < 12 ? prevTime + 1 : 9;
+
+            const newTime = prevTime < 11 ? prevTime + 1 : 9;
             const formattedTime = `${newTime}:00`;
             onTimeChange(formattedTime);
             updateMapLayers(formattedTime);
             return newTime;
           });
-        }, 2000);
+        }, 3000);
       }
   
       return () => {
@@ -254,7 +283,7 @@ const CesiumMeshComponent: React.FC = () => {
     }, [isPlay, onTimeChange]);
   
     const togglePlay = () => {
-      setIsPlay(!isPlay);
+      setIsPlay(!isPlay);  // 再生/停止を切り替える
     };
 
     return (

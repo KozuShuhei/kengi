@@ -113,7 +113,7 @@ const MapBarComponent: React.FC = () => {
                 while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
                   coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
                 }
-      
+
                 popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false })
                   .setLngLat(coordinates)
                   .setHTML(`<strong>${観測所名称}</strong>`)
